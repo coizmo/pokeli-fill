@@ -2,6 +2,9 @@ import path from "path";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  app: {
+    baseURL: '/pokeli-fill/',
+  },
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   postcss: {
