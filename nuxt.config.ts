@@ -3,7 +3,7 @@ import path from "path";
 export default defineNuxtConfig({
   ssr: false,
   app: {
-    baseURL: '/pokeli-fill/',
+    cdnURL: '/pokeli-fill/',
   },
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
