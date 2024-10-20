@@ -3,8 +3,13 @@ import pokedex from "../scripts/output/pokedex.json";
 
 import { ref, computed } from "vue";
 
-const selectedTypes = ref<{ name: string; code: string; color: string }[]>();
-const types = ref([
+type PokeType = {
+  name: string;
+  code: string;
+  color: string;
+};
+const selectedTypes = ref<PokeType[]>();
+const types = ref<PokeType[]>([
   { name: "むし", code: "bug", color: "A8B820" },
   { name: "あく", code: "dark", color: "705848" },
   { name: "ドラゴン", code: "dragon", color: "7038F8" },
@@ -51,38 +56,9 @@ const usables = computed(() => {
 
 <template>
   <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
-    <div class="flex-row gap-4">
-      <div class="card flex justify-center">
-        <MultiSelect
-          v-model="selectedTypes"
-          :options="types"
-          optionLabel="name"
-          placeholder="Select Types"
-          :maxSelectedLabels="3"
-          class="w-full md:w-[20rem]"
-        />
-      </div>
-
-      <div class="mt-4 grid grid-cols-3 gap-4">
-        <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
-          <Card>
-            <template #title> {{ poke.name }} </template>
-            <template #subtitle> {{ poke.form }} </template>
-            <template #content>
-              <Chip
-                :style="{ backgroundColor: `#${getTypeColor(poke.types[0])}` }"
-                :label="getTypeLabel(poke.types[0])"
-              ></Chip>
-              <Chip
-                v-if="poke.types.length === 2"
-                class="ml-4"
-                :style="{ backgroundColor: `#${getTypeColor(poke.types[1])}` }"
-                :label="getTypeLabel(poke.types[1])"
-              ></Chip>
-            </template>
-          </Card>
-        </template>
-      </div>
+    <div class="flex flex-col gap-4">
+      <Button label="DEX" @click="() => navigateTo('/pokedex')"></Button>
+      <Button label="ROULETTE" @click="() => navigateTo('/roulette')"></Button>
     </div>
   </div>
 </template>
