@@ -12,7 +12,7 @@
     "generate-list": "tsc --version"
   },
   "dependencies": {
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.13.2",
     "primevue": "^3.50.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
