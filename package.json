@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "NUXT_APP_BASE_URL=/pokeli-fill/ npx nuxt build --preset github_pages",
     "dev": "nuxt dev",
     "dev:host": "nuxt dev --host --port=25622",
     "generate": "nuxt generate",
