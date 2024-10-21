@@ -45,32 +45,17 @@ function createHash() {
 }
 const seed = ref(parseInt(createHash(), 16));
 
+function handleChangeSeed() {
+  resetAllResult();
+}
+
 function handleClickChangeSeed() {
-  result1.value = null;
-  result2.value = null;
-  result3.value = null;
-  result4.value = null;
-  result5.value = null;
-  result1B.value = null;
-  result2B.value = null;
-  result3B.value = null;
-  result4B.value = null;
-  result5B.value = null;
-  seed.value = parseInt(createHash(), 16)
+  resetAllResult();
+  seed.value = parseInt(createHash(), 16);
 }
 
 function handleClickRoll() {
-  result1.value = null;
-  result2.value = null;
-  result3.value = null;
-  result4.value = null;
-  result5.value = null;
-  result1B.value = null;
-  result2B.value = null;
-  result3B.value = null;
-  result4B.value = null;
-  result5B.value = null;
-
+  resetAllResult();
   const xs = new XorShift(seed.value);
 
   setTimeout(() => {
@@ -145,13 +130,26 @@ const result2B = ref<null | PokeType>(null);
 const result3B = ref<null | PokeType>(null);
 const result4B = ref<null | PokeType>(null);
 const result5B = ref<null | PokeType>(null);
+
+function resetAllResult() {
+  result1.value = null;
+  result2.value = null;
+  result3.value = null;
+  result4.value = null;
+  result5.value = null;
+  result1B.value = null;
+  result2B.value = null;
+  result3B.value = null;
+  result4B.value = null;
+  result5B.value = null;
+}
 </script>
 
 <template>
   <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
     <div class="flex flex-col gap-8">
       <div class="flex justify-center gap-2">
-        <InputText v-model="seed"></InputText>
+        <InputText v-model="seed" @change="handleChangeSeed"></InputText>
         <Button label="Change Seed" @click="handleClickChangeSeed" />
       </div>
       <div class="flex justify-center gap-2">
