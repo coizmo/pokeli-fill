@@ -4,7 +4,7 @@ import pokedex from "../scripts/output/pokedex.json";
 import { ref, computed } from "vue";
 import "crypto";
 
-type PokeType = {
+export type PokeType = {
   name: string;
   code: string;
   color: string;
@@ -161,14 +161,7 @@ function resetAllResult() {
           v-for="r in [result1, result2, result3, result4, result5]"
           :key="r"
         >
-          <template v-if="!r">
-            <Card><template #content> Rolling... </template></Card>
-          </template>
-          <template v-else>
-            <Card :style="{ backgroundColor: `#${r.color}` }">
-              <template #content>{{ r.name }}</template>
-            </Card>
-          </template>
+          <TypeCard :poke-type="r"></TypeCard>
         </template>
       </div>
 
@@ -181,14 +174,7 @@ function resetAllResult() {
           v-for="r in [result1B, result2B, result3B, result4B, result5B]"
           :key="r"
         >
-          <template v-if="!r">
-            <Card><template #content> Rolling... </template></Card>
-          </template>
-          <template v-else>
-            <Card :style="{ backgroundColor: `#${r.color}` }">
-              <template #content>{{ r.name }}</template>
-            </Card>
-          </template>
+          <TypeCard :poke-type="r"></TypeCard>
         </template>
       </div>
     </div>
