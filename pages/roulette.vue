@@ -146,7 +146,7 @@ function resetAllResult() {
 </script>
 
 <template>
-  <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
+  <div class="bg-slate-400 h-dvh px-4 py-8 overflow-scroll">
     <div class="flex flex-col gap-8">
       <div class="flex justify-center gap-2">
         <InputText v-model="seed" @change="handleChangeSeed"></InputText>
@@ -156,26 +156,28 @@ function resetAllResult() {
         <Button label="Roll" @click="handleClickRoll" />
       </div>
 
-      <div class="grid grid-cols-5 gap-4">
-        <template
-          v-for="r in [result1, result2, result3, result4, result5]"
-          :key="r"
-        >
-          <TypeCard :poke-type="r"></TypeCard>
-        </template>
-      </div>
+      <div class="grid grid-cols-5">
+        <div class="col-span-2 grid grid-rows-5 gap-4">
+          <template
+            v-for="r in [result1, result2, result3, result4, result5]"
+            :key="r"
+          >
+            <TypeCard :poke-type="r"></TypeCard>
+          </template>
+        </div>
 
-      <div class="flex justify-center">
-        <Chip>VS</Chip>
-      </div>
+        <div class="flex justify-center">
+          <Chip>VS</Chip>
+        </div>
 
-      <div class="grid grid-cols-5 gap-4">
-        <template
-          v-for="r in [result1B, result2B, result3B, result4B, result5B]"
-          :key="r"
-        >
-          <TypeCard :poke-type="r"></TypeCard>
-        </template>
+        <div class="col-span-2 grid grid-rows-5 gap-4">
+          <template
+            v-for="r in [result1B, result2B, result3B, result4B, result5B]"
+            :key="r"
+          >
+            <TypeCard :poke-type="r"></TypeCard>
+          </template>
+        </div>
       </div>
     </div>
   </div>

@@ -3,18 +3,20 @@ import { PokeType } from "~/pages/roulette.vue";
 import { defineProps } from "vue";
 
 interface Props {
-    pokeType: PokeType | null
+  pokeType: PokeType | null;
 }
-defineProps<Props>()
+defineProps<Props>();
 </script>
 
 <template>
   <template v-if="!pokeType">
-    <Card><template #content> Rolling... </template></Card>
+    <div class="p-2">
+       Rolling... 
+    </div>
   </template>
   <template v-else>
-    <Card :style="{ backgroundColor: `#${pokeType.color}` }">
-      <template #content>{{ pokeType.name }}</template>
-    </Card>
+    <div class="p-2" :style="{ backgroundColor: `#${pokeType.color}` }">
+      {{ pokeType.name }}
+    </div>
   </template>
 </template>
