@@ -10,7 +10,7 @@ export type PokeType = {
   color: string;
 };
 const selectedTypes = ref<PokeType[]>();
-const types = ref<PokeType[]>([
+const types: PokeType[] = [
   { name: "むし", code: "bug", color: "A8B820" },
   { name: "あく", code: "dark", color: "705848" },
   { name: "ドラゴン", code: "dragon", color: "7038F8" },
@@ -29,13 +29,13 @@ const types = ref<PokeType[]>([
   { name: "いわ", code: "rock", color: "B8A038" },
   { name: "はがね", code: "steel", color: "B8B8D0" },
   { name: "みず", code: "water", color: "6890F0" },
-]);
+];
 
 function getTypeLabel(code: string) {
-  return types.value.find((t) => t.code === code)?.name ?? "";
+  return types.find((t) => t.code === code)?.name ?? "";
 }
 function getTypeColor(code: string) {
-  return types.value.find((t) => t.code === code)?.color ?? "000000";
+  return types.find((t) => t.code === code)?.color ?? "000000";
 }
 
 const items = [];
@@ -115,7 +115,7 @@ class XorShift {
     const min = 0;
     const max = 17;
     const r = Math.abs(this.rand());
-    return types.value[min + (r % (max + 1 - min))];
+    return types[min + (r % (max + 1 - min))];
   }
 }
 
