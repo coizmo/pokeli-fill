@@ -3,6 +3,21 @@ import "crypto";
 
 import { pokeTypes } from "~/composables/usePokeType";
 
+function getSeed(): number {
+  const [s] = useQueryParam("s");
+  return parseInt(s);
+}
+
+onBeforeMount(() => {
+  const s = getSeed();
+  if (!s || Number.isNaN(s)) {
+    return useRouter().replace({
+      path: "/roulette",
+      query: { s: parseInt(createHash(), 16) },
+    });
+  }
+});
+
 const selectedTypes = ref<PokeType[]>();
 
 const items = [];
@@ -10,7 +25,11 @@ const items = [];
 function createHash() {
   return crypto.randomUUID().slice(0, 8);
 }
-const seed = ref(parseInt(createHash(), 16));
+
+const seed = ref(getSeed());
+watchEffect(() => {
+  seed.value = getSeed();
+});
 
 function handleChangeSeed(value: number) {
   resetAllResult();
