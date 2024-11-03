@@ -73,7 +73,7 @@ export type Stat = {
   effort: number;
   stat: NameUrl;
 };
-export type PokeType = {
+export type PokemonType = {
   slot: string;
   type: NameUrl;
 };
@@ -101,7 +101,7 @@ export type Pokemon = {
   species: NameUrl;
   sprites: Sprites;
   stats: Stat[];
-  types: PokeType[];
+  types: PokemonType[];
   weight: number;
 };
 

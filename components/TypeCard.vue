@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { PokeType } from "~/pages/roulette.vue";
 import { defineProps } from "vue";
+
+import { type PokeType } from "~/composables/usePokeType";
 
 interface Props {
   pokeType: PokeType | null;

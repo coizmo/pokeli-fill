@@ -1,42 +1,9 @@
 <script lang="ts" setup>
-import pokedex from "../scripts/output/pokedex.json";
-
-import { ref, computed } from "vue";
 import "crypto";
 
-export type PokeType = {
-  name: string;
-  code: string;
-  color: string;
-};
-const selectedTypes = ref<PokeType[]>();
-const types: PokeType[] = [
-  { name: "むし", code: "bug", color: "A8B820" },
-  { name: "あく", code: "dark", color: "705848" },
-  { name: "ドラゴン", code: "dragon", color: "7038F8" },
-  { name: "でんき", code: "electric", color: "F8D030" },
-  { name: "フェアリー", code: "fairy", color: "EE99AC" },
-  { name: "かくとう", code: "fighting", color: "C03028" },
-  { name: "ほのお", code: "fire", color: "F08030" },
-  { name: "ひこう", code: "flying", color: "A890F0" },
-  { name: "ゴースト", code: "ghost", color: "705898" },
-  { name: "くさ", code: "grass", color: "78C850" },
-  { name: "じめん", code: "ground", color: "E0C068" },
-  { name: "こおり", code: "ice", color: "98D8D8" },
-  { name: "ノーマル", code: "normal", color: "A8A878" },
-  { name: "どく", code: "poison", color: "A040A0" },
-  { name: "エスパー", code: "psychic", color: "F85888" },
-  { name: "いわ", code: "rock", color: "B8A038" },
-  { name: "はがね", code: "steel", color: "B8B8D0" },
-  { name: "みず", code: "water", color: "6890F0" },
-];
+import { pokeTypes } from "~/composables/usePokeType";
 
-function getTypeLabel(code: string) {
-  return types.find((t) => t.code === code)?.name ?? "";
-}
-function getTypeColor(code: string) {
-  return types.find((t) => t.code === code)?.color ?? "000000";
-}
+const selectedTypes = ref<PokeType[]>();
 
 const items = [];
 
@@ -115,7 +82,7 @@ class XorShift {
     const min = 0;
     const max = 17;
     const r = Math.abs(this.rand());
-    return types[min + (r % (max + 1 - min))];
+    return pokeTypes[min + (r % (max + 1 - min))];
   }
 }
 
