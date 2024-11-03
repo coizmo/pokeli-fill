@@ -114,8 +114,8 @@ function resetAllResult() {
   result5B.value = null;
 }
 
-const playerName1 = ref("player1");
-const playerName2 = ref("player2");
+const trainerName1 = ref("trainer1");
+const trainerName2 = ref("trainer2");
 </script>
 
 <template>
@@ -134,7 +134,7 @@ const playerName2 = ref("player2");
       <div class="flex flex-row gap-4">
         <div class="flex-grow flex justify-end">
           <PlayerCard
-            v-model:name="playerName1"
+            v-model:name="trainerName1"
             :properties="{
               pokeTypes: [result1, result2, result3, result4, result5],
             }"
@@ -147,7 +147,7 @@ const playerName2 = ref("player2");
 
         <div class="flex-grow flex justify-start">
           <PlayerCard
-            v-model:name="playerName2"
+            v-model:name="trainerName2"
             :properties="{
               pokeTypes: [result1B, result2B, result3B, result4B, result5B],
             }"
