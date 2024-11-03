@@ -12,8 +12,9 @@ function createHash() {
 }
 const seed = ref(parseInt(createHash(), 16));
 
-function handleChangeSeed() {
+function handleChangeSeed(value: number) {
   resetAllResult();
+  seed.value = value
 }
 
 function handleClickChangeSeed() {
@@ -123,9 +124,9 @@ const trainerName2 = ref("trainer2");
     <div class="flex flex-col gap-8">
       <div class="flex justify-center gap-2">
         <InputNumber
-          v-model="seed"
+          :model-value="seed"
           :useGrouping="false"
-          @change="handleChangeSeed"
+          @update:modelValue="handleChangeSeed"
         ></InputNumber>
         <Button label="Change Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
