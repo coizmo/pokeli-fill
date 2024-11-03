@@ -4,7 +4,11 @@ import { pokeTypes, type PokeType } from "~/composables/usePokeType";
 
 const { getTypeLabel, getTypeColor } = usePokeType();
 
-const selectedTypeCodes = ref<string[]>(pokeTypes.map((t) => t.code));
+const selectedTypeCodes = ref<string[]>(
+  useQueryParam("types").length
+    ? useQueryParam("types")
+    : pokeTypes.map((t) => t.code)
+);
 
 const items = [];
 
