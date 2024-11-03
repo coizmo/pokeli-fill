@@ -116,7 +116,11 @@ function resetAllResult() {
   <div class="bg-slate-400 h-dvh px-4 py-8 overflow-scroll">
     <div class="flex flex-col gap-8">
       <div class="flex justify-center gap-2">
-        <InputText v-model="seed" @change="handleChangeSeed"></InputText>
+        <InputNumber
+          v-model="seed"
+          :useGrouping="false"
+          @change="handleChangeSeed"
+        ></InputNumber>
         <Button label="Change Seed" @click="handleClickChangeSeed" />
       </div>
       <div class="flex justify-center gap-2">
