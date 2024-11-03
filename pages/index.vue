@@ -1,8 +1,6 @@
 <script lang="ts" setup>
 import pokedex from "../scripts/output/pokedex.json";
 
-import { ref, computed } from "vue";
-
 type PokeType = {
   name: string;
   code: string;

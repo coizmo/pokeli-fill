@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
-
 import { type PokeType } from "~/composables/usePokeType";
 
 interface Props {
