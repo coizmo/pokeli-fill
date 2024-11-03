@@ -13,7 +13,6 @@ const selectedTypeCodes = ref<string[]>(
 const items = [];
 
 const usables = computed(() => {
-  console.log(selectedTypeCodes.value);
   const usableTypes = selectedTypeCodes.value;
   if (!usableTypes) {
     return [];
