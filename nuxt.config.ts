@@ -4,11 +4,11 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: '/pokeli-fill/',
+    baseURL: "/pokeli-fill/",
   },
 
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.scss", "primeicons/primeicons.css"],
 
   postcss: {
     plugins: {
