@@ -26,6 +26,9 @@ function createHash() {
   return crypto.randomUUID().slice(0, 8);
 }
 
+const trainerName1 = ref(useQueryParam("t1")[0] ?? "");
+const trainerName2 = ref(useQueryParam("t2")[0] ?? "");
+
 const result1 = ref<null | PokeType>(null);
 const result2 = ref<null | PokeType>(null);
 const result3 = ref<null | PokeType>(null);
@@ -39,9 +42,12 @@ const result4B = ref<null | PokeType>(null);
 const result5B = ref<null | PokeType>(null);
 
 const seed = ref(getSeed());
+
 watchEffect(() => {
-  resetAllResult();
   seed.value = getSeed();
+  trainerName1.value = useQueryParam("t1")[0]
+  trainerName2.value = useQueryParam("t2")[0]
+  resetAllResult();
 });
 
 function handleChangeSeed(value: number) {
@@ -58,7 +64,11 @@ function handleClickRoll() {
   resetAllResult();
   useRouter().push({
     path: "/roulette",
-    query: { s: seed.value },
+    query: {
+      s: seed.value,
+      t1: trainerName1.value,
+      t2: trainerName2.value,
+    },
   });
 
   const xs = new XorShift(seed.value);
@@ -140,8 +150,6 @@ function resetAllResult() {
   result5B.value = null;
 }
 
-const trainerName1 = ref("trainer1");
-const trainerName2 = ref("trainer2");
 </script>
 
 <template>

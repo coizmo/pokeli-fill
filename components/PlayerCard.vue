@@ -38,6 +38,7 @@ function handleClickMoveToDex() {
   <div class="flex flex-col gap-8">
     <InputText
       :model-value="props.name"
+      placeholder="トレーナー名を入力"
       class="text-center"
       :style="{ minWidth: '120px', maxWidth: '320px' }"
       @update:model-value="handleUpdateName"
