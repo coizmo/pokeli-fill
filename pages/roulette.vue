@@ -122,33 +122,30 @@ function resetAllResult() {
           @change="handleChangeSeed"
         ></InputNumber>
         <Button label="Change Seed" @click="handleClickChangeSeed" />
-      </div>
-      <div class="flex justify-center gap-2">
         <Button label="Roll" @click="handleClickRoll" />
       </div>
 
-      <div class="grid grid-cols-5">
-        <div class="col-span-2 grid grid-rows-5 gap-4">
-          <template
-            v-for="r in [result1, result2, result3, result4, result5]"
-            :key="r"
-          >
-            <TypeCard :poke-type="r"></TypeCard>
-          </template>
+      <div class="flex flex-row gap-4">
+        <div class="flex-grow flex justify-end">
+          <PlayerCard
+            :properties="{
+              pokeTypes: [result1, result2, result3, result4, result5],
+            }"
+          />
         </div>
 
-        <div class="flex justify-center">
-          <Chip>VS</Chip>
+        <div class="hidden sm:block flex-none justify-center">
+          <Chip class="h-11 rounded-md">VS</Chip>
         </div>
 
-        <div class="col-span-2 grid grid-rows-5 gap-4">
-          <template
-            v-for="r in [result1B, result2B, result3B, result4B, result5B]"
-            :key="r"
-          >
-            <TypeCard :poke-type="r"></TypeCard>
-          </template>
+        <div class="flex-grow flex justify-start">
+          <PlayerCard
+            :properties="{
+              pokeTypes: [result1B, result2B, result3B, result4B, result5B],
+            }"
+          />
         </div>
+
       </div>
     </div>
   </div>

@@ -9,12 +9,12 @@ defineProps<Props>();
 
 <template>
   <template v-if="!pokeType">
-    <div class="p-2">
+    <div class="p-2 text-center">
        Rolling... 
     </div>
   </template>
   <template v-else>
-    <div class="p-2" :style="{ backgroundColor: `#${pokeType.color}` }">
+    <div class="p-2 text-center rounded" :style="{ backgroundColor: `#${pokeType.color}` }">
       {{ pokeType.name }}
     </div>
   </template>
