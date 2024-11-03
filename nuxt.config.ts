@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  css: ["~/assets/css/main.scss", "primeicons/primeicons.css"],
+  css: ["~/assets/css/main.css", "primeicons/primeicons.css"],
 
   postcss: {
     plugins: {
