@@ -4,13 +4,13 @@ import { pokeTypes, type PokeType } from "~/composables/usePokeType";
 
 const { getTypeLabel, getTypeColor } = usePokeType();
 
-const selectedTypes = ref<PokeType[]>(pokeTypes);
+const selectedTypeCodes = ref<string[]>(pokeTypes.map((t) => t.code));
 
 const items = [];
 
 const usables = computed(() => {
-  console.log(selectedTypes.value);
-  const usableTypes = selectedTypes.value?.map((t) => t.code);
+  console.log(selectedTypeCodes.value);
+  const usableTypes = selectedTypeCodes.value;
   if (!usableTypes) {
     return [];
   }
@@ -28,8 +28,9 @@ const usables = computed(() => {
     <div class="flex-row gap-4">
       <div class="card flex justify-center">
         <MultiSelect
-          v-model="selectedTypes"
+          v-model="selectedTypeCodes"
           :options="pokeTypes"
+          optionValue="code"
           optionLabel="name"
           placeholder="Select Types"
           :maxSelectedLabels="3"
