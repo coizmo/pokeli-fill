@@ -14,7 +14,11 @@ onBeforeMount(() => {
   if (!s || Number.isNaN(s)) {
     return useRouter().replace({
       path: "/roulette",
-      query: { s: parseInt(createHash(), 16) },
+      query: {
+        s: parseInt(createHash(), 16),
+        t1: useQueryParam("t1")[0],
+        t2: useQueryParam("t2")[0],
+      },
     });
   }
 });
