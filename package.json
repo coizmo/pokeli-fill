@@ -12,6 +12,7 @@
     "generate-list": "tsc --version"
   },
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "nuxt": "^3.13.2",
     "primeicons": "^7.0.0",
     "primevue": "^3.50.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/crypto-js": "^4.2.2",
     "@vue/compiler-sfc": "^3.5.12",
     "@vue/runtime-core": "^3.5.12",
     "autoprefixer": "^10.4.19",
