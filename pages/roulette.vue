@@ -26,14 +26,27 @@ function createHash() {
   return crypto.randomUUID().slice(0, 8);
 }
 
+const result1 = ref<null | PokeType>(null);
+const result2 = ref<null | PokeType>(null);
+const result3 = ref<null | PokeType>(null);
+const result4 = ref<null | PokeType>(null);
+const result5 = ref<null | PokeType>(null);
+
+const result1B = ref<null | PokeType>(null);
+const result2B = ref<null | PokeType>(null);
+const result3B = ref<null | PokeType>(null);
+const result4B = ref<null | PokeType>(null);
+const result5B = ref<null | PokeType>(null);
+
 const seed = ref(getSeed());
 watchEffect(() => {
+  resetAllResult();
   seed.value = getSeed();
 });
 
 function handleChangeSeed(value: number) {
   resetAllResult();
-  seed.value = value
+  seed.value = value;
 }
 
 function handleClickChangeSeed() {
@@ -113,18 +126,6 @@ class XorShift {
     return pokeTypes[min + (r % (max + 1 - min))];
   }
 }
-
-const result1 = ref<null | PokeType>(null);
-const result2 = ref<null | PokeType>(null);
-const result3 = ref<null | PokeType>(null);
-const result4 = ref<null | PokeType>(null);
-const result5 = ref<null | PokeType>(null);
-
-const result1B = ref<null | PokeType>(null);
-const result2B = ref<null | PokeType>(null);
-const result3B = ref<null | PokeType>(null);
-const result4B = ref<null | PokeType>(null);
-const result5B = ref<null | PokeType>(null);
 
 function resetAllResult() {
   result1.value = null;
