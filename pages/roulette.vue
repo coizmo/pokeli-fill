@@ -25,37 +25,40 @@ function handleClickRoll() {
   resetAllResult();
   const xs = new XorShift(seed.value);
 
+  const waitTimeBase = 200;
+  const waitTimeBetween = 50;
+
   setTimeout(() => {
     result1.value = xs.randType();
-  }, 1000);
+  }, waitTimeBase + waitTimeBetween * 1);
   setTimeout(() => {
     result2.value = xs.randType();
-  }, 1200);
+  }, waitTimeBase + waitTimeBetween * 2);
   setTimeout(() => {
     result3.value = xs.randType();
-  }, 1400);
+  }, waitTimeBase + waitTimeBetween * 3);
   setTimeout(() => {
     result4.value = xs.randType();
-  }, 1600);
+  }, waitTimeBase + waitTimeBetween * 4);
   setTimeout(() => {
     result5.value = xs.randType();
-  }, 1800);
+  }, waitTimeBase + waitTimeBetween * 5);
 
   setTimeout(() => {
     result1B.value = xs.randType();
-  }, 2000);
+  }, waitTimeBase + waitTimeBetween * 6);
   setTimeout(() => {
     result2B.value = xs.randType();
-  }, 2200);
+  }, waitTimeBase + waitTimeBetween * 7);
   setTimeout(() => {
     result3B.value = xs.randType();
-  }, 2400);
+  }, waitTimeBase + waitTimeBetween * 8);
   setTimeout(() => {
     result4B.value = xs.randType();
-  }, 2600);
+  }, waitTimeBase + waitTimeBetween * 9);
   setTimeout(() => {
     result5B.value = xs.randType();
-  }, 2800);
+  }, waitTimeBase + waitTimeBetween * 10);
 }
 
 class XorShift {
