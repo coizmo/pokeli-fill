@@ -43,6 +43,11 @@ function handleClickChangeSeed() {
 
 function handleClickRoll() {
   resetAllResult();
+  useRouter().push({
+    path: "/roulette",
+    query: { s: seed.value },
+  });
+
   const xs = new XorShift(seed.value);
 
   const waitTimeBase = 200;
@@ -147,7 +152,7 @@ const trainerName2 = ref("trainer2");
           :useGrouping="false"
           @update:modelValue="handleChangeSeed"
         ></InputNumber>
-        <Button label="Change Seed" @click="handleClickChangeSeed" />
+        <Button label="Random Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
       </div>
 
@@ -173,7 +178,6 @@ const trainerName2 = ref("trainer2");
             }"
           />
         </div>
-
       </div>
     </div>
   </div>
