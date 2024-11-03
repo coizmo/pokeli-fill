@@ -1,5 +1,6 @@
 import fs from "fs";
 import type { Pokemon, Result, Specy } from "./types";
+import { disableSpecies } from "./disableSpecies";
 
 const speciesDirs = ["species_31", "species_32", "species_33"];
 const pokemonsDirs = ["pokemons_31", "pokemons_32", "pokemons_33"];
@@ -55,11 +56,25 @@ Object.entries(dexes).forEach(([key, value]) => {
         return;
       }
 
+      // ヌシ個体をスキップ
+      if (variety_name.match("[^-]+-totem(-[^-]+)?")) {
+        console.log(`${variety_name} is skipped.`);
+        return;
+      }
+
+      // 特別な個体をスキップ
+      if (disableSpecies.includes(variety_name)) {
+        console.log(`${variety_name} is skipped.`);
+        return;
+      }
+
       const pokeNo = Number.parseInt(matcher[1]);
       const pokemon: Pokemon = require(`./${targetPokemons}/${pokeNo}.json`);
 
       // 図鑑IDと姿が一致するレコードがすでに追加されていたら図鑑設定の追加のみとする
-      const already_added = generatedResult.find((r) => r.dexNo === data.id && r.form === variety_name);
+      const already_added = generatedResult.find(
+        (r) => r.dexNo === data.id && r.form === variety_name
+      );
       if (already_added) {
         already_added.dexes.push(key);
 

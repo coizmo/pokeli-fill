@@ -85,111 +85,6 @@
   },
   {
     "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-rock-star",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-belle",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-pop-star",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-phd",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-libre",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-cosplay",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-original-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-hoenn-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-sinnoh-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-unova-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-kalos-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-alola-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-partner-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-starter",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 25,
-    "name": "ピカチュウ",
-    "form": "pikachu-world-cap",
-    "types": ["electric"]
-  },
-  {
-    "dexes": ["31", "32"],
     "dexNo": 26,
     "name": "ライチュウ",
     "form": "raichu",
@@ -3633,13 +3528,6 @@
     "types": ["normal"]
   },
   {
-    "dexes": ["31"],
-    "dexNo": 735,
-    "name": "デカグース",
-    "form": "gumshoos-totem",
-    "types": ["normal"]
-  },
-  {
     "dexes": ["32"],
     "dexNo": 736,
     "name": "アゴジムシ",
@@ -3658,13 +3546,6 @@
     "dexNo": 738,
     "name": "クワガノン",
     "form": "vikavolt",
-    "types": ["bug", "electric"]
-  },
-  {
-    "dexes": ["32"],
-    "dexNo": 738,
-    "name": "クワガノン",
-    "form": "vikavolt-totem",
     "types": ["bug", "electric"]
   },
   {
@@ -3721,13 +3602,6 @@
     "dexNo": 743,
     "name": "アブリボン",
     "form": "ribombee",
-    "types": ["bug", "fairy"]
-  },
-  {
-    "dexes": ["32"],
-    "dexNo": 743,
-    "name": "アブリボン",
-    "form": "ribombee-totem",
     "types": ["bug", "fairy"]
   },
   {
@@ -3808,13 +3682,6 @@
     "types": ["water", "bug"]
   },
   {
-    "dexes": ["33"],
-    "dexNo": 752,
-    "name": "オニシズクモ",
-    "form": "araquanid-totem",
-    "types": ["water", "bug"]
-  },
-  {
     "dexes": ["31", "32"],
     "dexNo": 753,
     "name": "カリキリ",
@@ -3830,13 +3697,6 @@
   },
   {
     "dexes": ["31", "32"],
-    "dexNo": 754,
-    "name": "ラランテス",
-    "form": "lurantis-totem",
-    "types": ["grass"]
-  },
-  {
-    "dexes": ["31", "32"],
     "dexNo": 757,
     "name": "ヤトウモリ",
     "form": "salandit",
@@ -3847,13 +3707,6 @@
     "dexNo": 758,
     "name": "エンニュート",
     "form": "salazzle",
-    "types": ["poison", "fire"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 758,
-    "name": "エンニュート",
-    "form": "salazzle-totem",
     "types": ["poison", "fire"]
   },
   {
@@ -3923,91 +3776,7 @@
     "dexes": ["33"],
     "dexNo": 774,
     "name": "メテノ",
-    "form": "minior-orange-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-yellow-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-green-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-blue-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-indigo-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-violet-meteor",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
     "form": "minior-red",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-orange",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-yellow",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-green",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-blue",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-indigo",
-    "types": ["rock", "flying"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 774,
-    "name": "メテノ",
-    "form": "minior-violet",
     "types": ["rock", "flying"]
   },
   {
@@ -4029,20 +3798,6 @@
     "dexNo": 778,
     "name": "ミミッキュ",
     "form": "mimikyu-busted",
-    "types": ["ghost", "fairy"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 778,
-    "name": "ミミッキュ",
-    "form": "mimikyu-totem-disguised",
-    "types": ["ghost", "fairy"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 778,
-    "name": "ミミッキュ",
-    "form": "mimikyu-totem-busted",
     "types": ["ghost", "fairy"]
   },
   {
@@ -4071,13 +3826,6 @@
     "dexNo": 784,
     "name": "ジャラランガ",
     "form": "kommo-o",
-    "types": ["dragon", "fighting"]
-  },
-  {
-    "dexes": ["32"],
-    "dexNo": 784,
-    "name": "ジャラランガ",
-    "form": "kommo-o-totem",
     "types": ["dragon", "fighting"]
   },
   {
@@ -4253,20 +4001,6 @@
     "dexNo": 845,
     "name": "ウッウ",
     "form": "cramorant",
-    "types": ["flying", "water"]
-  },
-  {
-    "dexes": ["32"],
-    "dexNo": 845,
-    "name": "ウッウ",
-    "form": "cramorant-gulping",
-    "types": ["flying", "water"]
-  },
-  {
-    "dexes": ["32"],
-    "dexNo": 845,
-    "name": "ウッウ",
-    "form": "cramorant-gorging",
     "types": ["flying", "water"]
   },
   {
@@ -4683,13 +4417,6 @@
     "types": ["normal"]
   },
   {
-    "dexes": ["31", "32"],
-    "dexNo": 925,
-    "name": "イッカネズミ",
-    "form": "maushold-family-of-three",
-    "types": ["normal"]
-  },
-  {
     "dexes": ["31"],
     "dexNo": 926,
     "name": "パピモッチ",
@@ -5089,20 +4816,6 @@
     "types": ["dragon", "water"]
   },
   {
-    "dexes": ["31"],
-    "dexNo": 978,
-    "name": "シャリタツ",
-    "form": "tatsugiri-droopy",
-    "types": ["dragon", "water"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 978,
-    "name": "シャリタツ",
-    "form": "tatsugiri-stretchy",
-    "types": ["dragon", "water"]
-  },
-  {
     "dexes": ["31", "32"],
     "dexNo": 979,
     "name": "コノヨザル",
@@ -5128,13 +4841,6 @@
     "dexNo": 982,
     "name": "ノココッチ",
     "form": "dudunsparce",
-    "types": ["normal"]
-  },
-  {
-    "dexes": ["31", "32"],
-    "dexNo": 982,
-    "name": "ノココッチ",
-    "form": "dudunsparce-three-segment",
     "types": ["normal"]
   },
   {
@@ -5321,65 +5027,9 @@
   },
   {
     "dexes": ["31"],
-    "dexNo": 1007,
-    "name": "コライドン",
-    "form": "koraidon-limited-build",
-    "types": ["fighting", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1007,
-    "name": "コライドン",
-    "form": "koraidon-sprinting-build",
-    "types": ["fighting", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1007,
-    "name": "コライドン",
-    "form": "koraidon-swimming-build",
-    "types": ["fighting", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1007,
-    "name": "コライドン",
-    "form": "koraidon-gliding-build",
-    "types": ["fighting", "dragon"]
-  },
-  {
-    "dexes": ["31"],
     "dexNo": 1008,
     "name": "ミライドン",
     "form": "miraidon",
-    "types": ["electric", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1008,
-    "name": "ミライドン",
-    "form": "miraidon-low-power-mode",
-    "types": ["electric", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1008,
-    "name": "ミライドン",
-    "form": "miraidon-drive-mode",
-    "types": ["electric", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1008,
-    "name": "ミライドン",
-    "form": "miraidon-aquatic-mode",
-    "types": ["electric", "dragon"]
-  },
-  {
-    "dexes": ["31"],
-    "dexNo": 1008,
-    "name": "ミライドン",
-    "form": "miraidon-glide-mode",
     "types": ["electric", "dragon"]
   },
   {
@@ -5513,20 +5163,6 @@
     "dexNo": 1024,
     "name": "テラパゴス",
     "form": "terapagos",
-    "types": ["normal"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 1024,
-    "name": "テラパゴス",
-    "form": "terapagos-terastal",
-    "types": ["normal"]
-  },
-  {
-    "dexes": ["33"],
-    "dexNo": 1024,
-    "name": "テラパゴス",
-    "form": "terapagos-stellar",
     "types": ["normal"]
   }
 ]
