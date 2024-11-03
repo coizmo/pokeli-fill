@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import "crypto";
+import cryptoJs from "crypto-js";
 
 import { pokeTypes } from "~/composables/usePokeType";
 
@@ -22,8 +23,14 @@ const selectedTypes = ref<PokeType[]>();
 
 const items = [];
 
+function hashToInt(input: string) {
+  return parseInt(input, 16);
+}
 function createHash() {
-  return crypto.randomUUID().slice(0, 8);
+  return crypto.randomUUID().slice(0, 4);
+}
+function hashFrom(input: string) {
+  return cryptoJs.SHA256(input).toString(cryptoJs.enc.Hex).slice(0, 4);
 }
 
 const trainerName1 = ref(useQueryParam("t1")[0] ?? "");
@@ -71,41 +78,46 @@ function handleClickRoll() {
     },
   });
 
-  const xs = new XorShift(seed.value);
+  const xs1 = new XorShift(
+    seed.value * hashToInt(hashFrom(trainerName1.value))
+  );
+  const xs2 = new XorShift(
+    seed.value * hashToInt(hashFrom(trainerName2.value))
+  );
 
   const waitTimeBase = 200;
   const waitTimeBetween = 50;
 
   setTimeout(() => {
-    result1.value = xs.randType();
+    result1.value = xs1.randType();
   }, waitTimeBase + waitTimeBetween * 1);
   setTimeout(() => {
-    result2.value = xs.randType();
+    result2.value = xs1.randType();
   }, waitTimeBase + waitTimeBetween * 2);
   setTimeout(() => {
-    result3.value = xs.randType();
+    result3.value = xs1.randType();
   }, waitTimeBase + waitTimeBetween * 3);
   setTimeout(() => {
-    result4.value = xs.randType();
+    result4.value = xs1.randType();
   }, waitTimeBase + waitTimeBetween * 4);
   setTimeout(() => {
-    result5.value = xs.randType();
+    result5.value = xs1.randType();
   }, waitTimeBase + waitTimeBetween * 5);
 
   setTimeout(() => {
-    result1B.value = xs.randType();
+    result1B.value = xs2.randType();
   }, waitTimeBase + waitTimeBetween * 6);
   setTimeout(() => {
-    result2B.value = xs.randType();
+    result2B.value = xs2.randType();
   }, waitTimeBase + waitTimeBetween * 7);
   setTimeout(() => {
-    result3B.value = xs.randType();
+    result3B.value = xs2.randType();
   }, waitTimeBase + waitTimeBetween * 8);
   setTimeout(() => {
-    result4B.value = xs.randType();
+    result4B.value = xs2.randType();
   }, waitTimeBase + waitTimeBetween * 9);
   setTimeout(() => {
-    result5B.value = xs.randType();
+    result5B.value = xs2.randType();
   }, waitTimeBase + waitTimeBetween * 10);
 }
 
