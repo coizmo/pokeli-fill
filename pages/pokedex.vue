@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import pokedex from "../scripts/output/pokedex.json";
 import s22out from "../scripts/output/s22out.json";
+import s23out from "../scripts/output/s23out.json";
 import { pokeTypes, type PokeType } from "~/composables/usePokeType";
 
 const { getTypeLabel, getTypeColor } = usePokeType();
@@ -21,6 +22,7 @@ const usables = computed(() => {
 
   const [f] = useQueryParam("f");
   const s22outCode = s22out.map((t) => t.code);
+  const s23outCode = s23out.map((t) => t.code);
 
   const filtered = pokedex
     .filter((poke) => {
@@ -31,10 +33,13 @@ const usables = computed(() => {
       }
     })
     .filter((poke) => {
-      if (f !== "s22out") {
-        return true;
+      if (f === "s22out") {
+        return s22outCode.includes(poke.form);
       }
-      return s22outCode.includes(poke.form);
+      if (f === "s23out") {
+        return s23outCode.includes(poke.form);
+      }
+      return true;
     })
     .sort((a, b) => {
       if (order.value === 0) return 1;
