@@ -34,6 +34,12 @@ const usables = computed(() => {
     })
     .sort((a, b) => {
       if (order.value === 0) return 1;
+      if (order.value === 7) {
+        return (
+          b.stats.reduce((ra, rb) => ra + rb, 0) -
+          a.stats.reduce((ra, rb) => ra + rb, 0)
+        );
+      }
       return b.stats[order.value - 1] - a.stats[order.value - 1];
     });
 
@@ -42,7 +48,7 @@ const usables = computed(() => {
 
 const displayMode = ref("list");
 const order = ref(0);
-const orders = ["Dex", "H", "A", "B", "C", "D", "S"];
+const orders = ["Dex", "H", "A", "B", "C", "D", "S", "ALL"];
 function handleChangeOrder() {
   order.value = (order.value + 1) % orders.length;
 }
