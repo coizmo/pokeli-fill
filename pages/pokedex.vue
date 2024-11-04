@@ -130,7 +130,10 @@ const completelyIncluded = ref(true);
           ></Button>
         </div>
         <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
-          <span>{{ poke.name }}</span>
+          <span>
+            {{ poke.name }}
+            <small class="ml-1">{{ poke.form }}</small>
+          </span>
           <div class="text-nowrap">
             <Chip
               :style="{ backgroundColor: `#${getTypeColor(poke.types[0])}` }"
