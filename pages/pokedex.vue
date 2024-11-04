@@ -24,7 +24,11 @@ const usables = computed(() => {
 
   const filtered = pokedex
     .filter((poke) => {
-      return poke.types.every((t) => usableTypes.includes(t));
+      if (completelyIncluded.value) {
+        return poke.types.every((t) => usableTypes.includes(t));
+      } else {
+        return poke.types.some((t) => usableTypes.includes(t));
+      }
     })
     .filter((poke) => {
       if (f !== "s22out") {
@@ -52,6 +56,8 @@ const orders = ["Dex", "H", "A", "B", "C", "D", "S", "ALL"];
 function handleChangeOrder() {
   order.value = (order.value + 1) % orders.length;
 }
+
+const completelyIncluded = ref(true);
 </script>
 
 <template>
@@ -67,6 +73,14 @@ function handleChangeOrder() {
           :maxSelectedLabels="3"
           class="w-full md:w-[20rem]"
         />
+        <div class="flex items-center gap-2">
+          <Checkbox
+            v-model="completelyIncluded"
+            inputId="completelyIncludedInput"
+            binary
+          />
+          <label for="completelyIncludedInput"> 完全に含む </label>
+        </div>
         <Button
           icon="pi pi-th-large"
           :outlined="displayMode === 'list'"
