@@ -65,7 +65,7 @@ export type Ability = {
 export type GameIndex = {
   game_index: number;
   version: NameUrl;
-}
+};
 export type Move = any;
 export type Sprites = any;
 export type Stat = {
@@ -105,7 +105,6 @@ export type Pokemon = {
   weight: number;
 };
 
-
 // Output
 export type Result = {
   dexes: string[];
@@ -113,4 +112,5 @@ export type Result = {
   name: string;
   form: string;
   types: string[];
+  stats: number[];
 };

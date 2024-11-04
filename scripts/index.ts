@@ -3,12 +3,17 @@ import type { Pokemon, Result, Specy } from "./types";
 import { disableSpecies } from "./disableSpecies";
 
 const speciesDirs = ["species_31", "species_32", "species_33", "species_add"];
-const pokemonsDirs = ["pokemons_31", "pokemons_32", "pokemons_33", "pokemons_add"];
+const pokemonsDirs = [
+  "pokemons_31",
+  "pokemons_32",
+  "pokemons_33",
+  "pokemons_add",
+];
 const dexes = {
   "31": { species: "species_31", pokemons: "pokemons_31" },
   "32": { species: "species_32", pokemons: "pokemons_32" },
   "33": { species: "species_33", pokemons: "pokemons_33" },
-  "add": { species: "species_add", pokemons: "pokemons_add" },
+  add: { species: "species_add", pokemons: "pokemons_add" },
 };
 
 const generatedResult: Result[] = [];
@@ -85,12 +90,24 @@ Object.entries(dexes).forEach(([key, value]) => {
         return;
       }
 
+      const stats = [
+        pokemon.stats.find((s) => s.stat.name === "hp")?.base_stat ?? 0,
+        pokemon.stats.find((s) => s.stat.name === "attack")?.base_stat ?? 0,
+        pokemon.stats.find((s) => s.stat.name === "defense")?.base_stat ?? 0,
+        pokemon.stats.find((s) => s.stat.name === "special-attack")
+          ?.base_stat ?? 0,
+        pokemon.stats.find((s) => s.stat.name === "special-defense")
+          ?.base_stat ?? 0,
+        pokemon.stats.find((s) => s.stat.name === "speed")?.base_stat ?? 0,
+      ];
+
       generatedResult.push({
         dexes: [key],
         dexNo: data.id,
         name: name,
         form: variety_name,
         types: pokemon.types.map((t) => t.type.name),
+        stats: stats,
       });
 
       // console.log(
