@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import pokedex from "../scripts/output/pokedex.json";
+import s22out from "../scripts/output/s22out.json";
 import { pokeTypes, type PokeType } from "~/composables/usePokeType";
 
 const { getTypeLabel, getTypeColor } = usePokeType();
@@ -18,9 +19,19 @@ const usables = computed(() => {
     return [];
   }
 
-  const filtered = pokedex.filter((poke) => {
-    return poke.types.every((t) => usableTypes.includes(t));
-  });
+  const [f] = useQueryParam("f");
+  const s22outCode = s22out.map((t) => t.code);
+
+  const filtered = pokedex
+    .filter((poke) => {
+      return poke.types.every((t) => usableTypes.includes(t));
+    })
+    .filter((poke) => {
+      if (f !== "s22out") {
+        return true;
+      }
+      return s22outCode.includes(poke.form);
+    });
 
   return filtered;
 });
