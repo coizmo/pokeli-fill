@@ -31,16 +31,27 @@ const usables = computed(() => {
         return true;
       }
       return s22outCode.includes(poke.form);
+    })
+    .sort((a, b) => {
+      if (order.value === 0) return 1;
+      return b.stats[order.value - 1] - a.stats[order.value - 1];
     });
 
   return filtered;
 });
+
+const displayMode = ref("list");
+const order = ref(0);
+const orders = ["Dex", "H", "A", "B", "C", "D", "S"];
+function handleChangeOrder() {
+  order.value = (order.value + 1) % orders.length;
+}
 </script>
 
 <template>
   <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
     <div class="flex-row gap-4">
-      <div class="card flex justify-center">
+      <div class="card flex justify-center gap-4">
         <MultiSelect
           v-model="selectedTypeCodes"
           :options="pokeTypes"
@@ -50,9 +61,21 @@ const usables = computed(() => {
           :maxSelectedLabels="3"
           class="w-full md:w-[20rem]"
         />
+        <Button
+          icon="pi pi-th-large"
+          :outlined="displayMode === 'list'"
+          :raised="displayMode !== 'list'"
+          @click="displayMode = 'card'"
+        />
+        <Button
+          icon="pi pi-list"
+          :outlined="displayMode === 'card'"
+          :raised="displayMode !== 'card'"
+          @click="displayMode = 'list'"
+        />
       </div>
 
-      <div class="mt-4 grid grid-cols-3 gap-4">
+      <div v-if="displayMode === 'card'" class="mt-4 grid grid-cols-3 gap-4">
         <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
           <Card>
             <template #title> {{ poke.name }} </template>
@@ -70,6 +93,43 @@ const usables = computed(() => {
               ></Chip>
             </template>
           </Card>
+        </template>
+      </div>
+
+      <div
+        v-else-if="displayMode === 'list'"
+        class="mt-4 grid grid-cols-3 gap-y-2"
+      >
+        <div class="py-4">名前</div>
+        <div class="py-4">タイプ</div>
+        <div class="">
+          <Button
+            class="w-20"
+            :label="orders[order]"
+            @click="handleChangeOrder"
+          ></Button>
+        </div>
+        <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
+          <span>{{ poke.name }}</span>
+          <div class="text-nowrap">
+            <Chip
+              :style="{ backgroundColor: `#${getTypeColor(poke.types[0])}` }"
+              :label="getTypeLabel(poke.types[0])"
+            ></Chip>
+            <Chip
+              v-if="poke.types.length === 2"
+              :style="{ backgroundColor: `#${getTypeColor(poke.types[1])}` }"
+              :label="getTypeLabel(poke.types[1])"
+            ></Chip>
+          </div>
+          <div calss="text-nowrap">
+            <div
+              v-for="stat in poke.stats"
+              class="inline-block w-8 align-end text-end"
+            >
+              {{ stat }}
+            </div>
+          </div>
         </template>
       </div>
     </div>
