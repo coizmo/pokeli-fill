@@ -50,13 +50,23 @@ const usables = computed(() => {
 
   return filtered;
 });
+
+function to(path: string) {
+  return navigateTo(path);
+}
 </script>
 
 <template>
-  <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
-    <div class="flex flex-col gap-4">
-      <Button label="DEX" @click="() => navigateTo('/pokedex')"></Button>
-      <Button label="ROULETTE" @click="() => navigateTo('/roulette')"></Button>
+  <div class="bg-slate-400 h-dvh p-12 overflow-scroll flex flex-col gap-4">
+    <Button label="DEX" @click="to('/pokedex')"></Button>
+    <Button label="ROULETTE" @click="to('/roulette')"></Button>
+    <div class="flex-1"></div>
+    <div class="h-full flex flex-col justify-end">
+      <Button
+        class="w-20"
+        label="license"
+        @click="to('/license')"
+      ></Button>
     </div>
   </div>
 </template>
