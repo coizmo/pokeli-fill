@@ -2,12 +2,13 @@ import fs from "fs";
 import type { Pokemon, Result, Specy } from "./types";
 import { disableSpecies } from "./disableSpecies";
 
-const speciesDirs = ["species_31", "species_32", "species_33"];
-const pokemonsDirs = ["pokemons_31", "pokemons_32", "pokemons_33"];
+const speciesDirs = ["species_31", "species_32", "species_33", "species_add"];
+const pokemonsDirs = ["pokemons_31", "pokemons_32", "pokemons_33", "pokemons_add"];
 const dexes = {
   "31": { species: "species_31", pokemons: "pokemons_31" },
   "32": { species: "species_32", pokemons: "pokemons_32" },
   "33": { species: "species_33", pokemons: "pokemons_33" },
+  "add": { species: "species_add", pokemons: "pokemons_add" },
 };
 
 const generatedResult: Result[] = [];

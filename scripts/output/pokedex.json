@@ -4095,6 +4095,13 @@
     "types": ["dark", "fairy"]
   },
   {
+    "dexes": ["add"],
+    "dexNo": 863,
+    "name": "ニャイキング",
+    "form": "perrserker",
+    "types": ["steel"]
+  },
+  {
     "dexes": ["33"],
     "dexNo": 868,
     "name": "マホミル",
@@ -4228,6 +4235,13 @@
     "types": ["dragon", "ghost"]
   },
   {
+    "dexes": ["add"],
+    "dexNo": 899,
+    "name": "アヤシシ",
+    "form": "wyrdeer",
+    "types": ["normal", "psychic"]
+  },
+  {
     "dexes": ["33"],
     "dexNo": 900,
     "name": "バサギリ",
@@ -4261,6 +4275,13 @@
     "name": "イダイトウ",
     "form": "basculegion-female",
     "types": ["water", "ghost"]
+  },
+  {
+    "dexes": ["add"],
+    "dexNo": 903,
+    "name": "オオニューラ",
+    "form": "sneasler",
+    "types": ["fighting", "poison"]
   },
   {
     "dexes": ["33"],
