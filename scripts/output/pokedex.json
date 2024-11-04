@@ -4,5186 +4,5927 @@
     "dexNo": 1,
     "name": "フシギダネ",
     "form": "bulbasaur",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [45, 49, 49, 65, 65, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 2,
     "name": "フシギソウ",
     "form": "ivysaur",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [60, 62, 63, 80, 80, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 3,
     "name": "フシギバナ",
     "form": "venusaur",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [80, 82, 83, 100, 100, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 4,
     "name": "ヒトカゲ",
     "form": "charmander",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [39, 52, 43, 60, 50, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 5,
     "name": "リザード",
     "form": "charmeleon",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [58, 64, 58, 80, 65, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 6,
     "name": "リザードン",
     "form": "charizard",
-    "types": ["fire", "flying"]
+    "types": ["fire", "flying"],
+    "stats": [78, 84, 78, 109, 85, 100]
   },
   {
     "dexes": ["33"],
     "dexNo": 7,
     "name": "ゼニガメ",
     "form": "squirtle",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [44, 48, 65, 50, 64, 43]
   },
   {
     "dexes": ["33"],
     "dexNo": 8,
     "name": "カメール",
     "form": "wartortle",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [59, 63, 80, 65, 80, 58]
   },
   {
     "dexes": ["33"],
     "dexNo": 9,
     "name": "カメックス",
     "form": "blastoise",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [79, 83, 100, 85, 105, 78]
   },
   {
     "dexes": ["32"],
     "dexNo": 23,
     "name": "アーボ",
     "form": "ekans",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [35, 60, 44, 40, 54, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 24,
     "name": "アーボック",
     "form": "arbok",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [60, 95, 69, 65, 79, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 25,
     "name": "ピカチュウ",
     "form": "pikachu",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [35, 55, 40, 50, 50, 90]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 26,
     "name": "ライチュウ",
     "form": "raichu",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 90, 55, 90, 80, 110]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 26,
     "name": "ライチュウ",
     "form": "raichu-alola",
-    "types": ["electric", "psychic"]
+    "types": ["electric", "psychic"],
+    "stats": [60, 85, 50, 95, 85, 110]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 27,
     "name": "サンド",
     "form": "sandshrew",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [50, 75, 85, 20, 30, 40]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 27,
     "name": "サンド",
     "form": "sandshrew-alola",
-    "types": ["ice", "steel"]
+    "types": ["ice", "steel"],
+    "stats": [50, 75, 90, 10, 35, 40]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 28,
     "name": "サンドパン",
     "form": "sandslash",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [75, 100, 110, 45, 55, 65]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 28,
     "name": "サンドパン",
     "form": "sandslash-alola",
-    "types": ["ice", "steel"]
+    "types": ["ice", "steel"],
+    "stats": [75, 100, 120, 25, 65, 65]
   },
   {
     "dexes": ["32"],
     "dexNo": 35,
     "name": "ピッピ",
     "form": "clefairy",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [70, 45, 48, 60, 65, 35]
   },
   {
     "dexes": ["32"],
     "dexNo": 36,
     "name": "ピクシー",
     "form": "clefable",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [95, 70, 73, 95, 90, 60]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 37,
     "name": "ロコン",
     "form": "vulpix",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [38, 41, 40, 50, 65, 65]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 37,
     "name": "ロコン",
     "form": "vulpix-alola",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [38, 41, 40, 50, 65, 65]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 38,
     "name": "キュウコン",
     "form": "ninetales",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [73, 76, 75, 81, 100, 100]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 38,
     "name": "キュウコン",
     "form": "ninetales-alola",
-    "types": ["ice", "fairy"]
+    "types": ["ice", "fairy"],
+    "stats": [73, 67, 75, 81, 100, 109]
   },
   {
     "dexes": ["31"],
     "dexNo": 39,
     "name": "プリン",
     "form": "jigglypuff",
-    "types": ["normal", "fairy"]
+    "types": ["normal", "fairy"],
+    "stats": [115, 45, 20, 45, 25, 20]
   },
   {
     "dexes": ["31"],
     "dexNo": 40,
     "name": "プクリン",
     "form": "wigglytuff",
-    "types": ["normal", "fairy"]
+    "types": ["normal", "fairy"],
+    "stats": [140, 70, 45, 85, 50, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 43,
     "name": "ナゾノクサ",
     "form": "oddish",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [45, 50, 55, 75, 65, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 44,
     "name": "クサイハナ",
     "form": "gloom",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [60, 65, 70, 85, 75, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 45,
     "name": "ラフレシア",
     "form": "vileplume",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [75, 80, 85, 110, 90, 50]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 48,
     "name": "コンパン",
     "form": "venonat",
-    "types": ["bug", "poison"]
+    "types": ["bug", "poison"],
+    "stats": [60, 55, 50, 40, 55, 45]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 49,
     "name": "モルフォン",
     "form": "venomoth",
-    "types": ["bug", "poison"]
+    "types": ["bug", "poison"],
+    "stats": [70, 65, 60, 90, 75, 90]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 50,
     "name": "ディグダ",
     "form": "diglett",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [10, 55, 25, 35, 45, 95]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 50,
     "name": "ディグダ",
     "form": "diglett-alola",
-    "types": ["ground", "steel"]
+    "types": ["ground", "steel"],
+    "stats": [10, 55, 30, 35, 45, 90]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 51,
     "name": "ダグトリオ",
     "form": "dugtrio",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [35, 100, 50, 50, 70, 120]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 51,
     "name": "ダグトリオ",
     "form": "dugtrio-alola",
-    "types": ["ground", "steel"]
+    "types": ["ground", "steel"],
+    "stats": [35, 100, 60, 50, 70, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 52,
     "name": "ニャース",
     "form": "meowth",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [40, 45, 35, 40, 40, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 52,
     "name": "ニャース",
     "form": "meowth-alola",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [40, 35, 35, 50, 40, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 52,
     "name": "ニャース",
     "form": "meowth-galar",
-    "types": ["steel"]
+    "types": ["steel"],
+    "stats": [50, 65, 55, 40, 40, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 53,
     "name": "ペルシアン",
     "form": "persian",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [65, 70, 60, 65, 65, 115]
   },
   {
     "dexes": ["31"],
     "dexNo": 53,
     "name": "ペルシアン",
     "form": "persian-alola",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [65, 60, 60, 75, 65, 115]
   },
   {
     "dexes": ["31"],
     "dexNo": 54,
     "name": "コダック",
     "form": "psyduck",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 52, 48, 65, 50, 55]
   },
   {
     "dexes": ["31"],
     "dexNo": 55,
     "name": "ゴルダック",
     "form": "golduck",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [80, 82, 78, 95, 80, 85]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 56,
     "name": "マンキー",
     "form": "mankey",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [40, 80, 35, 35, 45, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 57,
     "name": "オコリザル",
     "form": "primeape",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [65, 105, 60, 60, 70, 95]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 58,
     "name": "ガーディ",
     "form": "growlithe",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [55, 70, 45, 70, 50, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 58,
     "name": "ガーディ",
     "form": "growlithe-hisui",
-    "types": ["fire", "rock"]
+    "types": ["fire", "rock"],
+    "stats": [60, 75, 45, 65, 50, 55]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 59,
     "name": "ウインディ",
     "form": "arcanine",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [90, 110, 80, 100, 80, 95]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 59,
     "name": "ウインディ",
     "form": "arcanine-hisui",
-    "types": ["fire", "rock"]
+    "types": ["fire", "rock"],
+    "stats": [95, 115, 80, 95, 80, 90]
   },
   {
     "dexes": ["32"],
     "dexNo": 60,
     "name": "ニョロモ",
     "form": "poliwag",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [40, 50, 40, 40, 40, 90]
   },
   {
     "dexes": ["32"],
     "dexNo": 61,
     "name": "ニョロゾ",
     "form": "poliwhirl",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [65, 65, 65, 50, 50, 90]
   },
   {
     "dexes": ["32"],
     "dexNo": 62,
     "name": "ニョロボン",
     "form": "poliwrath",
-    "types": ["water", "fighting"]
+    "types": ["water", "fighting"],
+    "stats": [90, 95, 95, 70, 90, 70]
   },
   {
     "dexes": ["32"],
     "dexNo": 69,
     "name": "マダツボミ",
     "form": "bellsprout",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [50, 75, 35, 70, 30, 40]
   },
   {
     "dexes": ["32"],
     "dexNo": 70,
     "name": "ウツドン",
     "form": "weepinbell",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [65, 90, 50, 85, 45, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 71,
     "name": "ウツボット",
     "form": "victreebel",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [80, 105, 65, 100, 70, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 72,
     "name": "メノクラゲ",
     "form": "tentacool",
-    "types": ["water", "poison"]
+    "types": ["water", "poison"],
+    "stats": [40, 40, 35, 50, 100, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 73,
     "name": "ドククラゲ",
     "form": "tentacruel",
-    "types": ["water", "poison"]
+    "types": ["water", "poison"],
+    "stats": [80, 70, 65, 80, 120, 100]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 74,
     "name": "イシツブテ",
     "form": "geodude",
-    "types": ["rock", "ground"]
+    "types": ["rock", "ground"],
+    "stats": [40, 80, 100, 30, 30, 20]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 74,
     "name": "イシツブテ",
     "form": "geodude-alola",
-    "types": ["rock", "electric"]
+    "types": ["rock", "electric"],
+    "stats": [40, 80, 100, 30, 30, 20]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 75,
     "name": "ゴローン",
     "form": "graveler",
-    "types": ["rock", "ground"]
+    "types": ["rock", "ground"],
+    "stats": [55, 95, 115, 45, 45, 35]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 75,
     "name": "ゴローン",
     "form": "graveler-alola",
-    "types": ["rock", "electric"]
+    "types": ["rock", "electric"],
+    "stats": [55, 95, 115, 45, 45, 35]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 76,
     "name": "ゴローニャ",
     "form": "golem",
-    "types": ["rock", "ground"]
+    "types": ["rock", "ground"],
+    "stats": [80, 120, 130, 55, 65, 45]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 76,
     "name": "ゴローニャ",
     "form": "golem-alola",
-    "types": ["rock", "electric"]
+    "types": ["rock", "electric"],
+    "stats": [80, 120, 130, 55, 65, 45]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 79,
     "name": "ヤドン",
     "form": "slowpoke",
-    "types": ["water", "psychic"]
+    "types": ["water", "psychic"],
+    "stats": [90, 65, 65, 40, 40, 15]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 79,
     "name": "ヤドン",
     "form": "slowpoke-galar",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [90, 65, 65, 40, 40, 15]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 80,
     "name": "ヤドラン",
     "form": "slowbro",
-    "types": ["water", "psychic"]
+    "types": ["water", "psychic"],
+    "stats": [95, 75, 110, 100, 80, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 80,
     "name": "ヤドラン",
     "form": "slowbro-galar",
-    "types": ["poison", "psychic"]
+    "types": ["poison", "psychic"],
+    "stats": [95, 100, 95, 100, 70, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 81,
     "name": "コイル",
     "form": "magnemite",
-    "types": ["electric", "steel"]
+    "types": ["electric", "steel"],
+    "stats": [25, 35, 70, 95, 55, 45]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 82,
     "name": "レアコイル",
     "form": "magneton",
-    "types": ["electric", "steel"]
+    "types": ["electric", "steel"],
+    "stats": [50, 60, 95, 120, 70, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 84,
     "name": "ドードー",
     "form": "doduo",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [35, 85, 45, 35, 35, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 85,
     "name": "ドードリオ",
     "form": "dodrio",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [60, 110, 70, 60, 60, 110]
   },
   {
     "dexes": ["33"],
     "dexNo": 86,
     "name": "パウワウ",
     "form": "seel",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [65, 45, 55, 45, 70, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 87,
     "name": "ジュゴン",
     "form": "dewgong",
-    "types": ["water", "ice"]
+    "types": ["water", "ice"],
+    "stats": [90, 70, 80, 70, 95, 70]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 88,
     "name": "ベトベター",
     "form": "grimer",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [80, 80, 50, 40, 50, 25]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 88,
     "name": "ベトベター",
     "form": "grimer-alola",
-    "types": ["poison", "dark"]
+    "types": ["poison", "dark"],
+    "stats": [80, 80, 50, 40, 50, 25]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 89,
     "name": "ベトベトン",
     "form": "muk",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [105, 105, 75, 65, 100, 50]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 89,
     "name": "ベトベトン",
     "form": "muk-alola",
-    "types": ["poison", "dark"]
+    "types": ["poison", "dark"],
+    "stats": [105, 105, 75, 65, 100, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 90,
     "name": "シェルダー",
     "form": "shellder",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [30, 65, 100, 45, 25, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 91,
     "name": "パルシェン",
     "form": "cloyster",
-    "types": ["water", "ice"]
+    "types": ["water", "ice"],
+    "stats": [50, 95, 180, 85, 45, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 92,
     "name": "ゴース",
     "form": "gastly",
-    "types": ["ghost", "poison"]
+    "types": ["ghost", "poison"],
+    "stats": [30, 35, 30, 100, 35, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 93,
     "name": "ゴースト",
     "form": "haunter",
-    "types": ["ghost", "poison"]
+    "types": ["ghost", "poison"],
+    "stats": [45, 50, 45, 115, 55, 95]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 94,
     "name": "ゲンガー",
     "form": "gengar",
-    "types": ["ghost", "poison"]
+    "types": ["ghost", "poison"],
+    "stats": [60, 65, 60, 130, 75, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 96,
     "name": "スリープ",
     "form": "drowzee",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [60, 48, 45, 43, 90, 42]
   },
   {
     "dexes": ["31"],
     "dexNo": 97,
     "name": "スリーパー",
     "form": "hypno",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [85, 73, 70, 73, 115, 67]
   },
   {
     "dexes": ["31"],
     "dexNo": 100,
     "name": "ビリリダマ",
     "form": "voltorb",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [40, 30, 50, 55, 55, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 100,
     "name": "ビリリダマ",
     "form": "voltorb-hisui",
-    "types": ["electric", "grass"]
+    "types": ["electric", "grass"],
+    "stats": [40, 30, 50, 55, 55, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 101,
     "name": "マルマイン",
     "form": "electrode",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 50, 70, 80, 80, 150]
   },
   {
     "dexes": ["31"],
     "dexNo": 101,
     "name": "マルマイン",
     "form": "electrode-hisui",
-    "types": ["electric", "grass"]
+    "types": ["electric", "grass"],
+    "stats": [60, 50, 70, 80, 80, 150]
   },
   {
     "dexes": ["33"],
     "dexNo": 102,
     "name": "タマタマ",
     "form": "exeggcute",
-    "types": ["grass", "psychic"]
+    "types": ["grass", "psychic"],
+    "stats": [60, 40, 80, 60, 45, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 103,
     "name": "ナッシー",
     "form": "exeggutor",
-    "types": ["grass", "psychic"]
+    "types": ["grass", "psychic"],
+    "stats": [95, 95, 85, 125, 75, 55]
   },
   {
     "dexes": ["33"],
     "dexNo": 103,
     "name": "ナッシー",
     "form": "exeggutor-alola",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [95, 105, 85, 125, 75, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 106,
     "name": "サワムラー",
     "form": "hitmonlee",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [50, 120, 53, 35, 110, 87]
   },
   {
     "dexes": ["33"],
     "dexNo": 107,
     "name": "エビワラー",
     "form": "hitmonchan",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [50, 105, 79, 35, 110, 76]
   },
   {
     "dexes": ["32"],
     "dexNo": 109,
     "name": "ドガース",
     "form": "koffing",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [40, 65, 95, 60, 45, 35]
   },
   {
     "dexes": ["32"],
     "dexNo": 110,
     "name": "マタドガス",
     "form": "weezing",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [65, 90, 120, 85, 70, 60]
   },
   {
     "dexes": ["32"],
     "dexNo": 110,
     "name": "マタドガス",
     "form": "weezing-galar",
-    "types": ["poison", "fairy"]
+    "types": ["poison", "fairy"],
+    "stats": [65, 90, 120, 85, 70, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 111,
     "name": "サイホーン",
     "form": "rhyhorn",
-    "types": ["ground", "rock"]
+    "types": ["ground", "rock"],
+    "stats": [80, 85, 95, 30, 30, 25]
   },
   {
     "dexes": ["33"],
     "dexNo": 112,
     "name": "サイドン",
     "form": "rhydon",
-    "types": ["ground", "rock"]
+    "types": ["ground", "rock"],
+    "stats": [105, 130, 120, 45, 45, 40]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 113,
     "name": "ラッキー",
     "form": "chansey",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [250, 5, 5, 35, 105, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 116,
     "name": "タッツー",
     "form": "horsea",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [30, 40, 70, 70, 25, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 117,
     "name": "シードラ",
     "form": "seadra",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [55, 65, 95, 95, 45, 85]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 123,
     "name": "ストライク",
     "form": "scyther",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [70, 110, 80, 55, 80, 105]
   },
   {
     "dexes": ["33"],
     "dexNo": 125,
     "name": "エレブー",
     "form": "electabuzz",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [65, 83, 57, 95, 85, 105]
   },
   {
     "dexes": ["33"],
     "dexNo": 126,
     "name": "ブーバー",
     "form": "magmar",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [65, 95, 57, 100, 85, 93]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 128,
     "name": "ケンタロス",
     "form": "tauros",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [75, 100, 95, 40, 70, 110]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 128,
     "name": "ケンタロス",
     "form": "tauros-paldea-combat-breed",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [75, 110, 105, 30, 70, 100]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 128,
     "name": "ケンタロス",
     "form": "tauros-paldea-blaze-breed",
-    "types": ["fighting", "fire"]
+    "types": ["fighting", "fire"],
+    "stats": [75, 110, 105, 30, 70, 100]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 128,
     "name": "ケンタロス",
     "form": "tauros-paldea-aqua-breed",
-    "types": ["fighting", "water"]
+    "types": ["fighting", "water"],
+    "stats": [75, 110, 105, 30, 70, 100]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 129,
     "name": "コイキング",
     "form": "magikarp",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [20, 10, 55, 15, 20, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 130,
     "name": "ギャラドス",
     "form": "gyarados",
-    "types": ["water", "flying"]
+    "types": ["water", "flying"],
+    "stats": [95, 125, 79, 60, 100, 81]
   },
   {
     "dexes": ["33"],
     "dexNo": 131,
     "name": "ラプラス",
     "form": "lapras",
-    "types": ["water", "ice"]
+    "types": ["water", "ice"],
+    "stats": [130, 85, 80, 85, 95, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 132,
     "name": "メタモン",
     "form": "ditto",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [48, 48, 48, 48, 48, 48]
   },
   {
     "dexes": ["31"],
     "dexNo": 133,
     "name": "イーブイ",
     "form": "eevee",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [55, 55, 50, 45, 65, 55]
   },
   {
     "dexes": ["31"],
     "dexNo": 133,
     "name": "イーブイ",
     "form": "eevee-starter",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [65, 75, 70, 65, 85, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 134,
     "name": "シャワーズ",
     "form": "vaporeon",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [130, 65, 60, 110, 95, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 135,
     "name": "サンダース",
     "form": "jolteon",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [65, 65, 60, 110, 95, 130]
   },
   {
     "dexes": ["31"],
     "dexNo": 136,
     "name": "ブースター",
     "form": "flareon",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [65, 130, 60, 95, 110, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 137,
     "name": "ポリゴン",
     "form": "porygon",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [65, 60, 70, 85, 75, 40]
   },
   {
     "dexes": ["32"],
     "dexNo": 143,
     "name": "カビゴン",
     "form": "snorlax",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [160, 110, 65, 65, 110, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 147,
     "name": "ミニリュウ",
     "form": "dratini",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [41, 64, 45, 50, 50, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 148,
     "name": "ハクリュー",
     "form": "dragonair",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [61, 84, 65, 70, 70, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 149,
     "name": "カイリュー",
     "form": "dragonite",
-    "types": ["dragon", "flying"]
+    "types": ["dragon", "flying"],
+    "stats": [91, 134, 95, 100, 100, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 152,
     "name": "チコリータ",
     "form": "chikorita",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [45, 49, 65, 49, 65, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 153,
     "name": "ベイリーフ",
     "form": "bayleef",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [60, 62, 80, 63, 80, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 154,
     "name": "メガニウム",
     "form": "meganium",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [80, 82, 100, 83, 100, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 155,
     "name": "ヒノアラシ",
     "form": "cyndaquil",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [39, 52, 43, 60, 50, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 156,
     "name": "マグマラシ",
     "form": "quilava",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [58, 64, 58, 80, 65, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 157,
     "name": "バクフーン",
     "form": "typhlosion",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [78, 84, 78, 109, 85, 100]
   },
   {
     "dexes": ["33"],
     "dexNo": 157,
     "name": "バクフーン",
     "form": "typhlosion-hisui",
-    "types": ["fire", "ghost"]
+    "types": ["fire", "ghost"],
+    "stats": [73, 84, 78, 119, 85, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 158,
     "name": "ワニノコ",
     "form": "totodile",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 65, 64, 44, 48, 43]
   },
   {
     "dexes": ["33"],
     "dexNo": 159,
     "name": "アリゲイツ",
     "form": "croconaw",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [65, 80, 80, 59, 63, 58]
   },
   {
     "dexes": ["33"],
     "dexNo": 160,
     "name": "オーダイル",
     "form": "feraligatr",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [85, 105, 100, 79, 83, 78]
   },
   {
     "dexes": ["32"],
     "dexNo": 161,
     "name": "オタチ",
     "form": "sentret",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [35, 46, 34, 35, 45, 20]
   },
   {
     "dexes": ["32"],
     "dexNo": 162,
     "name": "オオタチ",
     "form": "furret",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [85, 76, 64, 45, 55, 90]
   },
   {
     "dexes": ["32"],
     "dexNo": 163,
     "name": "ホーホー",
     "form": "hoothoot",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [60, 30, 30, 36, 56, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 164,
     "name": "ヨルノズク",
     "form": "noctowl",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [100, 50, 50, 86, 96, 70]
   },
   {
     "dexes": ["32"],
     "dexNo": 167,
     "name": "イトマル",
     "form": "spinarak",
-    "types": ["bug", "poison"]
+    "types": ["bug", "poison"],
+    "stats": [40, 60, 40, 40, 40, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 168,
     "name": "アリアドス",
     "form": "ariados",
-    "types": ["bug", "poison"]
+    "types": ["bug", "poison"],
+    "stats": [70, 90, 70, 60, 70, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 170,
     "name": "チョンチー",
     "form": "chinchou",
-    "types": ["water", "electric"]
+    "types": ["water", "electric"],
+    "stats": [75, 38, 38, 56, 56, 67]
   },
   {
     "dexes": ["33"],
     "dexNo": 171,
     "name": "ランターン",
     "form": "lanturn",
-    "types": ["water", "electric"]
+    "types": ["water", "electric"],
+    "stats": [125, 58, 58, 76, 76, 67]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 172,
     "name": "ピチュー",
     "form": "pichu",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [20, 40, 15, 35, 35, 60]
   },
   {
     "dexes": ["32"],
     "dexNo": 173,
     "name": "ピィ",
     "form": "cleffa",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [50, 25, 28, 45, 55, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 174,
     "name": "ププリン",
     "form": "igglybuff",
-    "types": ["normal", "fairy"]
+    "types": ["normal", "fairy"],
+    "stats": [90, 30, 15, 40, 20, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 179,
     "name": "メリープ",
     "form": "mareep",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [55, 40, 40, 65, 45, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 180,
     "name": "モココ",
     "form": "flaaffy",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [70, 55, 55, 80, 60, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 181,
     "name": "デンリュウ",
     "form": "ampharos",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [90, 75, 85, 115, 90, 55]
   },
   {
     "dexes": ["33"],
     "dexNo": 182,
     "name": "キレイハナ",
     "form": "bellossom",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [75, 80, 95, 90, 100, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 183,
     "name": "マリル",
     "form": "marill",
-    "types": ["water", "fairy"]
+    "types": ["water", "fairy"],
+    "stats": [70, 20, 50, 20, 50, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 184,
     "name": "マリルリ",
     "form": "azumarill",
-    "types": ["water", "fairy"]
+    "types": ["water", "fairy"],
+    "stats": [100, 50, 80, 60, 80, 50]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 185,
     "name": "ウソッキー",
     "form": "sudowoodo",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [70, 100, 115, 30, 65, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 186,
     "name": "ニョロトノ",
     "form": "politoed",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [90, 75, 75, 90, 100, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 187,
     "name": "ハネッコ",
     "form": "hoppip",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [35, 35, 40, 35, 55, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 188,
     "name": "ポポッコ",
     "form": "skiploom",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [55, 45, 50, 45, 65, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 189,
     "name": "ワタッコ",
     "form": "jumpluff",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [75, 55, 70, 55, 95, 110]
   },
   {
     "dexes": ["32"],
     "dexNo": 190,
     "name": "エイパム",
     "form": "aipom",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [55, 70, 55, 40, 55, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 191,
     "name": "ヒマナッツ",
     "form": "sunkern",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [30, 30, 30, 30, 30, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 192,
     "name": "キマワリ",
     "form": "sunflora",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [75, 75, 55, 105, 85, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 193,
     "name": "ヤンヤンマ",
     "form": "yanma",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [65, 65, 45, 75, 45, 95]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 194,
     "name": "ウパー",
     "form": "wooper",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [55, 45, 45, 25, 25, 15]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 194,
     "name": "ウパー",
     "form": "wooper-paldea",
-    "types": ["poison", "ground"]
+    "types": ["poison", "ground"],
+    "stats": [55, 45, 45, 25, 25, 15]
   },
   {
     "dexes": ["32"],
     "dexNo": 195,
     "name": "ヌオー",
     "form": "quagsire",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [95, 85, 85, 65, 65, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 196,
     "name": "エーフィ",
     "form": "espeon",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [65, 65, 60, 130, 95, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 197,
     "name": "ブラッキー",
     "form": "umbreon",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [95, 65, 110, 60, 130, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 198,
     "name": "ヤミカラス",
     "form": "murkrow",
-    "types": ["dark", "flying"]
+    "types": ["dark", "flying"],
+    "stats": [60, 85, 42, 85, 42, 91]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 199,
     "name": "ヤドキング",
     "form": "slowking",
-    "types": ["water", "psychic"]
+    "types": ["water", "psychic"],
+    "stats": [95, 75, 80, 100, 110, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 199,
     "name": "ヤドキング",
     "form": "slowking-galar",
-    "types": ["poison", "psychic"]
+    "types": ["poison", "psychic"],
+    "stats": [95, 65, 80, 110, 110, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 200,
     "name": "ムウマ",
     "form": "misdreavus",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [60, 60, 60, 85, 85, 85]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 203,
     "name": "キリンリキ",
     "form": "girafarig",
-    "types": ["normal", "psychic"]
+    "types": ["normal", "psychic"],
+    "stats": [70, 80, 65, 90, 65, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 204,
     "name": "クヌギダマ",
     "form": "pineco",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [50, 65, 90, 35, 35, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 205,
     "name": "フォレトス",
     "form": "forretress",
-    "types": ["bug", "steel"]
+    "types": ["bug", "steel"],
+    "stats": [75, 90, 140, 60, 60, 40]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 206,
     "name": "ノコッチ",
     "form": "dunsparce",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [100, 70, 70, 65, 65, 45]
   },
   {
     "dexes": ["32"],
     "dexNo": 207,
     "name": "グライガー",
     "form": "gligar",
-    "types": ["ground", "flying"]
+    "types": ["ground", "flying"],
+    "stats": [65, 75, 105, 35, 65, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 209,
     "name": "ブルー",
     "form": "snubbull",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [60, 80, 50, 40, 40, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 210,
     "name": "グランブル",
     "form": "granbull",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [90, 120, 75, 60, 60, 45]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 211,
     "name": "ハリーセン",
     "form": "qwilfish",
-    "types": ["water", "poison"]
+    "types": ["water", "poison"],
+    "stats": [65, 95, 85, 55, 55, 85]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 211,
     "name": "ハリーセン",
     "form": "qwilfish-hisui",
-    "types": ["dark", "poison"]
+    "types": ["dark", "poison"],
+    "stats": [65, 95, 85, 55, 55, 85]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 212,
     "name": "ハッサム",
     "form": "scizor",
-    "types": ["bug", "steel"]
+    "types": ["bug", "steel"],
+    "stats": [70, 130, 100, 55, 80, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 214,
     "name": "ヘラクロス",
     "form": "heracross",
-    "types": ["bug", "fighting"]
+    "types": ["bug", "fighting"],
+    "stats": [80, 125, 75, 40, 95, 85]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 215,
     "name": "ニューラ",
     "form": "sneasel",
-    "types": ["dark", "ice"]
+    "types": ["dark", "ice"],
+    "stats": [55, 95, 55, 35, 75, 115]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 215,
     "name": "ニューラ",
     "form": "sneasel-hisui",
-    "types": ["fighting", "poison"]
+    "types": ["fighting", "poison"],
+    "stats": [55, 95, 55, 35, 75, 115]
   },
   {
     "dexes": ["31"],
     "dexNo": 216,
     "name": "ヒメグマ",
     "form": "teddiursa",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [60, 80, 50, 50, 50, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 217,
     "name": "リングマ",
     "form": "ursaring",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [90, 130, 75, 75, 75, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 218,
     "name": "マグマッグ",
     "form": "slugma",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [40, 40, 40, 70, 40, 20]
   },
   {
     "dexes": ["32"],
     "dexNo": 219,
     "name": "マグカルゴ",
     "form": "magcargo",
-    "types": ["fire", "rock"]
+    "types": ["fire", "rock"],
+    "stats": [60, 50, 120, 90, 80, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 220,
     "name": "ウリムー",
     "form": "swinub",
-    "types": ["ice", "ground"]
+    "types": ["ice", "ground"],
+    "stats": [50, 50, 40, 30, 30, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 221,
     "name": "イノムー",
     "form": "piloswine",
-    "types": ["ice", "ground"]
+    "types": ["ice", "ground"],
+    "stats": [100, 100, 80, 60, 60, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 225,
     "name": "デリバード",
     "form": "delibird",
-    "types": ["ice", "flying"]
+    "types": ["ice", "flying"],
+    "stats": [45, 55, 45, 65, 45, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 227,
     "name": "エアームド",
     "form": "skarmory",
-    "types": ["steel", "flying"]
+    "types": ["steel", "flying"],
+    "stats": [65, 80, 140, 40, 70, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 228,
     "name": "デルビル",
     "form": "houndour",
-    "types": ["dark", "fire"]
+    "types": ["dark", "fire"],
+    "stats": [45, 60, 30, 80, 50, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 229,
     "name": "ヘルガー",
     "form": "houndoom",
-    "types": ["dark", "fire"]
+    "types": ["dark", "fire"],
+    "stats": [75, 90, 50, 110, 80, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 230,
     "name": "キングドラ",
     "form": "kingdra",
-    "types": ["water", "dragon"]
+    "types": ["water", "dragon"],
+    "stats": [75, 95, 95, 95, 95, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 231,
     "name": "ゴマゾウ",
     "form": "phanpy",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [90, 60, 60, 40, 40, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 232,
     "name": "ドンファン",
     "form": "donphan",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [90, 120, 120, 60, 60, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 233,
     "name": "ポリゴン２",
     "form": "porygon2",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [85, 80, 90, 105, 95, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 234,
     "name": "オドシシ",
     "form": "stantler",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [73, 95, 62, 85, 65, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 235,
     "name": "ドーブル",
     "form": "smeargle",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [55, 20, 35, 20, 45, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 236,
     "name": "バルキー",
     "form": "tyrogue",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [35, 35, 35, 35, 35, 35]
   },
   {
     "dexes": ["33"],
     "dexNo": 237,
     "name": "カポエラー",
     "form": "hitmontop",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [50, 95, 95, 35, 110, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 239,
     "name": "エレキッド",
     "form": "elekid",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [45, 63, 37, 65, 55, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 240,
     "name": "ブビィ",
     "form": "magby",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [45, 75, 37, 70, 55, 83]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 242,
     "name": "ハピナス",
     "form": "blissey",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [255, 10, 10, 75, 135, 55]
   },
   {
     "dexes": ["31"],
     "dexNo": 246,
     "name": "ヨーギラス",
     "form": "larvitar",
-    "types": ["rock", "ground"]
+    "types": ["rock", "ground"],
+    "stats": [50, 64, 50, 45, 50, 41]
   },
   {
     "dexes": ["31"],
     "dexNo": 247,
     "name": "サナギラス",
     "form": "pupitar",
-    "types": ["rock", "ground"]
+    "types": ["rock", "ground"],
+    "stats": [70, 84, 70, 65, 70, 51]
   },
   {
     "dexes": ["31"],
     "dexNo": 248,
     "name": "バンギラス",
     "form": "tyranitar",
-    "types": ["rock", "dark"]
+    "types": ["rock", "dark"],
+    "stats": [100, 134, 110, 95, 100, 61]
   },
   {
     "dexes": ["33"],
     "dexNo": 252,
     "name": "キモリ",
     "form": "treecko",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [40, 45, 35, 65, 55, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 253,
     "name": "ジュプトル",
     "form": "grovyle",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [50, 65, 45, 85, 65, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 254,
     "name": "ジュカイン",
     "form": "sceptile",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [70, 85, 65, 105, 85, 120]
   },
   {
     "dexes": ["33"],
     "dexNo": 255,
     "name": "アチャモ",
     "form": "torchic",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [45, 60, 40, 70, 50, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 256,
     "name": "ワカシャモ",
     "form": "combusken",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [60, 85, 60, 85, 60, 55]
   },
   {
     "dexes": ["33"],
     "dexNo": 257,
     "name": "バシャーモ",
     "form": "blaziken",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [80, 120, 70, 110, 70, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 258,
     "name": "ミズゴロウ",
     "form": "mudkip",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 70, 50, 50, 50, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 259,
     "name": "ヌマクロー",
     "form": "marshtomp",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [70, 85, 70, 60, 70, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 260,
     "name": "ラグラージ",
     "form": "swampert",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [100, 110, 90, 85, 90, 60]
   },
   {
     "dexes": ["32"],
     "dexNo": 261,
     "name": "ポチエナ",
     "form": "poochyena",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [35, 55, 35, 30, 30, 35]
   },
   {
     "dexes": ["32"],
     "dexNo": 262,
     "name": "グラエナ",
     "form": "mightyena",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [70, 90, 70, 60, 60, 70]
   },
   {
     "dexes": ["32"],
     "dexNo": 270,
     "name": "ハスボー",
     "form": "lotad",
-    "types": ["water", "grass"]
+    "types": ["water", "grass"],
+    "stats": [40, 30, 30, 40, 50, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 271,
     "name": "ハスブレロ",
     "form": "lombre",
-    "types": ["water", "grass"]
+    "types": ["water", "grass"],
+    "stats": [60, 50, 50, 60, 70, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 272,
     "name": "ルンパッパ",
     "form": "ludicolo",
-    "types": ["water", "grass"]
+    "types": ["water", "grass"],
+    "stats": [80, 70, 70, 90, 100, 70]
   },
   {
     "dexes": ["32"],
     "dexNo": 273,
     "name": "タネボー",
     "form": "seedot",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [40, 40, 50, 30, 30, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 274,
     "name": "コノハナ",
     "form": "nuzleaf",
-    "types": ["grass", "dark"]
+    "types": ["grass", "dark"],
+    "stats": [70, 70, 40, 60, 40, 60]
   },
   {
     "dexes": ["32"],
     "dexNo": 275,
     "name": "ダーテング",
     "form": "shiftry",
-    "types": ["grass", "dark"]
+    "types": ["grass", "dark"],
+    "stats": [90, 100, 60, 90, 60, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 278,
     "name": "キャモメ",
     "form": "wingull",
-    "types": ["water", "flying"]
+    "types": ["water", "flying"],
+    "stats": [40, 30, 30, 55, 30, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 279,
     "name": "ペリッパー",
     "form": "pelipper",
-    "types": ["water", "flying"]
+    "types": ["water", "flying"],
+    "stats": [60, 50, 100, 95, 70, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 280,
     "name": "ラルトス",
     "form": "ralts",
-    "types": ["psychic", "fairy"]
+    "types": ["psychic", "fairy"],
+    "stats": [28, 25, 25, 45, 35, 40]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 281,
     "name": "キルリア",
     "form": "kirlia",
-    "types": ["psychic", "fairy"]
+    "types": ["psychic", "fairy"],
+    "stats": [38, 35, 35, 65, 55, 50]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 282,
     "name": "サーナイト",
     "form": "gardevoir",
-    "types": ["psychic", "fairy"]
+    "types": ["psychic", "fairy"],
+    "stats": [68, 65, 65, 125, 115, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 283,
     "name": "アメタマ",
     "form": "surskit",
-    "types": ["bug", "water"]
+    "types": ["bug", "water"],
+    "stats": [40, 30, 32, 50, 52, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 284,
     "name": "アメモース",
     "form": "masquerain",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [70, 60, 62, 100, 82, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 285,
     "name": "キノココ",
     "form": "shroomish",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [60, 40, 60, 40, 60, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 286,
     "name": "キノガッサ",
     "form": "breloom",
-    "types": ["grass", "fighting"]
+    "types": ["grass", "fighting"],
+    "stats": [60, 130, 80, 60, 60, 70]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 287,
     "name": "ナマケロ",
     "form": "slakoth",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [60, 60, 60, 35, 35, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 288,
     "name": "ヤルキモノ",
     "form": "vigoroth",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [80, 80, 80, 55, 55, 90]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 289,
     "name": "ケッキング",
     "form": "slaking",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [150, 160, 100, 95, 65, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 296,
     "name": "マクノシタ",
     "form": "makuhita",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [72, 60, 30, 20, 30, 25]
   },
   {
     "dexes": ["31"],
     "dexNo": 297,
     "name": "ハリテヤマ",
     "form": "hariyama",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [144, 120, 60, 40, 60, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 298,
     "name": "ルリリ",
     "form": "azurill",
-    "types": ["normal", "fairy"]
+    "types": ["normal", "fairy"],
+    "stats": [50, 20, 40, 20, 40, 20]
   },
   {
     "dexes": ["32"],
     "dexNo": 299,
     "name": "ノズパス",
     "form": "nosepass",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [30, 45, 135, 45, 90, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 302,
     "name": "ヤミラミ",
     "form": "sableye",
-    "types": ["dark", "ghost"]
+    "types": ["dark", "ghost"],
+    "stats": [50, 75, 75, 65, 65, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 307,
     "name": "アサナン",
     "form": "meditite",
-    "types": ["fighting", "psychic"]
+    "types": ["fighting", "psychic"],
+    "stats": [30, 40, 55, 40, 55, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 308,
     "name": "チャーレム",
     "form": "medicham",
-    "types": ["fighting", "psychic"]
+    "types": ["fighting", "psychic"],
+    "stats": [60, 60, 75, 60, 75, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 311,
     "name": "プラスル",
     "form": "plusle",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 50, 40, 85, 75, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 312,
     "name": "マイナン",
     "form": "minun",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 40, 50, 75, 85, 95]
   },
   {
     "dexes": ["32"],
     "dexNo": 313,
     "name": "バルビート",
     "form": "volbeat",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [65, 73, 75, 47, 85, 85]
   },
   {
     "dexes": ["32"],
     "dexNo": 314,
     "name": "イルミーゼ",
     "form": "illumise",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [65, 47, 75, 73, 85, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 316,
     "name": "ゴクリン",
     "form": "gulpin",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [70, 43, 53, 43, 53, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 317,
     "name": "マルノーム",
     "form": "swalot",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [100, 73, 83, 73, 83, 55]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 322,
     "name": "ドンメル",
     "form": "numel",
-    "types": ["fire", "ground"]
+    "types": ["fire", "ground"],
+    "stats": [60, 60, 40, 65, 45, 35]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 323,
     "name": "バクーダ",
     "form": "camerupt",
-    "types": ["fire", "ground"]
+    "types": ["fire", "ground"],
+    "stats": [70, 100, 70, 105, 75, 40]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 324,
     "name": "コータス",
     "form": "torkoal",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [70, 85, 140, 85, 70, 20]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 325,
     "name": "バネブー",
     "form": "spoink",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [60, 25, 35, 70, 80, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 326,
     "name": "ブーピッグ",
     "form": "grumpig",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [80, 45, 65, 90, 110, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 328,
     "name": "ナックラー",
     "form": "trapinch",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [45, 100, 45, 45, 45, 10]
   },
   {
     "dexes": ["33"],
     "dexNo": 329,
     "name": "ビブラーバ",
     "form": "vibrava",
-    "types": ["ground", "dragon"]
+    "types": ["ground", "dragon"],
+    "stats": [50, 70, 50, 50, 50, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 330,
     "name": "フライゴン",
     "form": "flygon",
-    "types": ["ground", "dragon"]
+    "types": ["ground", "dragon"],
+    "stats": [80, 100, 80, 80, 80, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 331,
     "name": "サボネア",
     "form": "cacnea",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [50, 85, 40, 85, 40, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 332,
     "name": "ノクタス",
     "form": "cacturne",
-    "types": ["grass", "dark"]
+    "types": ["grass", "dark"],
+    "stats": [70, 115, 60, 115, 60, 55]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 333,
     "name": "チルット",
     "form": "swablu",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [45, 40, 60, 40, 75, 50]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 334,
     "name": "チルタリス",
     "form": "altaria",
-    "types": ["dragon", "flying"]
+    "types": ["dragon", "flying"],
+    "stats": [75, 70, 90, 70, 105, 80]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 335,
     "name": "ザングース",
     "form": "zangoose",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [73, 115, 60, 60, 60, 90]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 336,
     "name": "ハブネーク",
     "form": "seviper",
-    "types": ["poison"]
+    "types": ["poison"],
+    "stats": [73, 100, 60, 100, 60, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 339,
     "name": "ドジョッチ",
     "form": "barboach",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [50, 48, 43, 46, 41, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 340,
     "name": "ナマズン",
     "form": "whiscash",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [110, 78, 73, 76, 71, 60]
   },
   {
     "dexes": ["32"],
     "dexNo": 341,
     "name": "ヘイガニ",
     "form": "corphish",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [43, 80, 65, 50, 35, 35]
   },
   {
     "dexes": ["32"],
     "dexNo": 342,
     "name": "シザリガー",
     "form": "crawdaunt",
-    "types": ["water", "dark"]
+    "types": ["water", "dark"],
+    "stats": [63, 120, 85, 90, 55, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 349,
     "name": "ヒンバス",
     "form": "feebas",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [20, 15, 20, 10, 55, 80]
   },
   {
     "dexes": ["32"],
     "dexNo": 350,
     "name": "ミロカロス",
     "form": "milotic",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [95, 60, 79, 100, 125, 81]
   },
   {
     "dexes": ["31"],
     "dexNo": 353,
     "name": "カゲボウズ",
     "form": "shuppet",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [44, 75, 35, 63, 33, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 354,
     "name": "ジュペッタ",
     "form": "banette",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [64, 115, 65, 83, 63, 65]
   },
   {
     "dexes": ["32"],
     "dexNo": 355,
     "name": "ヨマワル",
     "form": "duskull",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [20, 40, 90, 30, 90, 25]
   },
   {
     "dexes": ["32"],
     "dexNo": 356,
     "name": "サマヨール",
     "form": "dusclops",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [40, 70, 130, 60, 130, 25]
   },
   {
     "dexes": ["31"],
     "dexNo": 357,
     "name": "トロピウス",
     "form": "tropius",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [99, 68, 83, 72, 87, 51]
   },
   {
     "dexes": ["32"],
     "dexNo": 358,
     "name": "チリーン",
     "form": "chimecho",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [75, 50, 80, 95, 90, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 361,
     "name": "ユキワラシ",
     "form": "snorunt",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [50, 50, 50, 50, 50, 50]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 362,
     "name": "オニゴーリ",
     "form": "glalie",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [80, 80, 80, 80, 80, 80]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 370,
     "name": "ラブカス",
     "form": "luvdisc",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [43, 30, 55, 40, 65, 97]
   },
   {
     "dexes": ["31"],
     "dexNo": 371,
     "name": "タツベイ",
     "form": "bagon",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [45, 75, 60, 40, 30, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 372,
     "name": "コモルー",
     "form": "shelgon",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [65, 95, 100, 60, 50, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 373,
     "name": "ボーマンダ",
     "form": "salamence",
-    "types": ["dragon", "flying"]
+    "types": ["dragon", "flying"],
+    "stats": [95, 135, 80, 110, 80, 100]
   },
   {
     "dexes": ["33"],
     "dexNo": 374,
     "name": "ダンバル",
     "form": "beldum",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [40, 55, 80, 35, 60, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 375,
     "name": "メタング",
     "form": "metang",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [60, 75, 100, 55, 80, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 376,
     "name": "メタグロス",
     "form": "metagross",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [80, 135, 130, 95, 90, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 387,
     "name": "ナエトル",
     "form": "turtwig",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [55, 68, 64, 45, 55, 31]
   },
   {
     "dexes": ["33"],
     "dexNo": 388,
     "name": "ハヤシガメ",
     "form": "grotle",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [75, 89, 85, 55, 65, 36]
   },
   {
     "dexes": ["33"],
     "dexNo": 389,
     "name": "ドダイトス",
     "form": "torterra",
-    "types": ["grass", "ground"]
+    "types": ["grass", "ground"],
+    "stats": [95, 109, 105, 75, 85, 56]
   },
   {
     "dexes": ["33"],
     "dexNo": 390,
     "name": "ヒコザル",
     "form": "chimchar",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [44, 58, 44, 58, 44, 61]
   },
   {
     "dexes": ["33"],
     "dexNo": 391,
     "name": "モウカザル",
     "form": "monferno",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [64, 78, 52, 78, 52, 81]
   },
   {
     "dexes": ["33"],
     "dexNo": 392,
     "name": "ゴウカザル",
     "form": "infernape",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [76, 104, 71, 104, 71, 108]
   },
   {
     "dexes": ["33"],
     "dexNo": 393,
     "name": "ポッチャマ",
     "form": "piplup",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [53, 51, 53, 61, 56, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 394,
     "name": "ポッタイシ",
     "form": "prinplup",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [64, 66, 68, 81, 76, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 395,
     "name": "エンペルト",
     "form": "empoleon",
-    "types": ["water", "steel"]
+    "types": ["water", "steel"],
+    "stats": [84, 86, 88, 111, 101, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 396,
     "name": "ムックル",
     "form": "starly",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [40, 55, 30, 30, 30, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 397,
     "name": "ムクバード",
     "form": "staravia",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [55, 75, 50, 40, 40, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 398,
     "name": "ムクホーク",
     "form": "staraptor",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [85, 120, 70, 50, 60, 100]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 401,
     "name": "コロボーシ",
     "form": "kricketot",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [37, 25, 41, 25, 41, 25]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 402,
     "name": "コロトック",
     "form": "kricketune",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [77, 85, 51, 55, 51, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 403,
     "name": "コリンク",
     "form": "shinx",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [45, 65, 34, 40, 34, 45]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 404,
     "name": "ルクシオ",
     "form": "luxio",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 85, 49, 60, 49, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 405,
     "name": "レントラー",
     "form": "luxray",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [80, 120, 79, 95, 79, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 408,
     "name": "ズガイドス",
     "form": "cranidos",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [67, 125, 40, 30, 30, 58]
   },
   {
     "dexes": ["33"],
     "dexNo": 409,
     "name": "ラムパルド",
     "form": "rampardos",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [97, 165, 60, 65, 50, 58]
   },
   {
     "dexes": ["33"],
     "dexNo": 410,
     "name": "タテトプス",
     "form": "shieldon",
-    "types": ["rock", "steel"]
+    "types": ["rock", "steel"],
+    "stats": [30, 42, 118, 42, 88, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 411,
     "name": "トリデプス",
     "form": "bastiodon",
-    "types": ["rock", "steel"]
+    "types": ["rock", "steel"],
+    "stats": [60, 52, 168, 47, 138, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 415,
     "name": "ミツハニー",
     "form": "combee",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [30, 30, 42, 30, 42, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 416,
     "name": "ビークイン",
     "form": "vespiquen",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [70, 80, 102, 80, 102, 40]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 417,
     "name": "パチリス",
     "form": "pachirisu",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [60, 45, 70, 45, 90, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 418,
     "name": "ブイゼル",
     "form": "buizel",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [55, 65, 35, 60, 30, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 419,
     "name": "フローゼル",
     "form": "floatzel",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [85, 105, 55, 85, 50, 115]
   },
   {
     "dexes": ["31"],
     "dexNo": 422,
     "name": "カラナクシ",
     "form": "shellos",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [76, 48, 48, 57, 62, 34]
   },
   {
     "dexes": ["31"],
     "dexNo": 423,
     "name": "トリトドン",
     "form": "gastrodon",
-    "types": ["water", "ground"]
+    "types": ["water", "ground"],
+    "stats": [111, 83, 68, 92, 82, 39]
   },
   {
     "dexes": ["32"],
     "dexNo": 424,
     "name": "エテボース",
     "form": "ambipom",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [75, 100, 66, 60, 66, 115]
   },
   {
     "dexes": ["31"],
     "dexNo": 425,
     "name": "フワンテ",
     "form": "drifloon",
-    "types": ["ghost", "flying"]
+    "types": ["ghost", "flying"],
+    "stats": [90, 50, 34, 60, 44, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 426,
     "name": "フワライド",
     "form": "drifblim",
-    "types": ["ghost", "flying"]
+    "types": ["ghost", "flying"],
+    "stats": [150, 80, 44, 90, 54, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 429,
     "name": "ムウマージ",
     "form": "mismagius",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [60, 60, 60, 105, 105, 105]
   },
   {
     "dexes": ["31"],
     "dexNo": 430,
     "name": "ドンカラス",
     "form": "honchkrow",
-    "types": ["dark", "flying"]
+    "types": ["dark", "flying"],
+    "stats": [100, 125, 52, 105, 52, 71]
   },
   {
     "dexes": ["32"],
     "dexNo": 433,
     "name": "リーシャン",
     "form": "chingling",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [45, 30, 50, 65, 50, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 434,
     "name": "スカンプー",
     "form": "stunky",
-    "types": ["poison", "dark"]
+    "types": ["poison", "dark"],
+    "stats": [63, 63, 47, 41, 41, 74]
   },
   {
     "dexes": ["31"],
     "dexNo": 435,
     "name": "スカタンク",
     "form": "skuntank",
-    "types": ["poison", "dark"]
+    "types": ["poison", "dark"],
+    "stats": [103, 93, 67, 71, 61, 84]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 436,
     "name": "ドーミラー",
     "form": "bronzor",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [57, 24, 86, 24, 86, 23]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 437,
     "name": "ドータクン",
     "form": "bronzong",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [67, 89, 116, 79, 116, 33]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 438,
     "name": "ウソハチ",
     "form": "bonsly",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [50, 80, 95, 10, 45, 10]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 440,
     "name": "ピンプク",
     "form": "happiny",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [100, 5, 5, 15, 65, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 442,
     "name": "ミカルゲ",
     "form": "spiritomb",
-    "types": ["ghost", "dark"]
+    "types": ["ghost", "dark"],
+    "stats": [50, 92, 108, 92, 108, 35]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 443,
     "name": "フカマル",
     "form": "gible",
-    "types": ["dragon", "ground"]
+    "types": ["dragon", "ground"],
+    "stats": [58, 70, 45, 40, 45, 42]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 444,
     "name": "ガバイト",
     "form": "gabite",
-    "types": ["dragon", "ground"]
+    "types": ["dragon", "ground"],
+    "stats": [68, 90, 65, 50, 55, 82]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 445,
     "name": "ガブリアス",
     "form": "garchomp",
-    "types": ["dragon", "ground"]
+    "types": ["dragon", "ground"],
+    "stats": [108, 130, 95, 80, 85, 102]
   },
   {
     "dexes": ["32"],
     "dexNo": 446,
     "name": "ゴンベ",
     "form": "munchlax",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [135, 85, 40, 40, 85, 5]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 447,
     "name": "リオル",
     "form": "riolu",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [40, 70, 40, 35, 40, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 448,
     "name": "ルカリオ",
     "form": "lucario",
-    "types": ["fighting", "steel"]
+    "types": ["fighting", "steel"],
+    "stats": [70, 110, 70, 115, 70, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 449,
     "name": "ヒポポタス",
     "form": "hippopotas",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [68, 72, 78, 38, 42, 32]
   },
   {
     "dexes": ["31"],
     "dexNo": 450,
     "name": "カバルドン",
     "form": "hippowdon",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [108, 112, 118, 68, 72, 47]
   },
   {
     "dexes": ["31"],
     "dexNo": 453,
     "name": "グレッグル",
     "form": "croagunk",
-    "types": ["poison", "fighting"]
+    "types": ["poison", "fighting"],
+    "stats": [48, 61, 40, 61, 40, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 454,
     "name": "ドクロッグ",
     "form": "toxicroak",
-    "types": ["poison", "fighting"]
+    "types": ["poison", "fighting"],
+    "stats": [83, 106, 65, 86, 65, 85]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 456,
     "name": "ケイコウオ",
     "form": "finneon",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [49, 49, 56, 49, 61, 66]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 457,
     "name": "ネオラント",
     "form": "lumineon",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [69, 69, 76, 69, 86, 91]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 459,
     "name": "ユキカブリ",
     "form": "snover",
-    "types": ["grass", "ice"]
+    "types": ["grass", "ice"],
+    "stats": [60, 62, 50, 62, 60, 40]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 460,
     "name": "ユキノオー",
     "form": "abomasnow",
-    "types": ["grass", "ice"]
+    "types": ["grass", "ice"],
+    "stats": [90, 92, 75, 92, 85, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 461,
     "name": "マニューラ",
     "form": "weavile",
-    "types": ["dark", "ice"]
+    "types": ["dark", "ice"],
+    "stats": [70, 120, 65, 45, 85, 125]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 462,
     "name": "ジバコイル",
     "form": "magnezone",
-    "types": ["electric", "steel"]
+    "types": ["electric", "steel"],
+    "stats": [70, 70, 115, 130, 90, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 464,
     "name": "ドサイドン",
     "form": "rhyperior",
-    "types": ["ground", "rock"]
+    "types": ["ground", "rock"],
+    "stats": [115, 140, 130, 55, 55, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 466,
     "name": "エレキブル",
     "form": "electivire",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [75, 123, 67, 95, 85, 95]
   },
   {
     "dexes": ["33"],
     "dexNo": 467,
     "name": "ブーバーン",
     "form": "magmortar",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [75, 95, 67, 125, 95, 83]
   },
   {
     "dexes": ["32"],
     "dexNo": 469,
     "name": "メガヤンマ",
     "form": "yanmega",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [86, 76, 86, 116, 56, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 470,
     "name": "リーフィア",
     "form": "leafeon",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [65, 110, 130, 60, 65, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 471,
     "name": "グレイシア",
     "form": "glaceon",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [65, 60, 110, 130, 95, 65]
   },
   {
     "dexes": ["32"],
     "dexNo": 472,
     "name": "グライオン",
     "form": "gliscor",
-    "types": ["ground", "flying"]
+    "types": ["ground", "flying"],
+    "stats": [75, 95, 125, 45, 75, 95]
   },
   {
     "dexes": ["32"],
     "dexNo": 473,
     "name": "マンムー",
     "form": "mamoswine",
-    "types": ["ice", "ground"]
+    "types": ["ice", "ground"],
+    "stats": [110, 130, 80, 70, 60, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 474,
     "name": "ポリゴンＺ",
     "form": "porygon-z",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [85, 80, 70, 135, 75, 90]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 475,
     "name": "エルレイド",
     "form": "gallade",
-    "types": ["psychic", "fighting"]
+    "types": ["psychic", "fighting"],
+    "stats": [68, 125, 65, 65, 115, 80]
   },
   {
     "dexes": ["32"],
     "dexNo": 476,
     "name": "ダイノーズ",
     "form": "probopass",
-    "types": ["rock", "steel"]
+    "types": ["rock", "steel"],
+    "stats": [60, 55, 145, 75, 150, 40]
   },
   {
     "dexes": ["32"],
     "dexNo": 477,
     "name": "ヨノワール",
     "form": "dusknoir",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [45, 100, 135, 65, 135, 45]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 478,
     "name": "ユキメノコ",
     "form": "froslass",
-    "types": ["ice", "ghost"]
+    "types": ["ice", "ghost"],
+    "stats": [70, 80, 70, 80, 70, 110]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom",
-    "types": ["electric", "ghost"]
+    "types": ["electric", "ghost"],
+    "stats": [50, 50, 77, 95, 77, 91]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom-heat",
-    "types": ["electric", "fire"]
+    "types": ["electric", "fire"],
+    "stats": [50, 65, 107, 105, 107, 86]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom-wash",
-    "types": ["electric", "water"]
+    "types": ["electric", "water"],
+    "stats": [50, 65, 107, 105, 107, 86]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom-frost",
-    "types": ["electric", "ice"]
+    "types": ["electric", "ice"],
+    "stats": [50, 65, 107, 105, 107, 86]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom-fan",
-    "types": ["electric", "flying"]
+    "types": ["electric", "flying"],
+    "stats": [50, 65, 107, 105, 107, 86]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 479,
     "name": "ロトム",
     "form": "rotom-mow",
-    "types": ["electric", "grass"]
+    "types": ["electric", "grass"],
+    "stats": [50, 65, 107, 105, 107, 86]
   },
   {
     "dexes": ["33"],
     "dexNo": 495,
     "name": "ツタージャ",
     "form": "snivy",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [45, 45, 55, 45, 55, 63]
   },
   {
     "dexes": ["33"],
     "dexNo": 496,
     "name": "ジャノビー",
     "form": "servine",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [60, 60, 75, 60, 75, 83]
   },
   {
     "dexes": ["33"],
     "dexNo": 497,
     "name": "ジャローダ",
     "form": "serperior",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [75, 75, 95, 75, 95, 113]
   },
   {
     "dexes": ["33"],
     "dexNo": 498,
     "name": "ポカブ",
     "form": "tepig",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [65, 63, 45, 45, 45, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 499,
     "name": "チャオブー",
     "form": "pignite",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [90, 93, 55, 70, 55, 55]
   },
   {
     "dexes": ["33"],
     "dexNo": 500,
     "name": "エンブオー",
     "form": "emboar",
-    "types": ["fire", "fighting"]
+    "types": ["fire", "fighting"],
+    "stats": [110, 123, 65, 100, 65, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 501,
     "name": "ミジュマル",
     "form": "oshawott",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [55, 55, 45, 63, 45, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 502,
     "name": "フタチマル",
     "form": "dewott",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [75, 75, 60, 83, 60, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 503,
     "name": "ダイケンキ",
     "form": "samurott",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [95, 100, 85, 108, 70, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 503,
     "name": "ダイケンキ",
     "form": "samurott-hisui",
-    "types": ["water", "dark"]
+    "types": ["water", "dark"],
+    "stats": [90, 108, 80, 100, 65, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 522,
     "name": "シママ",
     "form": "blitzle",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [45, 60, 32, 50, 32, 76]
   },
   {
     "dexes": ["33"],
     "dexNo": 523,
     "name": "ゼブライカ",
     "form": "zebstrika",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [75, 100, 63, 80, 63, 116]
   },
   {
     "dexes": ["33"],
     "dexNo": 529,
     "name": "モグリュー",
     "form": "drilbur",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [60, 85, 40, 30, 45, 68]
   },
   {
     "dexes": ["33"],
     "dexNo": 530,
     "name": "ドリュウズ",
     "form": "excadrill",
-    "types": ["ground", "steel"]
+    "types": ["ground", "steel"],
+    "stats": [110, 135, 60, 50, 65, 88]
   },
   {
     "dexes": ["32"],
     "dexNo": 532,
     "name": "ドッコラー",
     "form": "timburr",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [75, 80, 55, 25, 35, 35]
   },
   {
     "dexes": ["32"],
     "dexNo": 533,
     "name": "ドテッコツ",
     "form": "gurdurr",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [85, 105, 85, 40, 50, 40]
   },
   {
     "dexes": ["32"],
     "dexNo": 534,
     "name": "ローブシン",
     "form": "conkeldurr",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [105, 140, 95, 55, 65, 45]
   },
   {
     "dexes": ["32"],
     "dexNo": 540,
     "name": "クルミル",
     "form": "sewaddle",
-    "types": ["bug", "grass"]
+    "types": ["bug", "grass"],
+    "stats": [45, 53, 70, 40, 60, 42]
   },
   {
     "dexes": ["32"],
     "dexNo": 541,
     "name": "クルマユ",
     "form": "swadloon",
-    "types": ["bug", "grass"]
+    "types": ["bug", "grass"],
+    "stats": [55, 63, 90, 50, 80, 42]
   },
   {
     "dexes": ["32"],
     "dexNo": 542,
     "name": "ハハコモリ",
     "form": "leavanny",
-    "types": ["bug", "grass"]
+    "types": ["bug", "grass"],
+    "stats": [75, 103, 80, 70, 80, 92]
   },
   {
     "dexes": ["33"],
     "dexNo": 546,
     "name": "モンメン",
     "form": "cottonee",
-    "types": ["grass", "fairy"]
+    "types": ["grass", "fairy"],
+    "stats": [40, 27, 60, 37, 50, 66]
   },
   {
     "dexes": ["33"],
     "dexNo": 547,
     "name": "エルフーン",
     "form": "whimsicott",
-    "types": ["grass", "fairy"]
+    "types": ["grass", "fairy"],
+    "stats": [60, 67, 85, 77, 75, 116]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 548,
     "name": "チュリネ",
     "form": "petilil",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [45, 35, 50, 70, 50, 30]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 549,
     "name": "ドレディア",
     "form": "lilligant",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [70, 60, 75, 110, 75, 90]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 549,
     "name": "ドレディア",
     "form": "lilligant-hisui",
-    "types": ["grass", "fighting"]
+    "types": ["grass", "fighting"],
+    "stats": [70, 105, 75, 50, 75, 105]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 550,
     "name": "バスラオ",
     "form": "basculin-red-striped",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 92, 65, 80, 55, 98]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 550,
     "name": "バスラオ",
     "form": "basculin-blue-striped",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 92, 65, 80, 55, 98]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 550,
     "name": "バスラオ",
     "form": "basculin-white-striped",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 92, 65, 80, 55, 98]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 551,
     "name": "メグロコ",
     "form": "sandile",
-    "types": ["ground", "dark"]
+    "types": ["ground", "dark"],
+    "stats": [50, 72, 35, 35, 35, 65]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 552,
     "name": "ワルビル",
     "form": "krokorok",
-    "types": ["ground", "dark"]
+    "types": ["ground", "dark"],
+    "stats": [60, 82, 45, 45, 45, 74]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 553,
     "name": "ワルビアル",
     "form": "krookodile",
-    "types": ["ground", "dark"]
+    "types": ["ground", "dark"],
+    "stats": [95, 117, 80, 65, 70, 92]
   },
   {
     "dexes": ["33"],
     "dexNo": 559,
     "name": "ズルッグ",
     "form": "scraggy",
-    "types": ["dark", "fighting"]
+    "types": ["dark", "fighting"],
+    "stats": [50, 75, 70, 35, 70, 48]
   },
   {
     "dexes": ["33"],
     "dexNo": 560,
     "name": "ズルズキン",
     "form": "scrafty",
-    "types": ["dark", "fighting"]
+    "types": ["dark", "fighting"],
+    "stats": [65, 90, 115, 45, 115, 58]
   },
   {
     "dexes": ["31"],
     "dexNo": 570,
     "name": "ゾロア",
     "form": "zorua",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [40, 65, 40, 80, 40, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 570,
     "name": "ゾロア",
     "form": "zorua-hisui",
-    "types": ["normal", "ghost"]
+    "types": ["normal", "ghost"],
+    "stats": [35, 60, 40, 85, 40, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 571,
     "name": "ゾロアーク",
     "form": "zoroark",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [60, 105, 60, 120, 60, 105]
   },
   {
     "dexes": ["31"],
     "dexNo": 571,
     "name": "ゾロアーク",
     "form": "zoroark-hisui",
-    "types": ["normal", "ghost"]
+    "types": ["normal", "ghost"],
+    "stats": [55, 100, 60, 125, 60, 110]
   },
   {
     "dexes": ["33"],
     "dexNo": 572,
     "name": "チラーミィ",
     "form": "minccino",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [55, 50, 40, 40, 40, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 573,
     "name": "チラチーノ",
     "form": "cinccino",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [75, 95, 60, 65, 60, 115]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 574,
     "name": "ゴチム",
     "form": "gothita",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [45, 30, 50, 55, 65, 45]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 575,
     "name": "ゴチミル",
     "form": "gothorita",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [60, 45, 70, 75, 85, 55]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 576,
     "name": "ゴチルゼル",
     "form": "gothitelle",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [70, 55, 95, 95, 110, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 577,
     "name": "ユニラン",
     "form": "solosis",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [45, 30, 40, 105, 50, 20]
   },
   {
     "dexes": ["33"],
     "dexNo": 578,
     "name": "ダブラン",
     "form": "duosion",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [65, 40, 50, 125, 60, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 579,
     "name": "ランクルス",
     "form": "reuniclus",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [110, 65, 75, 125, 85, 30]
   },
   {
     "dexes": ["32"],
     "dexNo": 580,
     "name": "コアルヒー",
     "form": "ducklett",
-    "types": ["water", "flying"]
+    "types": ["water", "flying"],
+    "stats": [62, 44, 50, 44, 50, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 581,
     "name": "スワンナ",
     "form": "swanna",
-    "types": ["water", "flying"]
+    "types": ["water", "flying"],
+    "stats": [75, 87, 63, 87, 63, 98]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 585,
     "name": "シキジカ",
     "form": "deerling",
-    "types": ["normal", "grass"]
+    "types": ["normal", "grass"],
+    "stats": [60, 60, 50, 40, 50, 75]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 586,
     "name": "メブキジカ",
     "form": "sawsbuck",
-    "types": ["normal", "grass"]
+    "types": ["normal", "grass"],
+    "stats": [80, 100, 70, 60, 70, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 590,
     "name": "タマゲタケ",
     "form": "foongus",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [69, 55, 45, 55, 55, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 591,
     "name": "モロバレル",
     "form": "amoonguss",
-    "types": ["grass", "poison"]
+    "types": ["grass", "poison"],
+    "stats": [114, 85, 70, 85, 80, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 594,
     "name": "ママンボウ",
     "form": "alomomola",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [165, 75, 80, 40, 45, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 595,
     "name": "バチュル",
     "form": "joltik",
-    "types": ["bug", "electric"]
+    "types": ["bug", "electric"],
+    "stats": [50, 47, 50, 57, 50, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 596,
     "name": "デンチュラ",
     "form": "galvantula",
-    "types": ["bug", "electric"]
+    "types": ["bug", "electric"],
+    "stats": [70, 77, 60, 97, 60, 108]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 602,
     "name": "シビシラス",
     "form": "tynamo",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [35, 55, 40, 45, 40, 60]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 603,
     "name": "シビビール",
     "form": "eelektrik",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [65, 85, 70, 75, 70, 40]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 604,
     "name": "シビルドン",
     "form": "eelektross",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [85, 115, 80, 105, 80, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 607,
     "name": "ヒトモシ",
     "form": "litwick",
-    "types": ["ghost", "fire"]
+    "types": ["ghost", "fire"],
+    "stats": [50, 30, 55, 65, 55, 20]
   },
   {
     "dexes": ["32"],
     "dexNo": 608,
     "name": "ランプラー",
     "form": "lampent",
-    "types": ["ghost", "fire"]
+    "types": ["ghost", "fire"],
+    "stats": [60, 40, 60, 95, 60, 55]
   },
   {
     "dexes": ["32"],
     "dexNo": 609,
     "name": "シャンデラ",
     "form": "chandelure",
-    "types": ["ghost", "fire"]
+    "types": ["ghost", "fire"],
+    "stats": [60, 55, 90, 145, 90, 80]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 610,
     "name": "キバゴ",
     "form": "axew",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [46, 87, 60, 30, 40, 57]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 611,
     "name": "オノンド",
     "form": "fraxure",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [66, 117, 70, 40, 50, 67]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 612,
     "name": "オノノクス",
     "form": "haxorus",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [76, 147, 90, 60, 70, 97]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 613,
     "name": "クマシュン",
     "form": "cubchoo",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [55, 70, 40, 60, 40, 40]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 614,
     "name": "ツンベアー",
     "form": "beartic",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [95, 130, 80, 70, 80, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 615,
     "name": "フリージオ",
     "form": "cryogonal",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [80, 50, 50, 95, 135, 105]
   },
   {
     "dexes": ["32"],
     "dexNo": 619,
     "name": "コジョフー",
     "form": "mienfoo",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [45, 85, 50, 55, 50, 65]
   },
   {
     "dexes": ["32"],
     "dexNo": 620,
     "name": "コジョンド",
     "form": "mienshao",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [65, 125, 60, 95, 60, 105]
   },
   {
     "dexes": ["33"],
     "dexNo": 622,
     "name": "ゴビット",
     "form": "golett",
-    "types": ["ground", "ghost"]
+    "types": ["ground", "ghost"],
+    "stats": [59, 74, 50, 35, 50, 35]
   },
   {
     "dexes": ["33"],
     "dexNo": 623,
     "name": "ゴルーグ",
     "form": "golurk",
-    "types": ["ground", "ghost"]
+    "types": ["ground", "ghost"],
+    "stats": [89, 124, 80, 55, 80, 55]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 624,
     "name": "コマタナ",
     "form": "pawniard",
-    "types": ["dark", "steel"]
+    "types": ["dark", "steel"],
+    "stats": [45, 85, 70, 40, 40, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 625,
     "name": "キリキザン",
     "form": "bisharp",
-    "types": ["dark", "steel"]
+    "types": ["dark", "steel"],
+    "stats": [65, 125, 100, 60, 70, 70]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 627,
     "name": "ワシボン",
     "form": "rufflet",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [70, 83, 50, 37, 50, 60]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 628,
     "name": "ウォーグル",
     "form": "braviary",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [100, 123, 75, 57, 75, 80]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 628,
     "name": "ウォーグル",
     "form": "braviary-hisui",
-    "types": ["psychic", "flying"]
+    "types": ["psychic", "flying"],
+    "stats": [110, 83, 70, 112, 70, 65]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 629,
     "name": "バルチャイ",
     "form": "vullaby",
-    "types": ["dark", "flying"]
+    "types": ["dark", "flying"],
+    "stats": [70, 55, 75, 45, 65, 60]
   },
   {
     "dexes": ["32", "33"],
     "dexNo": 630,
     "name": "バルジーナ",
     "form": "mandibuzz",
-    "types": ["dark", "flying"]
+    "types": ["dark", "flying"],
+    "stats": [110, 65, 105, 55, 95, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 633,
     "name": "モノズ",
     "form": "deino",
-    "types": ["dark", "dragon"]
+    "types": ["dark", "dragon"],
+    "stats": [52, 65, 50, 45, 50, 38]
   },
   {
     "dexes": ["31"],
     "dexNo": 634,
     "name": "ジヘッド",
     "form": "zweilous",
-    "types": ["dark", "dragon"]
+    "types": ["dark", "dragon"],
+    "stats": [72, 85, 70, 65, 70, 58]
   },
   {
     "dexes": ["31"],
     "dexNo": 635,
     "name": "サザンドラ",
     "form": "hydreigon",
-    "types": ["dark", "dragon"]
+    "types": ["dark", "dragon"],
+    "stats": [92, 105, 90, 125, 90, 98]
   },
   {
     "dexes": ["31"],
     "dexNo": 636,
     "name": "メラルバ",
     "form": "larvesta",
-    "types": ["bug", "fire"]
+    "types": ["bug", "fire"],
+    "stats": [55, 85, 55, 50, 55, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 637,
     "name": "ウルガモス",
     "form": "volcarona",
-    "types": ["bug", "fire"]
+    "types": ["bug", "fire"],
+    "stats": [85, 60, 65, 135, 105, 100]
   },
   {
     "dexes": ["33"],
     "dexNo": 650,
     "name": "ハリマロン",
     "form": "chespin",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [56, 61, 65, 48, 45, 38]
   },
   {
     "dexes": ["33"],
     "dexNo": 651,
     "name": "ハリボーグ",
     "form": "quilladin",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [61, 78, 95, 56, 58, 57]
   },
   {
     "dexes": ["33"],
     "dexNo": 652,
     "name": "ブリガロン",
     "form": "chesnaught",
-    "types": ["grass", "fighting"]
+    "types": ["grass", "fighting"],
+    "stats": [88, 107, 122, 74, 75, 64]
   },
   {
     "dexes": ["33"],
     "dexNo": 653,
     "name": "フォッコ",
     "form": "fennekin",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [40, 45, 40, 62, 60, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 654,
     "name": "テールナー",
     "form": "braixen",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [59, 59, 58, 90, 70, 73]
   },
   {
     "dexes": ["33"],
     "dexNo": 655,
     "name": "マフォクシー",
     "form": "delphox",
-    "types": ["fire", "psychic"]
+    "types": ["fire", "psychic"],
+    "stats": [75, 69, 72, 114, 100, 104]
   },
   {
     "dexes": ["33"],
     "dexNo": 656,
     "name": "ケロマツ",
     "form": "froakie",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [41, 56, 40, 62, 44, 71]
   },
   {
     "dexes": ["33"],
     "dexNo": 657,
     "name": "ゲコガシラ",
     "form": "frogadier",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [54, 63, 52, 83, 56, 97]
   },
   {
     "dexes": ["33"],
     "dexNo": 658,
     "name": "ゲッコウガ",
     "form": "greninja",
-    "types": ["water", "dark"]
+    "types": ["water", "dark"],
+    "stats": [72, 95, 67, 103, 71, 122]
   },
   {
     "dexes": ["33"],
     "dexNo": 658,
     "name": "ゲッコウガ",
     "form": "greninja-battle-bond",
-    "types": ["water", "dark"]
+    "types": ["water", "dark"],
+    "stats": [72, 95, 67, 103, 71, 122]
   },
   {
     "dexes": ["33"],
     "dexNo": 658,
     "name": "ゲッコウガ",
     "form": "greninja-ash",
-    "types": ["water", "dark"]
+    "types": ["water", "dark"],
+    "stats": [72, 145, 67, 153, 71, 132]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 661,
     "name": "ヤヤコマ",
     "form": "fletchling",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [45, 50, 43, 40, 38, 62]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 662,
     "name": "ヒノヤコマ",
     "form": "fletchinder",
-    "types": ["fire", "flying"]
+    "types": ["fire", "flying"],
+    "stats": [62, 73, 55, 56, 52, 84]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 663,
     "name": "ファイアロー",
     "form": "talonflame",
-    "types": ["fire", "flying"]
+    "types": ["fire", "flying"],
+    "stats": [78, 81, 71, 74, 69, 126]
   },
   {
     "dexes": ["31"],
     "dexNo": 664,
     "name": "コフキムシ",
     "form": "scatterbug",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [38, 35, 40, 27, 25, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 665,
     "name": "コフーライ",
     "form": "spewpa",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [45, 22, 60, 27, 30, 29]
   },
   {
     "dexes": ["31"],
     "dexNo": 666,
     "name": "ビビヨン",
     "form": "vivillon",
-    "types": ["bug", "flying"]
+    "types": ["bug", "flying"],
+    "stats": [80, 52, 50, 90, 50, 89]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 667,
     "name": "シシコ",
     "form": "litleo",
-    "types": ["fire", "normal"]
+    "types": ["fire", "normal"],
+    "stats": [62, 50, 58, 73, 54, 72]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 668,
     "name": "カエンジシ",
     "form": "pyroar",
-    "types": ["fire", "normal"]
+    "types": ["fire", "normal"],
+    "stats": [86, 68, 72, 109, 66, 106]
   },
   {
     "dexes": ["31"],
     "dexNo": 669,
     "name": "フラベベ",
     "form": "flabebe",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [44, 38, 39, 61, 79, 42]
   },
   {
     "dexes": ["31"],
     "dexNo": 670,
     "name": "フラエッテ",
     "form": "floette",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [54, 45, 47, 75, 98, 52]
   },
   {
     "dexes": ["31"],
     "dexNo": 670,
     "name": "フラエッテ",
     "form": "floette-eternal",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [74, 65, 67, 125, 128, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 671,
     "name": "フラージェス",
     "form": "florges",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [78, 65, 68, 112, 154, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 672,
     "name": "メェークル",
     "form": "skiddo",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [66, 65, 48, 62, 57, 52]
   },
   {
     "dexes": ["31"],
     "dexNo": 673,
     "name": "ゴーゴート",
     "form": "gogoat",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [123, 100, 62, 97, 81, 68]
   },
   {
     "dexes": ["33"],
     "dexNo": 677,
     "name": "ニャスパー",
     "form": "espurr",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [62, 48, 54, 63, 60, 68]
   },
   {
     "dexes": ["33"],
     "dexNo": 678,
     "name": "ニャオニクス",
     "form": "meowstic-male",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [74, 48, 76, 83, 81, 104]
   },
   {
     "dexes": ["33"],
     "dexNo": 678,
     "name": "ニャオニクス",
     "form": "meowstic-female",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [74, 48, 76, 83, 81, 104]
   },
   {
     "dexes": ["33"],
     "dexNo": 686,
     "name": "マーイーカ",
     "form": "inkay",
-    "types": ["dark", "psychic"]
+    "types": ["dark", "psychic"],
+    "stats": [53, 54, 53, 37, 46, 45]
   },
   {
     "dexes": ["33"],
     "dexNo": 687,
     "name": "カラマネロ",
     "form": "malamar",
-    "types": ["dark", "psychic"]
+    "types": ["dark", "psychic"],
+    "stats": [86, 92, 88, 68, 75, 73]
   },
   {
     "dexes": ["31"],
     "dexNo": 690,
     "name": "クズモー",
     "form": "skrelp",
-    "types": ["poison", "water"]
+    "types": ["poison", "water"],
+    "stats": [50, 60, 60, 60, 60, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 691,
     "name": "ドラミドロ",
     "form": "dragalge",
-    "types": ["poison", "dragon"]
+    "types": ["poison", "dragon"],
+    "stats": [65, 75, 90, 97, 123, 44]
   },
   {
     "dexes": ["31"],
     "dexNo": 692,
     "name": "ウデッポウ",
     "form": "clauncher",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 53, 62, 58, 63, 44]
   },
   {
     "dexes": ["31"],
     "dexNo": 693,
     "name": "ブロスター",
     "form": "clawitzer",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [71, 73, 88, 120, 89, 59]
   },
   {
     "dexes": ["31"],
     "dexNo": 700,
     "name": "ニンフィア",
     "form": "sylveon",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [95, 65, 65, 110, 130, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 701,
     "name": "ルチャブル",
     "form": "hawlucha",
-    "types": ["fighting", "flying"]
+    "types": ["fighting", "flying"],
+    "stats": [78, 92, 75, 74, 63, 118]
   },
   {
     "dexes": ["31"],
     "dexNo": 702,
     "name": "デデンネ",
     "form": "dedenne",
-    "types": ["electric", "fairy"]
+    "types": ["electric", "fairy"],
+    "stats": [67, 58, 57, 81, 67, 101]
   },
   {
     "dexes": ["32"],
     "dexNo": 703,
     "name": "メレシー",
     "form": "carbink",
-    "types": ["rock", "fairy"]
+    "types": ["rock", "fairy"],
+    "stats": [50, 50, 150, 50, 150, 50]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 704,
     "name": "ヌメラ",
     "form": "goomy",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [45, 50, 35, 55, 75, 40]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 705,
     "name": "ヌメイル",
     "form": "sliggoo",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [68, 75, 53, 83, 113, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 705,
     "name": "ヌメイル",
     "form": "sliggoo-hisui",
-    "types": ["steel", "dragon"]
+    "types": ["steel", "dragon"],
+    "stats": [58, 75, 83, 83, 113, 40]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 706,
     "name": "ヌメルゴン",
     "form": "goodra",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [90, 100, 70, 110, 150, 80]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 706,
     "name": "ヌメルゴン",
     "form": "goodra-hisui",
-    "types": ["steel", "dragon"]
+    "types": ["steel", "dragon"],
+    "stats": [80, 100, 100, 110, 150, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 707,
     "name": "クレッフィ",
     "form": "klefki",
-    "types": ["steel", "fairy"]
+    "types": ["steel", "fairy"],
+    "stats": [57, 80, 91, 80, 87, 75]
   },
   {
     "dexes": ["32"],
     "dexNo": 708,
     "name": "ボクレー",
     "form": "phantump",
-    "types": ["ghost", "grass"]
+    "types": ["ghost", "grass"],
+    "stats": [43, 70, 48, 50, 60, 38]
   },
   {
     "dexes": ["32"],
     "dexNo": 709,
     "name": "オーロット",
     "form": "trevenant",
-    "types": ["ghost", "grass"]
+    "types": ["ghost", "grass"],
+    "stats": [85, 110, 76, 65, 82, 56]
   },
   {
     "dexes": ["31"],
     "dexNo": 712,
     "name": "カチコール",
     "form": "bergmite",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [55, 69, 85, 32, 35, 28]
   },
   {
     "dexes": ["31"],
     "dexNo": 713,
     "name": "クレベース",
     "form": "avalugg",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [95, 117, 184, 44, 46, 28]
   },
   {
     "dexes": ["31"],
     "dexNo": 713,
     "name": "クレベース",
     "form": "avalugg-hisui",
-    "types": ["ice", "rock"]
+    "types": ["ice", "rock"],
+    "stats": [95, 127, 184, 34, 36, 38]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 714,
     "name": "オンバット",
     "form": "noibat",
-    "types": ["flying", "dragon"]
+    "types": ["flying", "dragon"],
+    "stats": [40, 30, 35, 45, 40, 55]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 715,
     "name": "オンバーン",
     "form": "noivern",
-    "types": ["flying", "dragon"]
+    "types": ["flying", "dragon"],
+    "stats": [85, 70, 80, 97, 80, 123]
   },
   {
     "dexes": ["33"],
     "dexNo": 722,
     "name": "モクロー",
     "form": "rowlet",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [68, 55, 55, 50, 50, 42]
   },
   {
     "dexes": ["33"],
     "dexNo": 723,
     "name": "フクスロー",
     "form": "dartrix",
-    "types": ["grass", "flying"]
+    "types": ["grass", "flying"],
+    "stats": [78, 75, 75, 70, 70, 52]
   },
   {
     "dexes": ["33"],
     "dexNo": 724,
     "name": "ジュナイパー",
     "form": "decidueye",
-    "types": ["grass", "ghost"]
+    "types": ["grass", "ghost"],
+    "stats": [78, 107, 75, 100, 100, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 724,
     "name": "ジュナイパー",
     "form": "decidueye-hisui",
-    "types": ["grass", "fighting"]
+    "types": ["grass", "fighting"],
+    "stats": [88, 112, 80, 95, 95, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 725,
     "name": "ニャビー",
     "form": "litten",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [45, 65, 40, 60, 40, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 726,
     "name": "ニャヒート",
     "form": "torracat",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [65, 85, 50, 80, 50, 90]
   },
   {
     "dexes": ["33"],
     "dexNo": 727,
     "name": "ガオガエン",
     "form": "incineroar",
-    "types": ["fire", "dark"]
+    "types": ["fire", "dark"],
+    "stats": [95, 115, 90, 80, 90, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 728,
     "name": "アシマリ",
     "form": "popplio",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 54, 54, 66, 56, 40]
   },
   {
     "dexes": ["33"],
     "dexNo": 729,
     "name": "オシャマリ",
     "form": "brionne",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [60, 69, 69, 91, 81, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 730,
     "name": "アシレーヌ",
     "form": "primarina",
-    "types": ["water", "fairy"]
+    "types": ["water", "fairy"],
+    "stats": [80, 74, 74, 126, 116, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 731,
     "name": "ツツケラ",
     "form": "pikipek",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [35, 75, 30, 30, 30, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 732,
     "name": "ケララッパ",
     "form": "trumbeak",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [55, 85, 50, 40, 50, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 733,
     "name": "ドデカバシ",
     "form": "toucannon",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [80, 120, 75, 75, 75, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 734,
     "name": "ヤングース",
     "form": "yungoos",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [48, 70, 30, 30, 30, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 735,
     "name": "デカグース",
     "form": "gumshoos",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [88, 110, 60, 55, 60, 45]
   },
   {
     "dexes": ["32"],
     "dexNo": 736,
     "name": "アゴジムシ",
     "form": "grubbin",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [47, 62, 45, 55, 45, 46]
   },
   {
     "dexes": ["32"],
     "dexNo": 737,
     "name": "デンヂムシ",
     "form": "charjabug",
-    "types": ["bug", "electric"]
+    "types": ["bug", "electric"],
+    "stats": [57, 82, 95, 55, 75, 36]
   },
   {
     "dexes": ["32"],
     "dexNo": 738,
     "name": "クワガノン",
     "form": "vikavolt",
-    "types": ["bug", "electric"]
+    "types": ["bug", "electric"],
+    "stats": [77, 70, 90, 145, 75, 43]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 739,
     "name": "マケンカニ",
     "form": "crabrawler",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [47, 82, 57, 42, 47, 63]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 740,
     "name": "ケケンカニ",
     "form": "crabominable",
-    "types": ["fighting", "ice"]
+    "types": ["fighting", "ice"],
+    "stats": [97, 132, 77, 62, 67, 43]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 741,
     "name": "オドリドリ",
     "form": "oricorio-baile",
-    "types": ["fire", "flying"]
+    "types": ["fire", "flying"],
+    "stats": [75, 70, 70, 98, 70, 93]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 741,
     "name": "オドリドリ",
     "form": "oricorio-pom-pom",
-    "types": ["electric", "flying"]
+    "types": ["electric", "flying"],
+    "stats": [75, 70, 70, 98, 70, 93]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 741,
     "name": "オドリドリ",
     "form": "oricorio-pau",
-    "types": ["psychic", "flying"]
+    "types": ["psychic", "flying"],
+    "stats": [75, 70, 70, 98, 70, 93]
   },
   {
     "dexes": ["31", "32", "33"],
     "dexNo": 741,
     "name": "オドリドリ",
     "form": "oricorio-sensu",
-    "types": ["ghost", "flying"]
+    "types": ["ghost", "flying"],
+    "stats": [75, 70, 70, 98, 70, 93]
   },
   {
     "dexes": ["32"],
     "dexNo": 742,
     "name": "アブリー",
     "form": "cutiefly",
-    "types": ["bug", "fairy"]
+    "types": ["bug", "fairy"],
+    "stats": [40, 45, 40, 55, 40, 84]
   },
   {
     "dexes": ["32"],
     "dexNo": 743,
     "name": "アブリボン",
     "form": "ribombee",
-    "types": ["bug", "fairy"]
+    "types": ["bug", "fairy"],
+    "stats": [60, 55, 60, 95, 70, 124]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 744,
     "name": "イワンコ",
     "form": "rockruff",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [45, 65, 40, 30, 40, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 744,
     "name": "イワンコ",
     "form": "rockruff-own-tempo",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [45, 65, 40, 30, 40, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 745,
     "name": "ルガルガン",
     "form": "lycanroc-midday",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [75, 115, 65, 55, 65, 112]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 745,
     "name": "ルガルガン",
     "form": "lycanroc-midnight",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [85, 115, 75, 55, 75, 82]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 745,
     "name": "ルガルガン",
     "form": "lycanroc-dusk",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [75, 117, 65, 55, 65, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 747,
     "name": "ヒドイデ",
     "form": "mareanie",
-    "types": ["poison", "water"]
+    "types": ["poison", "water"],
+    "stats": [50, 53, 62, 43, 52, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 748,
     "name": "ドヒドイデ",
     "form": "toxapex",
-    "types": ["poison", "water"]
+    "types": ["poison", "water"],
+    "stats": [50, 63, 152, 53, 142, 35]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 749,
     "name": "ドロバンコ",
     "form": "mudbray",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [70, 100, 70, 45, 55, 45]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 750,
     "name": "バンバドロ",
     "form": "mudsdale",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [100, 125, 100, 55, 85, 35]
   },
   {
     "dexes": ["33"],
     "dexNo": 751,
     "name": "シズクモ",
     "form": "dewpider",
-    "types": ["water", "bug"]
+    "types": ["water", "bug"],
+    "stats": [38, 40, 52, 40, 72, 27]
   },
   {
     "dexes": ["33"],
     "dexNo": 752,
     "name": "オニシズクモ",
     "form": "araquanid",
-    "types": ["water", "bug"]
+    "types": ["water", "bug"],
+    "stats": [68, 70, 92, 50, 132, 42]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 753,
     "name": "カリキリ",
     "form": "fomantis",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [40, 55, 35, 50, 35, 35]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 754,
     "name": "ラランテス",
     "form": "lurantis",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [70, 105, 90, 80, 90, 45]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 757,
     "name": "ヤトウモリ",
     "form": "salandit",
-    "types": ["poison", "fire"]
+    "types": ["poison", "fire"],
+    "stats": [48, 44, 40, 71, 40, 77]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 758,
     "name": "エンニュート",
     "form": "salazzle",
-    "types": ["poison", "fire"]
+    "types": ["poison", "fire"],
+    "stats": [68, 64, 60, 111, 60, 117]
   },
   {
     "dexes": ["31"],
     "dexNo": 761,
     "name": "アマカジ",
     "form": "bounsweet",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [42, 30, 38, 30, 38, 32]
   },
   {
     "dexes": ["31"],
     "dexNo": 762,
     "name": "アママイコ",
     "form": "steenee",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [52, 40, 48, 40, 48, 62]
   },
   {
     "dexes": ["31"],
     "dexNo": 763,
     "name": "アマージョ",
     "form": "tsareena",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [72, 120, 98, 50, 98, 72]
   },
   {
     "dexes": ["33"],
     "dexNo": 764,
     "name": "キュワワー",
     "form": "comfey",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [51, 52, 90, 82, 110, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 765,
     "name": "ヤレユータン",
     "form": "oranguru",
-    "types": ["normal", "psychic"]
+    "types": ["normal", "psychic"],
+    "stats": [90, 60, 80, 90, 110, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 766,
     "name": "ナゲツケサル",
     "form": "passimian",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [100, 120, 90, 40, 60, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 769,
     "name": "スナバァ",
     "form": "sandygast",
-    "types": ["ghost", "ground"]
+    "types": ["ghost", "ground"],
+    "stats": [55, 55, 80, 70, 45, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 770,
     "name": "シロデスナ",
     "form": "palossand",
-    "types": ["ghost", "ground"]
+    "types": ["ghost", "ground"],
+    "stats": [85, 75, 110, 100, 75, 35]
   },
   {
     "dexes": ["33"],
     "dexNo": 774,
     "name": "メテノ",
     "form": "minior-red-meteor",
-    "types": ["rock", "flying"]
+    "types": ["rock", "flying"],
+    "stats": [60, 60, 100, 60, 100, 60]
   },
   {
     "dexes": ["33"],
     "dexNo": 774,
     "name": "メテノ",
     "form": "minior-red",
-    "types": ["rock", "flying"]
+    "types": ["rock", "flying"],
+    "stats": [60, 100, 60, 100, 60, 120]
   },
   {
     "dexes": ["31"],
     "dexNo": 775,
     "name": "ネッコアラ",
     "form": "komala",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [65, 115, 65, 75, 95, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 778,
     "name": "ミミッキュ",
     "form": "mimikyu-disguised",
-    "types": ["ghost", "fairy"]
+    "types": ["ghost", "fairy"],
+    "stats": [55, 90, 80, 50, 105, 96]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 778,
     "name": "ミミッキュ",
     "form": "mimikyu-busted",
-    "types": ["ghost", "fairy"]
+    "types": ["ghost", "fairy"],
+    "stats": [55, 90, 80, 50, 105, 96]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 779,
     "name": "ハギギシリ",
     "form": "bruxish",
-    "types": ["water", "psychic"]
+    "types": ["water", "psychic"],
+    "stats": [68, 105, 70, 70, 70, 92]
   },
   {
     "dexes": ["32"],
     "dexNo": 782,
     "name": "ジャラコ",
     "form": "jangmo-o",
-    "types": ["dragon"]
+    "types": ["dragon"],
+    "stats": [45, 55, 65, 45, 45, 45]
   },
   {
     "dexes": ["32"],
     "dexNo": 783,
     "name": "ジャランゴ",
     "form": "hakamo-o",
-    "types": ["dragon", "fighting"]
+    "types": ["dragon", "fighting"],
+    "stats": [55, 75, 90, 65, 70, 65]
   },
   {
     "dexes": ["32"],
     "dexNo": 784,
     "name": "ジャラランガ",
     "form": "kommo-o",
-    "types": ["dragon", "fighting"]
+    "types": ["dragon", "fighting"],
+    "stats": [75, 110, 125, 100, 105, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 810,
     "name": "サルノリ",
     "form": "grookey",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [50, 65, 50, 40, 40, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 811,
     "name": "バチンキー",
     "form": "thwackey",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [70, 85, 70, 55, 60, 80]
   },
   {
     "dexes": ["33"],
     "dexNo": 812,
     "name": "ゴリランダー",
     "form": "rillaboom",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [100, 125, 90, 60, 70, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 813,
     "name": "ヒバニー",
     "form": "scorbunny",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [50, 71, 40, 40, 40, 69]
   },
   {
     "dexes": ["33"],
     "dexNo": 814,
     "name": "ラビフット",
     "form": "raboot",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [65, 86, 60, 55, 60, 94]
   },
   {
     "dexes": ["33"],
     "dexNo": 815,
     "name": "エースバーン",
     "form": "cinderace",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [80, 116, 75, 65, 75, 119]
   },
   {
     "dexes": ["33"],
     "dexNo": 816,
     "name": "メッソン",
     "form": "sobble",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 40, 40, 70, 40, 70]
   },
   {
     "dexes": ["33"],
     "dexNo": 817,
     "name": "ジメレオン",
     "form": "drizzile",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [65, 60, 55, 95, 55, 90]
   },
   {
     "dexes": ["33"],
     "dexNo": 818,
     "name": "インテレオン",
     "form": "inteleon",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 85, 65, 125, 65, 120]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 819,
     "name": "ホシガリス",
     "form": "skwovet",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [70, 55, 55, 35, 35, 25]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 820,
     "name": "ヨクバリス",
     "form": "greedent",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [120, 95, 95, 55, 75, 20]
   },
   {
     "dexes": ["31"],
     "dexNo": 821,
     "name": "ココガラ",
     "form": "rookidee",
-    "types": ["flying"]
+    "types": ["flying"],
+    "stats": [38, 47, 35, 33, 35, 57]
   },
   {
     "dexes": ["31"],
     "dexNo": 822,
     "name": "アオガラス",
     "form": "corvisquire",
-    "types": ["flying"]
+    "types": ["flying"],
+    "stats": [68, 67, 55, 43, 55, 77]
   },
   {
     "dexes": ["31"],
     "dexNo": 823,
     "name": "アーマーガア",
     "form": "corviknight",
-    "types": ["flying", "steel"]
+    "types": ["flying", "steel"],
+    "stats": [98, 87, 105, 53, 85, 67]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 833,
     "name": "カムカメ",
     "form": "chewtle",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [50, 64, 50, 38, 38, 44]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 834,
     "name": "カジリガメ",
     "form": "drednaw",
-    "types": ["water", "rock"]
+    "types": ["water", "rock"],
+    "stats": [90, 115, 90, 48, 68, 74]
   },
   {
     "dexes": ["31"],
     "dexNo": 837,
     "name": "タンドン",
     "form": "rolycoly",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [30, 40, 50, 40, 50, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 838,
     "name": "トロッゴン",
     "form": "carkol",
-    "types": ["rock", "fire"]
+    "types": ["rock", "fire"],
+    "stats": [80, 60, 90, 60, 70, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 839,
     "name": "セキタンザン",
     "form": "coalossal",
-    "types": ["rock", "fire"]
+    "types": ["rock", "fire"],
+    "stats": [110, 80, 120, 80, 90, 30]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 840,
     "name": "カジッチュ",
     "form": "applin",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [40, 40, 80, 40, 40, 20]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 841,
     "name": "アップリュー",
     "form": "flapple",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [70, 110, 80, 95, 60, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 842,
     "name": "タルップル",
     "form": "appletun",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [110, 85, 80, 100, 80, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 843,
     "name": "スナヘビ",
     "form": "silicobra",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [52, 57, 75, 35, 50, 46]
   },
   {
     "dexes": ["31"],
     "dexNo": 844,
     "name": "サダイジャ",
     "form": "sandaconda",
-    "types": ["ground"]
+    "types": ["ground"],
+    "stats": [72, 107, 125, 65, 70, 71]
   },
   {
     "dexes": ["32"],
     "dexNo": 845,
     "name": "ウッウ",
     "form": "cramorant",
-    "types": ["flying", "water"]
+    "types": ["flying", "water"],
+    "stats": [70, 85, 55, 85, 95, 85]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 846,
     "name": "サシカマス",
     "form": "arrokuda",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [41, 63, 40, 40, 30, 66]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 847,
     "name": "カマスジョー",
     "form": "barraskewda",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [61, 123, 60, 60, 50, 136]
   },
   {
     "dexes": ["31"],
     "dexNo": 848,
     "name": "エレズン",
     "form": "toxel",
-    "types": ["electric", "poison"]
+    "types": ["electric", "poison"],
+    "stats": [40, 38, 35, 54, 35, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 849,
     "name": "ストリンダー",
     "form": "toxtricity-amped",
-    "types": ["electric", "poison"]
+    "types": ["electric", "poison"],
+    "stats": [75, 98, 70, 114, 70, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 849,
     "name": "ストリンダー",
     "form": "toxtricity-low-key",
-    "types": ["electric", "poison"]
+    "types": ["electric", "poison"],
+    "stats": [75, 98, 70, 114, 70, 75]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 854,
     "name": "ヤバチャ",
     "form": "sinistea",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [40, 45, 45, 74, 54, 50]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 855,
     "name": "ポットデス",
     "form": "polteageist",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [60, 65, 65, 134, 114, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 856,
     "name": "ミブリム",
     "form": "hatenna",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [42, 30, 45, 56, 53, 39]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 857,
     "name": "テブリム",
     "form": "hattrem",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [57, 40, 65, 86, 73, 49]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 858,
     "name": "ブリムオン",
     "form": "hatterene",
-    "types": ["psychic", "fairy"]
+    "types": ["psychic", "fairy"],
+    "stats": [57, 90, 95, 136, 103, 29]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 859,
     "name": "ベロバー",
     "form": "impidimp",
-    "types": ["dark", "fairy"]
+    "types": ["dark", "fairy"],
+    "stats": [45, 45, 30, 55, 40, 50]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 860,
     "name": "ギモー",
     "form": "morgrem",
-    "types": ["dark", "fairy"]
+    "types": ["dark", "fairy"],
+    "stats": [65, 60, 45, 75, 55, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 861,
     "name": "オーロンゲ",
     "form": "grimmsnarl",
-    "types": ["dark", "fairy"]
+    "types": ["dark", "fairy"],
+    "stats": [95, 120, 65, 95, 75, 60]
   },
   {
     "dexes": ["add"],
     "dexNo": 863,
     "name": "ニャイキング",
     "form": "perrserker",
-    "types": ["steel"]
+    "types": ["steel"],
+    "stats": [70, 110, 100, 50, 60, 50]
   },
   {
     "dexes": ["33"],
     "dexNo": 868,
     "name": "マホミル",
     "form": "milcery",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [45, 40, 40, 50, 61, 34]
   },
   {
     "dexes": ["33"],
     "dexNo": 869,
     "name": "マホイップ",
     "form": "alcremie",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [65, 60, 75, 110, 121, 64]
   },
   {
     "dexes": ["31"],
     "dexNo": 870,
     "name": "タイレーツ",
     "form": "falinks",
-    "types": ["fighting"]
+    "types": ["fighting"],
+    "stats": [65, 100, 100, 70, 60, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 871,
     "name": "バチンウニ",
     "form": "pincurchin",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [48, 101, 95, 91, 85, 15]
   },
   {
     "dexes": ["31"],
     "dexNo": 872,
     "name": "ユキハミ",
     "form": "snom",
-    "types": ["ice", "bug"]
+    "types": ["ice", "bug"],
+    "stats": [30, 25, 35, 45, 30, 20]
   },
   {
     "dexes": ["31"],
     "dexNo": 873,
     "name": "モスノウ",
     "form": "frosmoth",
-    "types": ["ice", "bug"]
+    "types": ["ice", "bug"],
+    "stats": [70, 65, 60, 125, 90, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 874,
     "name": "イシヘンジン",
     "form": "stonjourner",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [100, 125, 135, 20, 20, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 875,
     "name": "コオリッポ",
     "form": "eiscue-ice",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [75, 80, 110, 65, 90, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 875,
     "name": "コオリッポ",
     "form": "eiscue-noice",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [75, 80, 70, 65, 50, 130]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 876,
     "name": "イエッサン",
     "form": "indeedee-male",
-    "types": ["psychic", "normal"]
+    "types": ["psychic", "normal"],
+    "stats": [60, 65, 55, 105, 95, 95]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 876,
     "name": "イエッサン",
     "form": "indeedee-female",
-    "types": ["psychic", "normal"]
+    "types": ["psychic", "normal"],
+    "stats": [70, 55, 65, 95, 105, 85]
   },
   {
     "dexes": ["32"],
     "dexNo": 877,
     "name": "モルペコ",
     "form": "morpeko-full-belly",
-    "types": ["electric", "dark"]
+    "types": ["electric", "dark"],
+    "stats": [58, 95, 58, 70, 58, 97]
   },
   {
     "dexes": ["32"],
     "dexNo": 877,
     "name": "モルペコ",
     "form": "morpeko-hangry",
-    "types": ["electric", "dark"]
+    "types": ["electric", "dark"],
+    "stats": [58, 95, 58, 70, 58, 97]
   },
   {
     "dexes": ["31"],
     "dexNo": 878,
     "name": "ゾウドウ",
     "form": "cufant",
-    "types": ["steel"]
+    "types": ["steel"],
+    "stats": [72, 80, 49, 40, 49, 40]
   },
   {
     "dexes": ["31"],
     "dexNo": 879,
     "name": "ダイオウドウ",
     "form": "copperajah",
-    "types": ["steel"]
+    "types": ["steel"],
+    "stats": [122, 130, 69, 80, 69, 30]
   },
   {
     "dexes": ["33"],
     "dexNo": 884,
     "name": "ジュラルドン",
     "form": "duraludon",
-    "types": ["steel", "dragon"]
+    "types": ["steel", "dragon"],
+    "stats": [70, 95, 115, 120, 50, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 885,
     "name": "ドラメシヤ",
     "form": "dreepy",
-    "types": ["dragon", "ghost"]
+    "types": ["dragon", "ghost"],
+    "stats": [28, 60, 30, 40, 30, 82]
   },
   {
     "dexes": ["31"],
     "dexNo": 886,
     "name": "ドロンチ",
     "form": "drakloak",
-    "types": ["dragon", "ghost"]
+    "types": ["dragon", "ghost"],
+    "stats": [68, 80, 50, 60, 50, 102]
   },
   {
     "dexes": ["31"],
     "dexNo": 887,
     "name": "ドラパルト",
     "form": "dragapult",
-    "types": ["dragon", "ghost"]
+    "types": ["dragon", "ghost"],
+    "stats": [88, 120, 75, 100, 75, 142]
   },
   {
     "dexes": ["add"],
     "dexNo": 899,
     "name": "アヤシシ",
     "form": "wyrdeer",
-    "types": ["normal", "psychic"]
+    "types": ["normal", "psychic"],
+    "stats": [103, 105, 72, 105, 75, 65]
   },
   {
     "dexes": ["33"],
     "dexNo": 900,
     "name": "バサギリ",
     "form": "kleavor",
-    "types": ["bug", "rock"]
+    "types": ["bug", "rock"],
+    "stats": [70, 135, 95, 45, 70, 85]
   },
   {
     "dexes": ["32"],
     "dexNo": 901,
     "name": "ガチグマ",
     "form": "ursaluna",
-    "types": ["ground", "normal"]
+    "types": ["ground", "normal"],
+    "stats": [130, 140, 105, 45, 80, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 901,
     "name": "ガチグマ",
     "form": "ursaluna-bloodmoon",
-    "types": ["ground", "normal"]
+    "types": ["ground", "normal"],
+    "stats": [113, 70, 120, 135, 65, 52]
   },
   {
     "dexes": ["32"],
     "dexNo": 902,
     "name": "イダイトウ",
     "form": "basculegion-male",
-    "types": ["water", "ghost"]
+    "types": ["water", "ghost"],
+    "stats": [120, 112, 65, 80, 75, 78]
   },
   {
     "dexes": ["32"],
     "dexNo": 902,
     "name": "イダイトウ",
     "form": "basculegion-female",
-    "types": ["water", "ghost"]
+    "types": ["water", "ghost"],
+    "stats": [120, 92, 65, 100, 75, 78]
   },
   {
     "dexes": ["add"],
     "dexNo": 903,
     "name": "オオニューラ",
     "form": "sneasler",
-    "types": ["fighting", "poison"]
+    "types": ["fighting", "poison"],
+    "stats": [80, 130, 60, 40, 80, 120]
   },
   {
     "dexes": ["33"],
     "dexNo": 904,
     "name": "ハリーマン",
     "form": "overqwil",
-    "types": ["dark", "poison"]
+    "types": ["dark", "poison"],
+    "stats": [85, 115, 95, 65, 65, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 906,
     "name": "ニャオハ",
     "form": "sprigatito",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [40, 61, 54, 45, 45, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 907,
     "name": "ニャローテ",
     "form": "floragato",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [61, 80, 63, 60, 63, 83]
   },
   {
     "dexes": ["31"],
     "dexNo": 908,
     "name": "マスカーニャ",
     "form": "meowscarada",
-    "types": ["grass", "dark"]
+    "types": ["grass", "dark"],
+    "stats": [76, 110, 70, 81, 70, 123]
   },
   {
     "dexes": ["31"],
     "dexNo": 909,
     "name": "ホゲータ",
     "form": "fuecoco",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [67, 45, 59, 63, 40, 36]
   },
   {
     "dexes": ["31"],
     "dexNo": 910,
     "name": "アチゲータ",
     "form": "crocalor",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [81, 55, 78, 90, 58, 49]
   },
   {
     "dexes": ["31"],
     "dexNo": 911,
     "name": "ラウドボーン",
     "form": "skeledirge",
-    "types": ["fire", "ghost"]
+    "types": ["fire", "ghost"],
+    "stats": [104, 75, 100, 110, 75, 66]
   },
   {
     "dexes": ["31"],
     "dexNo": 912,
     "name": "クワッス",
     "form": "quaxly",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [55, 65, 45, 50, 45, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 913,
     "name": "ウェルカモ",
     "form": "quaxwell",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 85, 65, 65, 60, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 914,
     "name": "ウェーニバル",
     "form": "quaquaval",
-    "types": ["water", "fighting"]
+    "types": ["water", "fighting"],
+    "stats": [85, 120, 80, 85, 75, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 915,
     "name": "グルトン",
     "form": "lechonk",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [54, 45, 40, 35, 45, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 916,
     "name": "パフュートン",
     "form": "oinkologne",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [110, 100, 75, 59, 80, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 916,
     "name": "パフュートン",
     "form": "oinkologne-female",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [115, 90, 70, 59, 90, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 917,
     "name": "タマンチュラ",
     "form": "tarountula",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [35, 41, 45, 29, 40, 20]
   },
   {
     "dexes": ["31"],
     "dexNo": 918,
     "name": "ワナイダー",
     "form": "spidops",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [60, 79, 92, 52, 86, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 919,
     "name": "マメバッタ",
     "form": "nymble",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [33, 46, 40, 21, 25, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 920,
     "name": "エクスレッグ",
     "form": "lokix",
-    "types": ["bug", "dark"]
+    "types": ["bug", "dark"],
+    "stats": [71, 102, 78, 52, 55, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 921,
     "name": "パモ",
     "form": "pawmi",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [45, 50, 20, 40, 25, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 922,
     "name": "パモット",
     "form": "pawmo",
-    "types": ["electric", "fighting"]
+    "types": ["electric", "fighting"],
+    "stats": [60, 75, 40, 50, 40, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 923,
     "name": "パーモット",
     "form": "pawmot",
-    "types": ["electric", "fighting"]
+    "types": ["electric", "fighting"],
+    "stats": [70, 115, 70, 70, 60, 105]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 924,
     "name": "ワッカネズミ",
     "form": "tandemaus",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [50, 50, 45, 40, 45, 75]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 925,
     "name": "イッカネズミ",
     "form": "maushold",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [74, 75, 70, 65, 75, 111]
   },
   {
     "dexes": ["31"],
     "dexNo": 926,
     "name": "パピモッチ",
     "form": "fidough",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [37, 55, 70, 30, 55, 65]
   },
   {
     "dexes": ["31"],
     "dexNo": 927,
     "name": "バウッツェル",
     "form": "dachsbun",
-    "types": ["fairy"]
+    "types": ["fairy"],
+    "stats": [57, 80, 115, 50, 80, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 928,
     "name": "ミニーブ",
     "form": "smoliv",
-    "types": ["grass", "normal"]
+    "types": ["grass", "normal"],
+    "stats": [41, 35, 45, 58, 51, 30]
   },
   {
     "dexes": ["31"],
     "dexNo": 929,
     "name": "オリーニョ",
     "form": "dolliv",
-    "types": ["grass", "normal"]
+    "types": ["grass", "normal"],
+    "stats": [52, 53, 60, 78, 78, 33]
   },
   {
     "dexes": ["31"],
     "dexNo": 930,
     "name": "オリーヴァ",
     "form": "arboliva",
-    "types": ["grass", "normal"]
+    "types": ["grass", "normal"],
+    "stats": [78, 69, 90, 125, 109, 39]
   },
   {
     "dexes": ["31"],
     "dexNo": 931,
     "name": "イキリンコ",
     "form": "squawkabilly",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [82, 96, 51, 45, 51, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 931,
     "name": "イキリンコ",
     "form": "squawkabilly-blue-plumage",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [82, 96, 51, 45, 51, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 931,
     "name": "イキリンコ",
     "form": "squawkabilly-yellow-plumage",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [82, 96, 51, 45, 51, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 931,
     "name": "イキリンコ",
     "form": "squawkabilly-white-plumage",
-    "types": ["normal", "flying"]
+    "types": ["normal", "flying"],
+    "stats": [82, 96, 51, 45, 51, 92]
   },
   {
     "dexes": ["31"],
     "dexNo": 932,
     "name": "コジオ",
     "form": "nacli",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [55, 55, 75, 35, 35, 25]
   },
   {
     "dexes": ["31"],
     "dexNo": 933,
     "name": "ジオヅム",
     "form": "naclstack",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [60, 60, 100, 35, 65, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 934,
     "name": "キョジオーン",
     "form": "garganacl",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [100, 100, 130, 45, 90, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 935,
     "name": "カルボウ",
     "form": "charcadet",
-    "types": ["fire"]
+    "types": ["fire"],
+    "stats": [40, 50, 40, 50, 40, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 936,
     "name": "グレンアルマ",
     "form": "armarouge",
-    "types": ["fire", "psychic"]
+    "types": ["fire", "psychic"],
+    "stats": [85, 60, 100, 125, 80, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 937,
     "name": "ソウブレイズ",
     "form": "ceruledge",
-    "types": ["fire", "ghost"]
+    "types": ["fire", "ghost"],
+    "stats": [75, 125, 80, 60, 100, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 938,
     "name": "ズピカ",
     "form": "tadbulb",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [61, 31, 41, 59, 35, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 939,
     "name": "ハラバリー",
     "form": "bellibolt",
-    "types": ["electric"]
+    "types": ["electric"],
+    "stats": [109, 64, 91, 103, 83, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 940,
     "name": "カイデン",
     "form": "wattrel",
-    "types": ["electric", "flying"]
+    "types": ["electric", "flying"],
+    "stats": [40, 40, 35, 55, 40, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 941,
     "name": "タイカイデン",
     "form": "kilowattrel",
-    "types": ["electric", "flying"]
+    "types": ["electric", "flying"],
+    "stats": [70, 70, 60, 105, 60, 125]
   },
   {
     "dexes": ["31"],
     "dexNo": 942,
     "name": "オラチフ",
     "form": "maschiff",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [60, 78, 60, 40, 51, 51]
   },
   {
     "dexes": ["31"],
     "dexNo": 943,
     "name": "マフィティフ",
     "form": "mabosstiff",
-    "types": ["dark"]
+    "types": ["dark"],
+    "stats": [80, 120, 90, 60, 70, 85]
   },
   {
     "dexes": ["31"],
     "dexNo": 944,
     "name": "シルシュルー",
     "form": "shroodle",
-    "types": ["poison", "normal"]
+    "types": ["poison", "normal"],
+    "stats": [40, 65, 35, 40, 35, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 945,
     "name": "タギングル",
     "form": "grafaiai",
-    "types": ["poison", "normal"]
+    "types": ["poison", "normal"],
+    "stats": [63, 95, 65, 80, 72, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 946,
     "name": "アノクサ",
     "form": "bramblin",
-    "types": ["grass", "ghost"]
+    "types": ["grass", "ghost"],
+    "stats": [40, 65, 30, 45, 35, 60]
   },
   {
     "dexes": ["31"],
     "dexNo": 947,
     "name": "アノホラグサ",
     "form": "brambleghast",
-    "types": ["grass", "ghost"]
+    "types": ["grass", "ghost"],
+    "stats": [55, 115, 70, 80, 70, 90]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 948,
     "name": "ノノクラゲ",
     "form": "toedscool",
-    "types": ["ground", "grass"]
+    "types": ["ground", "grass"],
+    "stats": [40, 40, 35, 50, 100, 70]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 949,
     "name": "リククラゲ",
     "form": "toedscruel",
-    "types": ["ground", "grass"]
+    "types": ["ground", "grass"],
+    "stats": [80, 70, 65, 80, 120, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 950,
     "name": "ガケガニ",
     "form": "klawf",
-    "types": ["rock"]
+    "types": ["rock"],
+    "stats": [70, 100, 115, 35, 55, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 951,
     "name": "カプサイジ",
     "form": "capsakid",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [50, 62, 40, 62, 40, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 952,
     "name": "スコヴィラン",
     "form": "scovillain",
-    "types": ["grass", "fire"]
+    "types": ["grass", "fire"],
+    "stats": [65, 108, 65, 108, 65, 75]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 953,
     "name": "シガロコ",
     "form": "rellor",
-    "types": ["bug"]
+    "types": ["bug"],
+    "stats": [41, 50, 60, 31, 58, 30]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 954,
     "name": "ベラカス",
     "form": "rabsca",
-    "types": ["bug", "psychic"]
+    "types": ["bug", "psychic"],
+    "stats": [75, 50, 85, 115, 100, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 955,
     "name": "ヒラヒナ",
     "form": "flittle",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [30, 35, 30, 55, 30, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 956,
     "name": "クエスパトラ",
     "form": "espathra",
-    "types": ["psychic"]
+    "types": ["psychic"],
+    "stats": [95, 60, 60, 101, 60, 105]
   },
   {
     "dexes": ["31"],
     "dexNo": 957,
     "name": "カヌチャン",
     "form": "tinkatink",
-    "types": ["fairy", "steel"]
+    "types": ["fairy", "steel"],
+    "stats": [50, 45, 45, 35, 64, 58]
   },
   {
     "dexes": ["31"],
     "dexNo": 958,
     "name": "ナカヌチャン",
     "form": "tinkatuff",
-    "types": ["fairy", "steel"]
+    "types": ["fairy", "steel"],
+    "stats": [65, 55, 55, 45, 82, 78]
   },
   {
     "dexes": ["31"],
     "dexNo": 959,
     "name": "デカヌチャン",
     "form": "tinkaton",
-    "types": ["fairy", "steel"]
+    "types": ["fairy", "steel"],
+    "stats": [85, 75, 77, 70, 105, 94]
   },
   {
     "dexes": ["31"],
     "dexNo": 960,
     "name": "ウミディグダ",
     "form": "wiglett",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [10, 55, 25, 35, 25, 95]
   },
   {
     "dexes": ["31"],
     "dexNo": 961,
     "name": "ウミトリオ",
     "form": "wugtrio",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [35, 100, 50, 50, 70, 120]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 962,
     "name": "オトシドリ",
     "form": "bombirdier",
-    "types": ["flying", "dark"]
+    "types": ["flying", "dark"],
+    "stats": [70, 103, 85, 60, 85, 82]
   },
   {
     "dexes": ["31"],
     "dexNo": 963,
     "name": "ナミイルカ",
     "form": "finizen",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [70, 45, 40, 45, 40, 75]
   },
   {
     "dexes": ["31"],
     "dexNo": 964,
     "name": "イルカマン",
     "form": "palafin",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [100, 70, 72, 53, 62, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 964,
     "name": "イルカマン",
     "form": "palafin-hero",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [100, 160, 97, 106, 87, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 965,
     "name": "ブロロン",
     "form": "varoom",
-    "types": ["steel", "poison"]
+    "types": ["steel", "poison"],
+    "stats": [45, 70, 63, 30, 45, 47]
   },
   {
     "dexes": ["31"],
     "dexNo": 966,
     "name": "ブロロローム",
     "form": "revavroom",
-    "types": ["steel", "poison"]
+    "types": ["steel", "poison"],
+    "stats": [80, 119, 90, 54, 67, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 967,
     "name": "モトトカゲ",
     "form": "cyclizar",
-    "types": ["dragon", "normal"]
+    "types": ["dragon", "normal"],
+    "stats": [70, 95, 65, 85, 65, 121]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 968,
     "name": "ミミズズ",
     "form": "orthworm",
-    "types": ["steel"]
+    "types": ["steel"],
+    "stats": [70, 85, 145, 60, 55, 65]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 969,
     "name": "キラーメ",
     "form": "glimmet",
-    "types": ["rock", "poison"]
+    "types": ["rock", "poison"],
+    "stats": [48, 35, 42, 105, 60, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 970,
     "name": "キラフロル",
     "form": "glimmora",
-    "types": ["rock", "poison"]
+    "types": ["rock", "poison"],
+    "stats": [83, 55, 90, 130, 81, 86]
   },
   {
     "dexes": ["31"],
     "dexNo": 971,
     "name": "ボチ",
     "form": "greavard",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [50, 61, 60, 30, 55, 34]
   },
   {
     "dexes": ["31"],
     "dexNo": 972,
     "name": "ハカドッグ",
     "form": "houndstone",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [72, 101, 100, 50, 97, 68]
   },
   {
     "dexes": ["31"],
     "dexNo": 973,
     "name": "カラミンゴ",
     "form": "flamigo",
-    "types": ["flying", "fighting"]
+    "types": ["flying", "fighting"],
+    "stats": [82, 115, 74, 75, 64, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 974,
     "name": "アルクジラ",
     "form": "cetoddle",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [108, 68, 45, 30, 40, 43]
   },
   {
     "dexes": ["31"],
     "dexNo": 975,
     "name": "ハルクジラ",
     "form": "cetitan",
-    "types": ["ice"]
+    "types": ["ice"],
+    "stats": [170, 113, 65, 45, 55, 73]
   },
   {
     "dexes": ["31"],
     "dexNo": 976,
     "name": "ミガルーサ",
     "form": "veluza",
-    "types": ["water", "psychic"]
+    "types": ["water", "psychic"],
+    "stats": [90, 102, 73, 78, 65, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 977,
     "name": "ヘイラッシャ",
     "form": "dondozo",
-    "types": ["water"]
+    "types": ["water"],
+    "stats": [150, 100, 115, 65, 65, 35]
   },
   {
     "dexes": ["31"],
     "dexNo": 978,
     "name": "シャリタツ",
     "form": "tatsugiri",
-    "types": ["dragon", "water"]
+    "types": ["dragon", "water"],
+    "stats": [68, 50, 60, 120, 95, 82]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 979,
     "name": "コノヨザル",
     "form": "annihilape",
-    "types": ["fighting", "ghost"]
+    "types": ["fighting", "ghost"],
+    "stats": [110, 115, 80, 50, 90, 90]
   },
   {
     "dexes": ["31"],
     "dexNo": 980,
     "name": "ドオー",
     "form": "clodsire",
-    "types": ["poison", "ground"]
+    "types": ["poison", "ground"],
+    "stats": [130, 75, 60, 45, 100, 20]
   },
   {
     "dexes": ["31", "33"],
     "dexNo": 981,
     "name": "リキキリン",
     "form": "farigiraf",
-    "types": ["normal", "psychic"]
+    "types": ["normal", "psychic"],
+    "stats": [120, 90, 70, 110, 70, 60]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 982,
     "name": "ノココッチ",
     "form": "dudunsparce",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [125, 100, 80, 85, 75, 55]
   },
   {
     "dexes": ["31", "32"],
     "dexNo": 983,
     "name": "ドドゲザン",
     "form": "kingambit",
-    "types": ["dark", "steel"]
+    "types": ["dark", "steel"],
+    "stats": [100, 135, 120, 60, 85, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 984,
     "name": "イダイナキバ",
     "form": "great-tusk",
-    "types": ["ground", "fighting"]
+    "types": ["ground", "fighting"],
+    "stats": [115, 131, 131, 53, 53, 87]
   },
   {
     "dexes": ["31"],
     "dexNo": 985,
     "name": "サケブシッポ",
     "form": "scream-tail",
-    "types": ["fairy", "psychic"]
+    "types": ["fairy", "psychic"],
+    "stats": [115, 65, 99, 65, 115, 111]
   },
   {
     "dexes": ["31"],
     "dexNo": 986,
     "name": "アラブルタケ",
     "form": "brute-bonnet",
-    "types": ["grass", "dark"]
+    "types": ["grass", "dark"],
+    "stats": [111, 127, 99, 79, 99, 55]
   },
   {
     "dexes": ["31"],
     "dexNo": 987,
     "name": "ハバタクカミ",
     "form": "flutter-mane",
-    "types": ["ghost", "fairy"]
+    "types": ["ghost", "fairy"],
+    "stats": [55, 55, 55, 135, 135, 135]
   },
   {
     "dexes": ["31"],
     "dexNo": 988,
     "name": "チヲハウハネ",
     "form": "slither-wing",
-    "types": ["bug", "fighting"]
+    "types": ["bug", "fighting"],
+    "stats": [85, 135, 79, 85, 105, 81]
   },
   {
     "dexes": ["31"],
     "dexNo": 989,
     "name": "スナノケガワ",
     "form": "sandy-shocks",
-    "types": ["electric", "ground"]
+    "types": ["electric", "ground"],
+    "stats": [85, 81, 97, 121, 85, 101]
   },
   {
     "dexes": ["31"],
     "dexNo": 990,
     "name": "テツノワダチ",
     "form": "iron-treads",
-    "types": ["ground", "steel"]
+    "types": ["ground", "steel"],
+    "stats": [90, 112, 120, 72, 70, 106]
   },
   {
     "dexes": ["31"],
     "dexNo": 991,
     "name": "テツノツツミ",
     "form": "iron-bundle",
-    "types": ["ice", "water"]
+    "types": ["ice", "water"],
+    "stats": [56, 80, 114, 124, 60, 136]
   },
   {
     "dexes": ["31"],
     "dexNo": 992,
     "name": "テツノカイナ",
     "form": "iron-hands",
-    "types": ["fighting", "electric"]
+    "types": ["fighting", "electric"],
+    "stats": [154, 140, 108, 50, 68, 50]
   },
   {
     "dexes": ["31"],
     "dexNo": 993,
     "name": "テツノコウベ",
     "form": "iron-jugulis",
-    "types": ["dark", "flying"]
+    "types": ["dark", "flying"],
+    "stats": [94, 80, 86, 122, 80, 108]
   },
   {
     "dexes": ["31"],
     "dexNo": 994,
     "name": "テツノドクガ",
     "form": "iron-moth",
-    "types": ["fire", "poison"]
+    "types": ["fire", "poison"],
+    "stats": [80, 70, 60, 140, 110, 110]
   },
   {
     "dexes": ["31"],
     "dexNo": 995,
     "name": "テツノイバラ",
     "form": "iron-thorns",
-    "types": ["rock", "electric"]
+    "types": ["rock", "electric"],
+    "stats": [100, 134, 110, 70, 84, 72]
   },
   {
     "dexes": ["31"],
     "dexNo": 996,
     "name": "セビエ",
     "form": "frigibax",
-    "types": ["dragon", "ice"]
+    "types": ["dragon", "ice"],
+    "stats": [65, 75, 45, 35, 45, 55]
   },
   {
     "dexes": ["31"],
     "dexNo": 997,
     "name": "セゴール",
     "form": "arctibax",
-    "types": ["dragon", "ice"]
+    "types": ["dragon", "ice"],
+    "stats": [90, 95, 66, 45, 65, 62]
   },
   {
     "dexes": ["31"],
     "dexNo": 998,
     "name": "セグレイブ",
     "form": "baxcalibur",
-    "types": ["dragon", "ice"]
+    "types": ["dragon", "ice"],
+    "stats": [115, 145, 92, 75, 86, 87]
   },
   {
     "dexes": ["31"],
     "dexNo": 999,
     "name": "コレクレー",
     "form": "gimmighoul",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [45, 30, 70, 75, 70, 10]
   },
   {
     "dexes": ["31"],
     "dexNo": 999,
     "name": "コレクレー",
     "form": "gimmighoul-roaming",
-    "types": ["ghost"]
+    "types": ["ghost"],
+    "stats": [45, 30, 25, 75, 45, 80]
   },
   {
     "dexes": ["31"],
     "dexNo": 1000,
     "name": "サーフゴー",
     "form": "gholdengo",
-    "types": ["steel", "ghost"]
+    "types": ["steel", "ghost"],
+    "stats": [87, 60, 95, 133, 91, 84]
   },
   {
     "dexes": ["31"],
     "dexNo": 1001,
     "name": "チオンジェン",
     "form": "wo-chien",
-    "types": ["dark", "grass"]
+    "types": ["dark", "grass"],
+    "stats": [85, 85, 100, 95, 135, 70]
   },
   {
     "dexes": ["31"],
     "dexNo": 1002,
     "name": "パオジアン",
     "form": "chien-pao",
-    "types": ["dark", "ice"]
+    "types": ["dark", "ice"],
+    "stats": [80, 120, 80, 90, 65, 135]
   },
   {
     "dexes": ["31"],
     "dexNo": 1003,
     "name": "ディンルー",
     "form": "ting-lu",
-    "types": ["dark", "ground"]
+    "types": ["dark", "ground"],
+    "stats": [155, 110, 125, 55, 80, 45]
   },
   {
     "dexes": ["31"],
     "dexNo": 1004,
     "name": "イーユイ",
     "form": "chi-yu",
-    "types": ["dark", "fire"]
+    "types": ["dark", "fire"],
+    "stats": [55, 80, 80, 135, 120, 100]
   },
   {
     "dexes": ["31"],
     "dexNo": 1005,
     "name": "トドロクツキ",
     "form": "roaring-moon",
-    "types": ["dragon", "dark"]
+    "types": ["dragon", "dark"],
+    "stats": [105, 139, 71, 55, 101, 119]
   },
   {
     "dexes": ["31"],
     "dexNo": 1006,
     "name": "テツノブジン",
     "form": "iron-valiant",
-    "types": ["fairy", "fighting"]
+    "types": ["fairy", "fighting"],
+    "stats": [74, 130, 90, 120, 60, 116]
   },
   {
     "dexes": ["31"],
     "dexNo": 1007,
     "name": "コライドン",
     "form": "koraidon",
-    "types": ["fighting", "dragon"]
+    "types": ["fighting", "dragon"],
+    "stats": [100, 135, 115, 85, 100, 135]
   },
   {
     "dexes": ["31"],
     "dexNo": 1008,
     "name": "ミライドン",
     "form": "miraidon",
-    "types": ["electric", "dragon"]
+    "types": ["electric", "dragon"],
+    "stats": [100, 85, 100, 135, 115, 135]
   },
   {
     "dexes": ["33"],
     "dexNo": 1009,
     "name": "ウネルミナモ",
     "form": "walking-wake",
-    "types": ["water", "dragon"]
+    "types": ["water", "dragon"],
+    "stats": [99, 83, 91, 125, 83, 109]
   },
   {
     "dexes": ["33"],
     "dexNo": 1010,
     "name": "テツノイサハ",
     "form": "iron-leaves",
-    "types": ["grass", "psychic"]
+    "types": ["grass", "psychic"],
+    "stats": [90, 130, 88, 70, 108, 104]
   },
   {
     "dexes": ["32"],
     "dexNo": 1011,
     "name": "カミッチュ",
     "form": "dipplin",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [80, 80, 110, 95, 80, 40]
   },
   {
     "dexes": ["32"],
     "dexNo": 1012,
     "name": "チャデス",
     "form": "poltchageist",
-    "types": ["grass", "ghost"]
+    "types": ["grass", "ghost"],
+    "stats": [40, 45, 45, 74, 54, 50]
   },
   {
     "dexes": ["32"],
     "dexNo": 1013,
     "name": "ヤバソチャ",
     "form": "sinistcha",
-    "types": ["grass", "ghost"]
+    "types": ["grass", "ghost"],
+    "stats": [71, 60, 106, 121, 80, 70]
   },
   {
     "dexes": ["32"],
     "dexNo": 1014,
     "name": "イイネイヌ",
     "form": "okidogi",
-    "types": ["poison", "fighting"]
+    "types": ["poison", "fighting"],
+    "stats": [88, 128, 115, 58, 86, 80]
   },
   {
     "dexes": ["32"],
     "dexNo": 1015,
     "name": "マシマシラ",
     "form": "munkidori",
-    "types": ["poison", "psychic"]
+    "types": ["poison", "psychic"],
+    "stats": [88, 75, 66, 130, 90, 106]
   },
   {
     "dexes": ["32"],
     "dexNo": 1016,
     "name": "キチキギス",
     "form": "fezandipiti",
-    "types": ["poison", "fairy"]
+    "types": ["poison", "fairy"],
+    "stats": [88, 91, 82, 70, 125, 99]
   },
   {
     "dexes": ["32"],
     "dexNo": 1017,
     "name": "オーガポン",
     "form": "ogerpon",
-    "types": ["grass"]
+    "types": ["grass"],
+    "stats": [80, 120, 84, 60, 96, 110]
   },
   {
     "dexes": ["32"],
     "dexNo": 1017,
     "name": "オーガポン",
     "form": "ogerpon-wellspring-mask",
-    "types": ["grass", "water"]
+    "types": ["grass", "water"],
+    "stats": [80, 120, 84, 60, 96, 110]
   },
   {
     "dexes": ["32"],
     "dexNo": 1017,
     "name": "オーガポン",
     "form": "ogerpon-hearthflame-mask",
-    "types": ["grass", "fire"]
+    "types": ["grass", "fire"],
+    "stats": [80, 120, 84, 60, 96, 110]
   },
   {
     "dexes": ["32"],
     "dexNo": 1017,
     "name": "オーガポン",
     "form": "ogerpon-cornerstone-mask",
-    "types": ["grass", "rock"]
+    "types": ["grass", "rock"],
+    "stats": [80, 120, 84, 60, 96, 110]
   },
   {
     "dexes": ["33"],
     "dexNo": 1018,
     "name": "ブリジュラス",
     "form": "archaludon",
-    "types": ["steel", "dragon"]
+    "types": ["steel", "dragon"],
+    "stats": [90, 105, 130, 125, 65, 85]
   },
   {
     "dexes": ["33"],
     "dexNo": 1019,
     "name": "カミツオロチ",
     "form": "hydrapple",
-    "types": ["grass", "dragon"]
+    "types": ["grass", "dragon"],
+    "stats": [106, 80, 110, 120, 80, 44]
   },
   {
     "dexes": ["33"],
     "dexNo": 1020,
     "name": "ウガツホムラ",
     "form": "gouging-fire",
-    "types": ["fire", "dragon"]
+    "types": ["fire", "dragon"],
+    "stats": [105, 115, 121, 65, 93, 91]
   },
   {
     "dexes": ["33"],
     "dexNo": 1021,
     "name": "タケルライコ",
     "form": "raging-bolt",
-    "types": ["electric", "dragon"]
+    "types": ["electric", "dragon"],
+    "stats": [125, 73, 91, 137, 89, 75]
   },
   {
     "dexes": ["33"],
     "dexNo": 1022,
     "name": "テツノイワオ",
     "form": "iron-boulder",
-    "types": ["rock", "psychic"]
+    "types": ["rock", "psychic"],
+    "stats": [90, 120, 80, 68, 108, 124]
   },
   {
     "dexes": ["33"],
     "dexNo": 1023,
     "name": "テツノカシラ",
     "form": "iron-crown",
-    "types": ["steel", "psychic"]
+    "types": ["steel", "psychic"],
+    "stats": [90, 72, 100, 122, 108, 98]
   },
   {
     "dexes": ["33"],
     "dexNo": 1024,
     "name": "テラパゴス",
     "form": "terapagos",
-    "types": ["normal"]
+    "types": ["normal"],
+    "stats": [90, 65, 85, 65, 85, 60]
   }
 ]
