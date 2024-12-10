@@ -3,6 +3,7 @@ import "crypto";
 import cryptoJs from "crypto-js";
 
 import { pokeTypes } from "~/composables/usePokeType";
+import type { XorShift } from "~/composables/useXorShift";
 
 function getSeed(): number {
   const [s] = useQueryParam("s");
@@ -27,37 +28,22 @@ const selectedTypes = ref<PokeType[]>();
 
 const items = [];
 
-function hashToInt(input: string) {
-  return parseInt(input, 16);
-}
 function createHash() {
   return crypto.randomUUID().slice(0, 4);
-}
-function hashFrom(input: string) {
-  return cryptoJs.SHA256(input).toString(cryptoJs.enc.Hex).slice(0, 4);
 }
 
 const trainerName1 = ref(useQueryParam("t1")[0] ?? "");
 const trainerName2 = ref(useQueryParam("t2")[0] ?? "");
 
-const result1 = ref<null | PokeType>(null);
-const result2 = ref<null | PokeType>(null);
-const result3 = ref<null | PokeType>(null);
-const result4 = ref<null | PokeType>(null);
-const result5 = ref<null | PokeType>(null);
-
-const result1B = ref<null | PokeType>(null);
-const result2B = ref<null | PokeType>(null);
-const result3B = ref<null | PokeType>(null);
-const result4B = ref<null | PokeType>(null);
-const result5B = ref<null | PokeType>(null);
+const xs1 = ref<null | XorShift>(null);
+const xs2 = ref<null | XorShift>(null);
 
 const seed = ref(getSeed());
 
 watchEffect(() => {
   seed.value = getSeed();
-  trainerName1.value = useQueryParam("t1")[0]
-  trainerName2.value = useQueryParam("t2")[0]
+  trainerName1.value = useQueryParam("t1")[0];
+  trainerName2.value = useQueryParam("t2")[0];
   resetAllResult();
 });
 
@@ -82,90 +68,18 @@ function handleClickRoll() {
     },
   });
 
-  const xs1 = new XorShift(
-    seed.value * hashToInt(hashFrom(trainerName1.value))
-  );
-  const xs2 = new XorShift(
-    seed.value * hashToInt(hashFrom(trainerName2.value))
-  );
-
-  const waitTimeBase = 200;
-  const waitTimeBetween = 50;
-
-  setTimeout(() => {
-    result1.value = xs1.randType();
-  }, waitTimeBase + waitTimeBetween * 1);
-  setTimeout(() => {
-    result2.value = xs1.randType();
-  }, waitTimeBase + waitTimeBetween * 2);
-  setTimeout(() => {
-    result3.value = xs1.randType();
-  }, waitTimeBase + waitTimeBetween * 3);
-  setTimeout(() => {
-    result4.value = xs1.randType();
-  }, waitTimeBase + waitTimeBetween * 4);
-  setTimeout(() => {
-    result5.value = xs1.randType();
-  }, waitTimeBase + waitTimeBetween * 5);
-
-  setTimeout(() => {
-    result1B.value = xs2.randType();
-  }, waitTimeBase + waitTimeBetween * 6);
-  setTimeout(() => {
-    result2B.value = xs2.randType();
-  }, waitTimeBase + waitTimeBetween * 7);
-  setTimeout(() => {
-    result3B.value = xs2.randType();
-  }, waitTimeBase + waitTimeBetween * 8);
-  setTimeout(() => {
-    result4B.value = xs2.randType();
-  }, waitTimeBase + waitTimeBetween * 9);
-  setTimeout(() => {
-    result5B.value = xs2.randType();
-  }, waitTimeBase + waitTimeBetween * 10);
+  xs1.value = useXorShift().newInstance(seed.value, trainerName1.value);
+  xs2.value = useXorShift().newInstance(seed.value, trainerName2.value);
 }
 
-class XorShift {
-  _x: number;
-  _y: number;
-  _z: number;
-  _current: number;
-  constructor(seed = 1) {
-    // 任意のxyz
-    this._x = 827416273;
-    this._y = 826162312;
-    this._z = 172331274;
-    this._current = seed;
-  }
-  rand() {
-    let t = this._x ^ (this._x << 11);
-    this._x = this._y;
-    this._y = this._z;
-    this._z = this._current;
-    this._current = this._current ^ (this._current >>> 19) ^ (t ^ (t >>> 8));
-    return this._current;
-  }
-  randType(): PokeType {
-    const min = 0;
-    const max = 17;
-    const r = Math.abs(this.rand());
-    return pokeTypes[min + (r % (max + 1 - min))];
-  }
-}
+const waitTimeBase = 200;
+const waitTimeBetween = 150;
+const waitTimePlayerGap = 1000;
 
 function resetAllResult() {
-  result1.value = null;
-  result2.value = null;
-  result3.value = null;
-  result4.value = null;
-  result5.value = null;
-  result1B.value = null;
-  result2B.value = null;
-  result3B.value = null;
-  result4B.value = null;
-  result5B.value = null;
+  xs1.value = null
+  xs2.value = null
 }
-
 </script>
 
 <template>
@@ -186,7 +100,9 @@ function resetAllResult() {
           <PlayerCard
             v-model:name="trainerName1"
             :properties="{
-              pokeTypes: [result1, result2, result3, result4, result5],
+              xorshift: xs1,
+              waitTimeBase: waitTimeBase + waitTimePlayerGap * 0,
+              waitTimeBetween: waitTimeBetween,
             }"
           />
         </div>
@@ -199,7 +115,9 @@ function resetAllResult() {
           <PlayerCard
             v-model:name="trainerName2"
             :properties="{
-              pokeTypes: [result1B, result2B, result3B, result4B, result5B],
+              xorshift: xs2,
+              waitTimeBase: waitTimeBase + waitTimePlayerGap * 1,
+              waitTimeBetween: waitTimeBetween,
             }"
           />
         </div>
