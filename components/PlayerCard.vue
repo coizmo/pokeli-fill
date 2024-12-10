@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { XorShift } from '~/composables/useXorShift';
+import type { XorShift } from "~/composables/useXorShift";
 
 interface Props {
   name?: string;
@@ -22,50 +22,52 @@ function handleUpdateName(v: string | undefined) {
   }
 }
 
-const result1 = ref<null | PokeType>(null);
-const result2 = ref<null | PokeType>(null);
-const result3 = ref<null | PokeType>(null);
-const result4 = ref<null | PokeType>(null);
-const result5 = ref<null | PokeType>(null);
+type DPokeType = { fl: boolean; pt: null | PokeType };
+const result = reactive<DPokeType[]>([
+  { fl: false, pt: null },
+  { fl: false, pt: null },
+  { fl: false, pt: null },
+  { fl: false, pt: null },
+  { fl: false, pt: null },
+]);
 
-watch(() => props.properties.xorshift, () => {
-  result1.value = null
-  result2.value = null
-  result3.value = null
-  result4.value = null
-  result5.value = null
+const roll = () => {
+  return props.properties.xorshift?.randType() ?? null;
+};
 
-  const roll = () => {
-    return props.properties.xorshift?.randType() ?? null;
+watch(
+  () => props.properties.xorshift,
+  () => {
+    result[0] = { fl: false, pt: roll() };
+    result[1] = { fl: false, pt: roll() };
+    result[2] = { fl: false, pt: roll() };
+    result[3] = { fl: false, pt: roll() };
+    result[4] = { fl: false, pt: roll() };
+
+    setTimeout(() => {
+      result[0].fl = true;
+    }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 1);
+    setTimeout(() => {
+      result[1].fl = true;
+    }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 2);
+    setTimeout(() => {
+      result[2].fl = true;
+    }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 3);
+    setTimeout(() => {
+      result[3].fl = true;
+    }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 4);
+    setTimeout(() => {
+      result[4].fl = true;
+    }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 5);
   }
-
-  setTimeout(() => {
-    result1.value = roll()
-  }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 1);
-  setTimeout(() => {
-    result2.value = roll()
-  }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 2);
-  setTimeout(() => {
-    result3.value = roll()
-  }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 3);
-  setTimeout(() => {
-    result4.value = roll()
-  }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 4);
-  setTimeout(() => {
-    result5.value = roll()
-  }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 5);
-})
-
-const pokeTypes = computed(() => {
-  return [result1.value, result2.value, result3.value, result4.value, result5.value]
-})
+);
 
 const isRolled = computed(() => {
-  return pokeTypes.value.every((t) => t !== null);
+  return result.every((t) => t.fl);
 });
 
 function handleClickMoveToDex() {
-  const uniqueTypes = [...new Set(pokeTypes.value)]
+  const uniqueTypes = [...new Set(result.map((r) => r.pt))];
   const dottedTypes = uniqueTypes
     .map((t) => t?.code)
     .filter((t) => !!t)
@@ -87,8 +89,8 @@ function handleClickMoveToDex() {
     ></InputText>
 
     <div class="flex flex-col gap-2">
-      <template v-for="r in pokeTypes" :key="r">
-        <TypeCard :poke-type="r"></TypeCard>
+      <template v-for="r in result" :key="r">
+        <TypeCard :is-show="r.fl" :poke-type="r.pt"></TypeCard>
       </template>
     </div>
 
