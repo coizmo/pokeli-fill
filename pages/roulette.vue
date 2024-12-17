@@ -1,14 +1,11 @@
 <script lang="ts" setup>
 import "crypto";
-import cryptoJs from "crypto-js";
-
-import { pokeTypes } from "~/composables/usePokeType";
-import type { XorShift } from "~/composables/useXorShift";
 
 function getSeed(): number {
   const [s] = useQueryParam("s");
   return parseInt(s);
 }
+const seed = ref(getSeed());
 
 onBeforeMount(() => {
   const s = getSeed();
@@ -17,33 +14,24 @@ onBeforeMount(() => {
       path: "/roulette",
       query: {
         s: parseInt(createHash(), 16),
-        t1: useQueryParam("t1")[0],
-        t2: useQueryParam("t2")[0],
       },
     });
   }
 });
 
-const selectedTypes = ref<PokeType[]>();
-
-const items = [];
-
 function createHash() {
   return crypto.randomUUID().slice(0, 4);
 }
 
-const trainerName1 = ref(useQueryParam("t1")[0] ?? "");
-const trainerName2 = ref(useQueryParam("t2")[0] ?? "");
-
-const xs1 = ref<null | XorShift>(null);
-const xs2 = ref<null | XorShift>(null);
-
-const seed = ref(getSeed());
+const trainers = ref(
+  useQueryParam("t").map((v) => ({
+    name: v,
+    xorshift: useXorShift().newInstance(seed.value),
+  }))
+);
 
 watchEffect(() => {
   seed.value = getSeed();
-  trainerName1.value = useQueryParam("t1")[0];
-  trainerName2.value = useQueryParam("t2")[0];
   resetAllResult();
 });
 
@@ -59,26 +47,32 @@ function handleClickChangeSeed() {
 
 function handleClickRoll() {
   resetAllResult();
-  useRouter().push({
-    path: "/roulette",
-    query: {
-      s: seed.value,
-      t1: trainerName1.value,
-      t2: trainerName2.value,
-    },
-  });
-
-  xs1.value = useXorShift().newInstance(seed.value, trainerName1.value);
-  xs2.value = useXorShift().newInstance(seed.value, trainerName2.value);
 }
 
 const waitTimeBase = 200;
 const waitTimeBetween = 150;
 const waitTimePlayerGap = 1000;
 
-function resetAllResult() {
-  xs1.value = null
-  xs2.value = null
+function resetAllResult() {}
+
+function handleClickTrainer() {
+  trainers.value.push({
+    name: "",
+    xorshift: useXorShift().newInstance(seed.value),
+  });
+}
+function handleClickDeleteTrainer(targetIndex: number) {
+  trainers.value = trainers.value.filter((_, i) => i !== targetIndex);
+}
+
+function handleClickShareLink() {
+  useRouter().push({
+    path: "/roulette",
+    query: {
+      s: seed.value,
+      t: trainers.value.map((t) => t.name),
+    },
+  });
 }
 </script>
 
@@ -93,35 +87,24 @@ function resetAllResult() {
         ></InputNumber>
         <Button label="Random Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
+        <Button icon="pi pi-share-alt" @click="handleClickShareLink" />
       </div>
 
-      <div class="flex flex-row gap-4">
-        <div class="flex-grow flex justify-end">
+      <div class="flex flex-col gap-8">
+        <div class="flex justify-center" v-for="(t, i) in trainers">
           <PlayerCard
-            v-model:name="trainerName1"
+            v-model:name="t.name"
             :properties="{
-              xorshift: xs1,
-              waitTimeBase: waitTimeBase + waitTimePlayerGap * 0,
-              waitTimeBetween: waitTimeBetween,
+              seed,
+              waitTimeBase: waitTimeBase + waitTimePlayerGap * i,
+              waitTimeBetween,
             }"
-          />
-        </div>
-
-        <div class="hidden sm:block flex-none justify-center">
-          <Chip class="h-11 rounded-md">VS</Chip>
-        </div>
-
-        <div class="flex-grow flex justify-start">
-          <PlayerCard
-            v-model:name="trainerName2"
-            :properties="{
-              xorshift: xs2,
-              waitTimeBase: waitTimeBase + waitTimePlayerGap * 1,
-              waitTimeBetween: waitTimeBetween,
-            }"
+            @on-delete="() => handleClickDeleteTrainer(i)"
           />
         </div>
       </div>
+
+      <Button label="Add Trainer" @click="handleClickTrainer" />
     </div>
   </div>
 </template>
