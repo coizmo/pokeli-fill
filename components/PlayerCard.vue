@@ -35,46 +35,33 @@ function handleFocusOut() {
   isFocused.value = false;
 }
 
-type DPokeType = { fl: boolean; pt: null | PokeType };
-const result = reactive<DPokeType[]>([
-  { fl: false, pt: null },
-  { fl: false, pt: null },
-  { fl: false, pt: null },
-  { fl: false, pt: null },
-  { fl: false, pt: null },
-]);
+const isShowTypes = reactive<boolean[]>([false, false, false, false, false]);
 
 function rollAll() {
-  result[0] = { fl: false, pt: randResult.value[0] };
-  result[1] = { fl: false, pt: randResult.value[1] };
-  result[2] = { fl: false, pt: randResult.value[2] };
-  result[3] = { fl: false, pt: randResult.value[3] };
-  result[4] = { fl: false, pt: randResult.value[4] };
-
   setTimeout(() => {
-    result[0].fl = true;
+    isShowTypes[0] = true;
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 1);
   setTimeout(() => {
-    result[1].fl = true;
+    isShowTypes[1] = true;
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 2);
   setTimeout(() => {
-    result[2].fl = true;
+    isShowTypes[2] = true;
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 3);
   setTimeout(() => {
-    result[3].fl = true;
+    isShowTypes[3] = true;
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 4);
   setTimeout(() => {
-    result[4].fl = true;
+    isShowTypes[4] = true;
     emits("update:state", "displaying");
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 5);
 }
 
-function displayAll(v: boolean) {
-  result[0].fl = v;
-  result[1].fl = v;
-  result[2].fl = v;
-  result[3].fl = v;
-  result[4].fl = v;
+function setIsShowTypes(v: boolean) {
+  isShowTypes[0] = v;
+  isShowTypes[1] = v;
+  isShowTypes[2] = v;
+  isShowTypes[3] = v;
+  isShowTypes[4] = v;
 }
 
 watch(
@@ -90,13 +77,14 @@ watch(
   () => {
     switch (props.state) {
       case "waiting":
-        displayAll(false);
+        setIsShowTypes(false);
         break;
-      case "rolling":
+        case "rolling":
+        setIsShowTypes(false);
         rollAll();
         break;
       case "displaying":
-        displayAll(true);
+        setIsShowTypes(true);
         break;
     }
   }
@@ -108,11 +96,11 @@ onMounted(() => {
 });
 
 const isRolled = computed(() => {
-  return result.every((t) => t.fl);
+  return isShowTypes.every((t) => t)
 });
 
 function handleClickMoveToDex() {
-  const uniqueTypes = [...new Set(result.map((r) => r.pt))];
+  const uniqueTypes = [...new Set(randResult.value)];
   const dottedTypes = uniqueTypes
     .map((t) => t?.code)
     .filter((t) => !!t)
@@ -160,8 +148,8 @@ function handleClickDelete() {
     </template>
 
     <div class="flex flex-row gap-2">
-      <template v-for="r in result" :key="r">
-        <TypeCard :is-show="r.fl" :poke-type="r.pt"></TypeCard>
+      <template v-for="(showType, i) in isShowTypes" :key="i">
+        <TypeCard :is-show="showType" :poke-type="randResult[i]"></TypeCard>
       </template>
     </div>
   </Panel>
