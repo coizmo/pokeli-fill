@@ -43,7 +43,18 @@ export const useXorShift = () => {
     }
     return new XorShift(seed);
   };
+  const newResult = (seed: number, name?: string) => {
+    const _instance = newInstance(seed, name)
+    return [
+      _instance.randType(),
+      _instance.randType(),
+      _instance.randType(),
+      _instance.randType(),
+      _instance.randType(),
+    ]
+  }
   return {
     newInstance,
+    newResult,
   };
 };

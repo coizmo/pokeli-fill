@@ -10,12 +10,8 @@ interface Props {
 }
 const props = defineProps<Props>();
 
-const xorshift = computed(() => {
-  if (props.name) {
-    return useXorShift().newInstance(props.properties.seed, props.name);
-  } else {
-    return null;
-  }
+const randResult = computed(() => {
+  return useXorShift().newResult(props.properties.seed, props.name);
 });
 
 interface Emits {
@@ -48,16 +44,12 @@ const result = reactive<DPokeType[]>([
   { fl: false, pt: null },
 ]);
 
-const roll = () => {
-  return xorshift.value?.randType() ?? null;
-};
-
 function rollAll() {
-  result[0] = { fl: false, pt: roll() };
-  result[1] = { fl: false, pt: roll() };
-  result[2] = { fl: false, pt: roll() };
-  result[3] = { fl: false, pt: roll() };
-  result[4] = { fl: false, pt: roll() };
+  result[0] = { fl: false, pt: randResult.value[0] };
+  result[1] = { fl: false, pt: randResult.value[1] };
+  result[2] = { fl: false, pt: randResult.value[2] };
+  result[3] = { fl: false, pt: randResult.value[3] };
+  result[4] = { fl: false, pt: randResult.value[4] };
 
   setTimeout(() => {
     result[0].fl = true;
