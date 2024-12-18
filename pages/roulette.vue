@@ -54,6 +54,7 @@ function handleClickRoll() {
   trainers.value.forEach((t) => {
     t.state = "rolling";
   });
+  pushCurrentRouter();
 }
 
 const waitTimeBase = 200;
@@ -62,7 +63,7 @@ const waitTimePlayerGap = 1000;
 
 function resetAllResult() {}
 
-function handleClickTrainer() {
+function handleClickAddTrainer() {
   trainers.value.push({
     name: "",
     state: "waiting",
@@ -74,6 +75,10 @@ function handleClickDeleteTrainer(targetIndex: number) {
 }
 
 function handleClickShareLink() {
+  pushCurrentRouter();
+}
+
+function pushCurrentRouter() {
   useRouter().push({
     path: "/roulette",
     query: {
@@ -95,11 +100,10 @@ function handleClickShareLink() {
         ></InputNumber>
         <Button label="Random Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
-        <Button icon="pi pi-share-alt" @click="handleClickShareLink" />
       </div>
 
-      <div class="flex flex-col gap-8">
-        <div class="flex justify-center" v-for="(t, i) in trainers">
+      <div class="flex flex-col gap-4 items-center">
+        <template v-for="(t, i) in trainers">
           <PlayerCard
             v-model:name="t.name"
             v-model:state="t.state"
@@ -110,10 +114,16 @@ function handleClickShareLink() {
             }"
             @on-delete="() => handleClickDeleteTrainer(i)"
           />
-        </div>
+        </template>
       </div>
 
-      <Button label="Add Trainer" @click="handleClickTrainer" />
+      <div class="flex flex-col items-center">
+        <Button
+          icon="pi pi-plus"
+          label="Add Trainer"
+          @click="handleClickAddTrainer"
+        />
+      </div>
     </div>
   </div>
 </template>
