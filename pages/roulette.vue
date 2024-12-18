@@ -26,7 +26,9 @@ function createHash() {
 const trainers = ref(
   useQueryParam("t").map((v) => ({
     name: v,
-    state: "waiting" as "waiting" | "rolling" | "displaying",
+    state: useQueryParam("is-show").length
+      ? "displaying"
+      : ("waiting" as "waiting" | "rolling" | "displaying"),
     xorshift: useXorShift().newInstance(seed.value),
   }))
 );

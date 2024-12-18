@@ -101,6 +101,11 @@ watch(
     }
   }
 );
+onMounted(() => {
+  if (props.state === "displaying") {
+    setIsShowTypes(true);
+  }
+});
 
 const isRolled = computed(() => {
   return result.every((t) => t.fl);
