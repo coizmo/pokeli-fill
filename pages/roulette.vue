@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import "crypto";
+import { useClipboard } from "@vueuse/core";
 
 function getSeed(): number {
   const [s] = useQueryParam("s");
@@ -26,9 +27,10 @@ function createHash() {
 const trainers = ref(
   useQueryParam("t").map((v) => ({
     name: v,
-    state: useQueryParam("is-show").length
-      ? "displaying"
-      : ("waiting" as "waiting" | "rolling" | "displaying"),
+    state:
+      useQueryParam("is-show")[0] === "true"
+        ? "displaying"
+        : ("waiting" as "waiting" | "rolling" | "displaying"),
     xorshift: useXorShift().newInstance(seed.value),
   }))
 );
@@ -56,7 +58,13 @@ function handleClickRoll() {
   trainers.value.forEach((t) => {
     t.state = "rolling";
   });
-  pushCurrentRouter();
+  useRouter().push({
+    path: "/roulette",
+    query: {
+      s: seed.value,
+      t: trainers.value.map((t) => t.name),
+    },
+  });
 }
 
 const waitTimeBase = 200;
@@ -77,18 +85,21 @@ function handleClickDeleteTrainer(targetIndex: number) {
 }
 
 function handleClickShareLink() {
-  pushCurrentRouter();
-}
-
-function pushCurrentRouter() {
   useRouter().push({
     path: "/roulette",
     query: {
       s: seed.value,
       t: trainers.value.map((t) => t.name),
+      "is-show": "true",
     },
   });
+  useClipboard().copy(useRequestURL().href);
+  copied.value = true;
+  setTimeout(() => {
+    copied.value = false;
+  }, 2500);
 }
+const copied = ref(false);
 </script>
 
 <template>
@@ -102,6 +113,12 @@ function pushCurrentRouter() {
         ></InputNumber>
         <Button label="Random Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
+        <div class="flex-grow"></div>
+        <Button
+          :icon="copied ? 'pi pi-check' : 'pi pi-link'"
+          label="Copy URL"
+          @click="handleClickShareLink"
+        />
       </div>
 
       <div class="flex flex-col gap-4 items-center">
