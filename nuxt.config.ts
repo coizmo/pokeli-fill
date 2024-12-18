@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
 
-  modules: ["nuxt-primevue"],
+  modules: ["nuxt-primevue", "@vueuse/nuxt"],
 
   primevue: {
     options: {
