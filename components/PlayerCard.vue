@@ -1,6 +1,7 @@
 <script setup lang="ts">
 interface Props {
   name?: string;
+  state: "waiting" | "rolling" | "displaying";
   properties: {
     seed: number;
     waitTimeBase: number;
@@ -19,6 +20,7 @@ const xorshift = computed(() => {
 
 interface Emits {
   (e: "update:name", name: string): void;
+  (e: "update:state", state: string): void;
   (e: "on-delete"): void;
 }
 const emits = defineEmits<Emits>();
@@ -71,16 +73,41 @@ function rollAll() {
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 4);
   setTimeout(() => {
     result[4].fl = true;
+    emits("update:state", "displaying");
   }, props.properties.waitTimeBase + props.properties.waitTimeBetween * 5);
+}
+
+function displayAll(v: boolean) {
+  result[0].fl = v;
+  result[1].fl = v;
+  result[2].fl = v;
+  result[3].fl = v;
+  result[4].fl = v;
 }
 
 watch(
   () => props.properties.seed,
-  () => rollAll()
+  () => emits("update:state", "waiting")
 );
 watch(
   () => props.name,
-  () => rollAll()
+  () => emits("update:state", "waiting")
+);
+watch(
+  () => props.state,
+  () => {
+    switch (props.state) {
+      case "waiting":
+        displayAll(false);
+        break;
+      case "rolling":
+        rollAll();
+        break;
+      case "displaying":
+        displayAll(true);
+        break;
+    }
+  }
 );
 
 const isRolled = computed(() => {

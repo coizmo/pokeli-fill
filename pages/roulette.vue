@@ -26,6 +26,7 @@ function createHash() {
 const trainers = ref(
   useQueryParam("t").map((v) => ({
     name: v,
+    state: "waiting" as "waiting" | "rolling" | "displaying",
     xorshift: useXorShift().newInstance(seed.value),
   }))
 );
@@ -42,11 +43,17 @@ function handleChangeSeed(value: number) {
 
 function handleClickChangeSeed() {
   resetAllResult();
+  trainers.value.forEach((t) => {
+    t.state = "waiting";
+  });
   seed.value = parseInt(createHash(), 16);
 }
 
 function handleClickRoll() {
   resetAllResult();
+  trainers.value.forEach((t) => {
+    t.state = "rolling";
+  });
 }
 
 const waitTimeBase = 200;
@@ -58,6 +65,7 @@ function resetAllResult() {}
 function handleClickTrainer() {
   trainers.value.push({
     name: "",
+    state: "waiting",
     xorshift: useXorShift().newInstance(seed.value),
   });
 }
@@ -94,6 +102,7 @@ function handleClickShareLink() {
         <div class="flex justify-center" v-for="(t, i) in trainers">
           <PlayerCard
             v-model:name="t.name"
+            v-model:state="t.state"
             :properties="{
               seed,
               waitTimeBase: waitTimeBase + waitTimePlayerGap * i,
