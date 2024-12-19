@@ -31,7 +31,6 @@ const trainers = ref(
       useQueryParam("is-show")[0] === "true"
         ? "displaying"
         : ("waiting" as "waiting" | "rolling" | "displaying"),
-    xorshift: useXorShift().newInstance(seed.value),
   }))
 );
 
@@ -77,7 +76,6 @@ function handleClickAddTrainer() {
   trainers.value.push({
     name: "",
     state: "waiting",
-    xorshift: useXorShift().newInstance(seed.value),
   });
 }
 function handleClickDeleteTrainer(targetIndex: number) {
