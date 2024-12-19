@@ -10,11 +10,11 @@ defineProps<Props>();
 
 <template>
   <template v-if="!isShow || !pokeType">
-    <small class="my-width p-2 text-center">Rolling...</small>
+    <small class="my-width p-1 text-center">Rolling...</small>
   </template>
   <template v-else>
     <small
-      class="my-width p-2 text-center rounded"
+      class="my-width p-1 text-center rounded"
       :style="{ backgroundColor: `#${pokeType.color}` }"
     >
       {{ pokeType.name }}
@@ -24,7 +24,7 @@ defineProps<Props>();
 
 <style scoped>
 .my-width {
-  min-width: 96px;
+  min-width: 80px;
   font-weight: 700;
   border: 1px solid #324252;
   border-radius: 4px;;

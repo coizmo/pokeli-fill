@@ -123,7 +123,7 @@ function handleClickDelete() {
           :model-value="props.name"
           placeholder="トレーナー名を入力"
           class="text-center"
-          :style="{ minWidth: '120px', maxWidth: '320px' }"
+          :style="{ minWidth: '80px', maxWidth: '320px' }"
           @update:model-value="handleUpdateName"
           @focusin="handleFocusIn"
           @focusout="handleFocusOut"
