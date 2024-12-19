@@ -39,20 +39,20 @@ function hashFrom(input: string) {
 export const useXorShift = () => {
   const newInstance = (seed: number, name?: string) => {
     if (name !== undefined) {
-        return newInstance(seed * hashToInt(hashFrom(name)))
+      return newInstance(seed * hashToInt(hashFrom(name)));
     }
     return new XorShift(seed);
   };
   const newResult = (seed: number, name?: string) => {
-    const _instance = newInstance(seed, name)
+    const _instance = newInstance(seed, name);
     return [
       _instance.randType(),
       _instance.randType(),
       _instance.randType(),
       _instance.randType(),
       _instance.randType(),
-    ]
-  }
+    ];
+  };
   return {
     newInstance,
     newResult,
