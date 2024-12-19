@@ -98,6 +98,24 @@ function handleClickShareLink() {
   }, 2500);
 }
 const copied = ref(false);
+
+const rollSummary = computed(() => {
+  const typeSum = trainers.value.flatMap((v) => {
+    return useXorShift().newResult(seed.value, v.name);
+  });
+  const typeSumNumOfTrainers = trainers.value.flatMap((v) => {
+    return [...new Set(useXorShift().newResult(seed.value, v.name))];
+  });
+  return pokeTypes.map((t) => {
+    return {
+      type: t,
+      num: typeSum.filter((typeS) => typeS.code === t.code).length,
+      numOfTrainers: typeSumNumOfTrainers.filter(
+        (typeS) => typeS.code === t.code
+      ).length,
+    };
+  });
+});
 </script>
 
 <template>
@@ -141,6 +159,18 @@ const copied = ref(false);
           @click="handleClickAddTrainer"
         />
       </div>
+
+      <Panel v-if="!trainers.some((t) => t.state !== 'displaying')">
+        <template #header>
+          出現したタイプの合計数／()内は被りを除いた人数
+        </template>
+        <div class="grid grid-cols-6 gap-4">
+          <div class="flex flex-col md:flex-row gap-2" v-for="s in rollSummary">
+            <TypeCard is-show :poke-type="s.type"></TypeCard>
+            <span>x{{ s.num }}({{ s.numOfTrainers }})</span>
+          </div>
+        </div>
+      </Panel>
     </div>
   </div>
 </template>
