@@ -12,6 +12,12 @@
 3. get_pokemons.sh をオーベムのサイコパワーばりに書き換えて実行する
 4. 色々揃った状態で bun run index.ts すると、3 回たくわえた後の勢いで output に　はきだす　される
 
+## Dexに乗っていないキャラクターの追加方法
+
+- dexadd.csv に対象キャラクターを追加
+- 追加するデータは、 `https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0` から確認できるURL内のspeciesを確認する
+- 英語名は頑張る
+
 # generator
 
 To install dependencies:
