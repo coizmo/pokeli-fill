@@ -2,9 +2,12 @@
 import pokedex from "../scripts/output/pokedex.json";
 import s22out from "../scripts/output/s22out.json";
 import s23out from "../scripts/output/s23out.json";
-import { pokeTypes, type PokeType } from "~/composables/usePokeType";
+import {
+  pokeTypesOrdered as pokeTypes,
+  type PokeType,
+} from "~/composables/usePokeType";
 
-const { getTypeLabel, getTypeColor } = usePokeType();
+const { getType, getTypeLabel, getTypeColor } = usePokeType();
 
 const selectedTypeCodes = ref<string[]>(
   useQueryParam("types").length
@@ -123,7 +126,7 @@ const completelyIncluded = ref(true);
 
       <div
         v-else-if="displayMode === 'list'"
-        class="mt-4 grid grid-cols-3 gap-y-2"
+        class="mt-4 justify-self-center grid grid-cols-[280px_160px_240px] gap-y-2 gap-x-4"
       >
         <div class="py-4">名前</div>
         <div class="py-4">タイプ</div>
@@ -140,15 +143,17 @@ const completelyIncluded = ref(true);
             <small class="ml-1">{{ poke.form }}</small>
           </span>
           <div class="text-nowrap">
-            <Chip
-              :style="{ backgroundColor: `#${getTypeColor(poke.types[0])}` }"
-              :label="getTypeLabel(poke.types[0])"
-            ></Chip>
-            <Chip
-              v-if="poke.types.length === 2"
-              :style="{ backgroundColor: `#${getTypeColor(poke.types[1])}` }"
-              :label="getTypeLabel(poke.types[1])"
-            ></Chip>
+            <div class="grid grid-cols-2 gap-x-2">
+              <TypeCard
+                :poke-type="getType(poke.types[0]) ?? null"
+                :with-border="false"
+              />
+              <TypeCard
+                v-if="poke.types[1]"
+                :poke-type="getType(poke.types[1]) ?? null"
+                :with-border="false"
+              />
+            </div>
           </div>
           <div calss="text-nowrap">
             <div
