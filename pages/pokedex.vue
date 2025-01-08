@@ -82,7 +82,7 @@ const completelyIncluded = ref(true);
           optionValue="code"
           optionLabel="name"
           placeholder="Select Types"
-          :maxSelectedLabels="3"
+          :maxSelectedLabels="5"
           class="w-full md:w-[20rem]"
         />
         <div class="flex items-center gap-2">
@@ -130,33 +130,42 @@ const completelyIncluded = ref(true);
 
       <div
         v-else-if="displayMode === 'list'"
-        class="mt-4 justify-self-center grid grid-cols-[280px_160px_240px] gap-y-2 gap-x-4"
+        class="mt-4 justify-self-center grid grid-cols-[20px_280px_160px_200px_20px] gap-y-2 gap-x-4"
       >
+        <Button
+          style="width: 28px; height: 40px; font-size: small; padding: 12px"
+          :label="`No\n▼`"
+          @click="() => handleChangeOrder('Dex')"
+        ></Button>
         <div class="py-2">名前</div>
         <div class="py-2">タイプ</div>
         <div class="">
-          <div class="grid grid-cols-7 align-center">
+          <div class="grid grid-cols-6 align-center">
             <template
               v-for="stat in ['H', 'A', 'B', 'C', 'D', 'S']"
               class="w-8 align-center text-center"
             >
               <Button
                 class="px-0"
-                style="width: 16px; height: 40px; font-size: small"
+                style="
+                  width: 28px;
+                  height: 40px;
+                  font-size: small;
+                  padding: 12px;
+                "
                 :label="`${stat}\n▼`"
                 @click="() => handleChangeOrder(stat)"
               ></Button>
             </template>
-            <span class="ml-4">
-              <Button
-                style="width: 16px; height: 40px; font-size: small"
-                :label="`all\n▼`"
-                @click="() => handleChangeOrder('ALL')"
-              ></Button>
-            </span>
           </div>
         </div>
+        <Button
+          style="width: 16px; height: 40px; font-size: small"
+          :label="`all\n▼`"
+          @click="() => handleChangeOrder('ALL')"
+        ></Button>
         <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
+          <small>{{ poke.dexNo }}</small>
           <span>
             {{ poke.name }}
             <small class="ml-1">{{ poke.form }}</small>
@@ -175,23 +184,20 @@ const completelyIncluded = ref(true);
             </div>
           </div>
           <div class="text-nowrap">
-            <div class="grid grid-cols-7 align-center">
+            <div class="grid grid-cols-6 align-center">
               <span
                 v-for="stat in poke.stats"
                 class="w-8 align-center text-center"
               >
                 {{ stat }}
               </span>
-              <span class="ml-4">
-                {{
-                  poke.stats.reduce(
-                    (prev: number, curr: number) => prev + curr,
-                    0
-                  )
-                }}
-              </span>
             </div>
           </div>
+          <span>
+            {{
+              poke.stats.reduce((prev: number, curr: number) => prev + curr, 0)
+            }}
+          </span>
         </template>
       </div>
     </div>
