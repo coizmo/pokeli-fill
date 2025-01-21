@@ -5,24 +5,36 @@ interface Props {
   isShow?: boolean;
   pokeType: PokeType | null;
   withBorder?: boolean;
+  shorten?: boolean;
 }
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   isShow: true,
   withBorder: true,
 });
+
+const classes = computed(() => {
+  return [
+    'p-1',
+    'text-center',
+    props.withBorder ? 'my-border' : '',
+    props.shorten ? 'my-width-shorten' : 'my-width',
+  ]
+})
+
+const displayName = computed(() => props.shorten ? props.pokeType?.shortName : props.pokeType?.name)
 </script>
 
 <template>
   <template v-if="!isShow || !pokeType">
-    <small class="my-width p-1 text-center" :class="withBorder ? 'my-border' : ''">Rolling...</small>
+    <small :class="classes">Rolling...</small>
   </template>
   <template v-else>
     <small
-      class="my-width p-1 text-center rounded"
-       :class="withBorder ? 'my-border' : ''"
+      class="rounded"
+      :class="classes"
       :style="{ backgroundColor: `#${pokeType.color}` }"
     >
-      {{ pokeType.name }}
+      {{ displayName }}
     </small>
   </template>
 </template>
@@ -30,6 +42,11 @@ withDefaults(defineProps<Props>(), {
 <style scoped>
 .my-width {
   min-width: 80px;
+  font-weight: 700;
+}
+
+.my-width-shorten {
+  width: 32px;
   font-weight: 700;
 }
 
