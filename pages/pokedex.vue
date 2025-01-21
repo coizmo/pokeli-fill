@@ -75,7 +75,7 @@ const completelyIncluded = ref(true);
 <template>
   <div class="bg-slate-400 h-dvh p-12 overflow-scroll">
     <div class="flex-row gap-4">
-      <div class="card flex justify-center gap-4">
+      <div class="card flex flex-col sm:flex-row justify-center gap-2">
         <MultiSelect
           v-model="selectedTypeCodes"
           :options="pokeTypes"
@@ -85,26 +85,30 @@ const completelyIncluded = ref(true);
           :maxSelectedLabels="5"
           class="w-full md:w-[20rem]"
         />
-        <div class="flex items-center gap-2">
-          <Checkbox
-            v-model="completelyIncluded"
-            inputId="completelyIncludedInput"
-            binary
+        <div class="flex justify-center gap-2">
+          <div class="flex items-center gap-2">
+            <Checkbox
+              v-model="completelyIncluded"
+              inputId="completelyIncludedInput"
+              binary
+            />
+            <label for="completelyIncludedInput" class="text-no-wrap">
+              完全に含む
+            </label>
+          </div>
+          <Button
+            icon="pi pi-th-large"
+            :outlined="displayMode === 'list'"
+            :raised="displayMode !== 'list'"
+            @click="displayMode = 'card'"
           />
-          <label for="completelyIncludedInput"> 完全に含む </label>
+          <Button
+            icon="pi pi-list"
+            :outlined="displayMode === 'card'"
+            :raised="displayMode !== 'card'"
+            @click="displayMode = 'list'"
+          />
         </div>
-        <Button
-          icon="pi pi-th-large"
-          :outlined="displayMode === 'list'"
-          :raised="displayMode !== 'list'"
-          @click="displayMode = 'card'"
-        />
-        <Button
-          icon="pi pi-list"
-          :outlined="displayMode === 'card'"
-          :raised="displayMode !== 'card'"
-          @click="displayMode = 'list'"
-        />
       </div>
 
       <div v-if="displayMode === 'card'" class="mt-4 grid grid-cols-3 gap-4">
@@ -203,3 +207,9 @@ const completelyIncluded = ref(true);
     </div>
   </div>
 </template>
+
+<style scoped>
+.text-no-wrap {
+  white-space: nowrap;
+}
+</style>
