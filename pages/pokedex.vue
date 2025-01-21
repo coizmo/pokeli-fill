@@ -170,9 +170,9 @@ const completelyIncluded = ref(true);
         ></Button>
         <template v-for="poke in usables" :key="`${poke.dexNo}_${poke.form}`">
           <small>{{ poke.dexNo }}</small>
-          <span>
+          <span class="flex flex-col">
             {{ poke.name }}
-            <small class="ml-1">{{ poke.form }}</small>
+            <small class="ml-1 -mt-1">{{ poke.form }}</small>
           </span>
           <div class="text-nowrap">
             <div class="grid grid-cols-2 gap-x-2">
