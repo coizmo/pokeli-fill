@@ -134,7 +134,7 @@ const completelyIncluded = ref(true);
 
       <div
         v-else-if="displayMode === 'list'"
-        class="mt-4 justify-self-center grid grid-cols-[20px_280px_160px_200px_20px] gap-y-2 gap-x-4"
+        class="mt-4 justify-self-center grid sm:grid-cols-[20px_180px_160px_200px_20px] grid-cols-[20px_100px_80px_160px_20px] gap-y-2 gap-x-4"
       >
         <Button
           style="width: 28px; height: 40px; font-size: small; padding: 12px"
@@ -176,15 +176,34 @@ const completelyIncluded = ref(true);
           </span>
           <div class="text-nowrap">
             <div class="grid grid-cols-2 gap-x-2">
+              <!-- タイプ1 -->
               <TypeCard
+                class="block sm:hidden"
+                :poke-type="getType(poke.types[0]) ?? null"
+                :with-border="false"
+                shorten
+              />
+              <TypeCard
+                class="hidden sm:block"
                 :poke-type="getType(poke.types[0]) ?? null"
                 :with-border="false"
               />
-              <TypeCard
-                v-if="poke.types[1]"
-                :poke-type="getType(poke.types[1]) ?? null"
-                :with-border="false"
-              />
+              <!-- タイプ2 -->
+              <template v-if="poke.types[1]">
+                <TypeCard
+                  v-if="poke.types[1]"
+                  class="block sm:hidden"
+                  :poke-type="getType(poke.types[1]) ?? null"
+                  :with-border="false"
+                  shorten
+                />
+                <TypeCard
+                  v-if="poke.types[1]"
+                  class="hidden sm:block"
+                  :poke-type="getType(poke.types[1]) ?? null"
+                  :with-border="false"
+                />
+              </template>
             </div>
           </div>
           <div class="text-nowrap">
