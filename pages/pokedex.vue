@@ -134,7 +134,7 @@ const completelyIncluded = ref(true);
 
       <div
         v-else-if="displayMode === 'list'"
-        class="mt-4 justify-self-center grid sm:grid-cols-[20px_180px_160px_200px_20px] grid-cols-[20px_100px_80px_160px_20px] gap-y-2 gap-x-4"
+        class="mt-4 justify-self-center grid sm:grid-cols-[20px_180px_160px_200px_20px] grid-cols-[20px_100px_60px_160px_20px] gap-y-2 gap-x-4"
       >
         <Button
           style="width: 28px; height: 40px; font-size: small; padding: 12px"
@@ -175,7 +175,7 @@ const completelyIncluded = ref(true);
             <small class="ml-1 -mt-1">{{ poke.form }}</small>
           </span>
           <div class="text-nowrap">
-            <div class="grid grid-cols-2 gap-x-2">
+            <div class="grid grid-cols-2 gap-x-1 sm:gap-x-2">
               <!-- タイプ1 -->
               <TypeCard
                 class="block sm:hidden"

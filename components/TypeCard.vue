@@ -46,12 +46,12 @@ const displayName = computed(() => props.shorten ? props.pokeType?.shortName : p
 }
 
 .my-width-shorten {
-  width: 32px;
+  width: 28px;
   font-weight: 700;
 }
 
 .my-border {
   border: 1px solid #324252;
-  border-radius: 4px;;
+  border-radius: 4px;
 }
 </style>
