@@ -2,6 +2,15 @@
 import "crypto";
 import { useClipboard } from "@vueuse/core";
 
+function getMode(): RandomMode {
+  const [m] = useQueryParam("m");
+  if (m === "xs" || m === "mt") {
+    return m;
+  }
+  return "mt";
+}
+const mode = ref(getMode());
+
 function getSeed(): number {
   const [s] = useQueryParam("s");
   return parseInt(s);
@@ -35,6 +44,16 @@ const trainers = ref(
 );
 
 watchEffect(() => {
+  mode.value = getMode();
+  resetAllResult();
+});
+
+function handleChangeMode(value: RandomMode) {
+  resetAllResult();
+  mode.value = value;
+}
+
+watchEffect(() => {
   seed.value = getSeed();
   resetAllResult();
 });
@@ -60,6 +79,7 @@ function handleClickRoll() {
   useRouter().push({
     path: "/roulette",
     query: {
+      m: mode.value,
       s: seed.value,
       t: trainers.value.map((t) => t.name),
     },
@@ -86,6 +106,7 @@ function handleClickShareLink() {
   useRouter().push({
     path: "/roulette",
     query: {
+      m: mode.value,
       s: seed.value,
       t: trainers.value.map((t) => t.name),
       "is-show": "true",
@@ -101,10 +122,10 @@ const copied = ref(false);
 
 const rollSummary = computed(() => {
   const typeSum = trainers.value.flatMap((v) => {
-    return useXorShift().newResult(seed.value, v.name);
+    return useRandom(mode.value).newResult(seed.value, v.name);
   });
   const typeSumNumOfTrainers = trainers.value.flatMap((v) => {
-    return [...new Set(useXorShift().newResult(seed.value, v.name))];
+    return [...new Set(useRandom(mode.value).newResult(seed.value, v.name))];
   });
   return pokeTypes.map((t) => {
     return {
@@ -121,7 +142,7 @@ const rollSummary = computed(() => {
 <template>
   <div class="bg-slate-400 h-dvh px-4 py-8 overflow-scroll">
     <div class="flex flex-col gap-8">
-      <div class="flex justify-center gap-2">
+      <div class="flex justify-center gap-4">
         <InputNumber
           :model-value="seed"
           :useGrouping="false"
@@ -129,6 +150,15 @@ const rollSummary = computed(() => {
         ></InputNumber>
         <Button label="Random Seed" @click="handleClickChangeSeed" />
         <Button label="Roll" @click="handleClickRoll" />
+        <div class="flex gap-2 items-center">
+          <span>乱数器</span>
+          <SelectButton
+            :model-value="mode"
+            :options="['mt', 'xs']"
+            :allow-empty="false"
+            @update:model-value="handleChangeMode"
+          />
+        </div>
         <div class="flex-grow"></div>
         <Button
           :icon="copied ? 'pi pi-check' : 'pi pi-link'"
@@ -143,6 +173,7 @@ const rollSummary = computed(() => {
             v-model:name="t.name"
             v-model:state="t.state"
             :properties="{
+              mode,
               seed,
               waitTimeBase: waitTimeBase + waitTimePlayerGap * i,
               waitTimeBetween,

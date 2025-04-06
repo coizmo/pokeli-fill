@@ -3,6 +3,7 @@ interface Props {
   name?: string;
   state: "waiting" | "rolling" | "displaying";
   properties: {
+    mode: RandomMode;
     seed: number;
     waitTimeBase: number;
     waitTimeBetween: number;
@@ -11,7 +12,7 @@ interface Props {
 const props = defineProps<Props>();
 
 const randResult = computed(() => {
-  return useXorShift().newResult(props.properties.seed, props.name);
+  return useRandom(props.properties.mode).newResult(props.properties.seed, props.name);
 });
 
 interface Emits {
@@ -64,6 +65,10 @@ function setIsShowTypes(v: boolean) {
   isShowTypes[4] = v;
 }
 
+watch(
+  () => props.properties.mode,
+  () => emits("update:state", "waiting")
+);
 watch(
   () => props.properties.seed,
   () => emits("update:state", "waiting")

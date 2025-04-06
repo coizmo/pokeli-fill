@@ -1,5 +1,6 @@
 import "crypto";
 import cryptoJs from "crypto-js";
+import MersenneTwister from "mersenne-twister";
 
 export class XorShift {
   _x: number;
@@ -57,4 +58,41 @@ export const useXorShift = () => {
     newInstance,
     newResult,
   };
+};
+
+export const useMT = () => {
+  const newInstance = (seed: number, name?: string) => {
+    if (name !== undefined) {
+      return newInstance(seed * hashToInt(hashFrom(name)));
+    }
+    return new MersenneTwister(seed);
+  };
+  function toPokeType(r: number) {
+    return pokeTypes[Math.floor(r * pokeTypes.length) % pokeTypes.length];
+  }
+  const newResult = (seed: number, name?: string) => {
+    const _instance = newInstance(seed, name);
+    return [
+      toPokeType(_instance.random()),
+      toPokeType(_instance.random()),
+      toPokeType(_instance.random()),
+      toPokeType(_instance.random()),
+      toPokeType(_instance.random()),
+    ];
+  };
+  return {
+    newInstance,
+    newResult,
+  };
+};
+
+export type RandomMode = 'xs' | 'mt'
+
+export const useRandom = (mode: RandomMode) => {
+  switch(mode) {
+    case 'xs':
+      return useXorShift()
+    case 'mt':
+      return useMT()
+  }
 };
