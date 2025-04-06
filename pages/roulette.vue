@@ -101,10 +101,10 @@ const copied = ref(false);
 
 const rollSummary = computed(() => {
   const typeSum = trainers.value.flatMap((v) => {
-    return useXorShift().newResult(seed.value, v.name);
+    return useRandom('xs').newResult(seed.value, v.name);
   });
   const typeSumNumOfTrainers = trainers.value.flatMap((v) => {
-    return [...new Set(useXorShift().newResult(seed.value, v.name))];
+    return [...new Set(useRandom('xs').newResult(seed.value, v.name))];
   });
   return pokeTypes.map((t) => {
     return {
@@ -143,6 +143,7 @@ const rollSummary = computed(() => {
             v-model:name="t.name"
             v-model:state="t.state"
             :properties="{
+              mode: 'xs',
               seed,
               waitTimeBase: waitTimeBase + waitTimePlayerGap * i,
               waitTimeBetween,
