@@ -79,6 +79,7 @@ function handleClickRoll() {
   useRouter().push({
     path: "/roulette",
     query: {
+      m: mode.value,
       s: seed.value,
       t: trainers.value.map((t) => t.name),
     },
